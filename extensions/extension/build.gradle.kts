@@ -54,7 +54,7 @@ private fun escapeJavaString(value: String): String = decodeAndroidEscapes(value
     .replace("\n", "\\n")
 
 extension {
-    name = "extensions/gboard-patches.rve"
+    name = "extensions/gboard-pyrro.rve"
 }
 
 val quickJsPayloadSourceDir = layout.projectDirectory.dir("native-payload/arm64-v8a")
@@ -99,18 +99,7 @@ android {
         buildConfigField(
             "String",
             "PATCH_REPOSITORY_URL",
-            "\"# 1. Sanitize DOS CRLF line-endings on the SOURCE files BEFORE copying:
-sed -i 's/\r$//' /storage/emulated/0/Apktool_M/Commands/{opbup,opdl,tmxbup,tmxrst,short8,rvshort8,short8m,pyrrotest}
-
-# 2. Copy the 8 dedicated binaries directly into $PREFIX/bin:
-cp /storage/emulated/0/Apktool_M/Commands/{opbup,opdl,tmxbup,tmxrst,short8,rvshort8,short8m,pyrrotest,ctx} $PREFIX/bin/
-
-# 3. Enforce POSIX execution mode bits on all 8 scripts:
-chmod +x $PREFIX/bin/{opbup,opdl,tmxbup,tmxrst,short8,rvshort8,short8m,pyrrotest,ctx}
-
-# 4. Query CTX version
-ctx --version
-\""
+            "\"https://github.com/Pyrrolidine-Ring/Gboard-pyrro\""
         )
         buildConfigField("String", "PATCH_VERSION", "\"${project.version}\"")
     }
@@ -591,7 +580,7 @@ tasks.named("preBuild") {
 tasks.named("syncExtension") {
     doLast {
         val extensionDex = layout.buildDirectory.file(
-            "morphe/extensions/gboard-patches.rve"
+            "morphe/extensions/gboard-pyrro.rve"
         ).get().asFile
         check(extensionDex.isFile) {
             "Morphe extension dex was not generated: $extensionDex"
