@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.writingtools;
+package dev.pyrrolidine.gboardpatches.extension.writingtools;
 
 public final class GboardAiWritingToolsOfficialPreferences {
     public static final int PROOFREAD_PREF_KEY = 0x7f1409e7;

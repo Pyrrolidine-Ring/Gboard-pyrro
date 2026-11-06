@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.frostedglass;
+package dev.pyrrolidine.gboardpatches.extension.frostedglass;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,12 +6,12 @@ import android.util.Log;
 
 import java.util.Collections;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.frostedglass.GboardFrostedGlassSettings;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.frostedglass.GboardFrostedGlassSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Settings entry for the Android 12+ live Window blur PoC. */
 public final class GboardFrostedGlassSettingsFeature

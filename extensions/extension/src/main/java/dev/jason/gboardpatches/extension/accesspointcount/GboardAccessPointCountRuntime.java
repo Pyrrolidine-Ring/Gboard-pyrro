@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.accesspointcount;
+package dev.pyrrolidine.gboardpatches.extension.accesspointcount;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardAccessPointCountRuntime {
     private GboardAccessPointCountRuntime() {

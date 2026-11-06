@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.backuprestore.flagstore;
+package dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore;
 
 import android.content.Context;
 
@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Read-only complete semantic diff shown before a raw replacement is applied. */
 final class GboardFlagStoreDiffSettingsFeature

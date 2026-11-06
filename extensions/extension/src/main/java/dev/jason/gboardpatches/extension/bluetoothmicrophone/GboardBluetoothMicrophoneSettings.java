@@ -1,11 +1,11 @@
-package dev.jason.gboardpatches.extension.bluetoothmicrophone;
+package dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import java.util.Map;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardBluetoothMicrophoneSettings {
     public static final String PREF_KEY_ENABLED =

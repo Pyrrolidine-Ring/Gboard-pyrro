@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.zhuyinbottomrow;
+package dev.pyrrolidine.gboardpatches.extension.zhuyinbottomrow;
 
 import android.content.SharedPreferences;
 import android.util.Log;
@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 import java.util.Arrays;
 
-import dev.jason.gboardpatches.extension.toprowswipe.GboardTopRowSwipeRuntime;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeRuntime;
 
 @SuppressWarnings("unused")
 public final class GboardZhuyinBottomRowWeightRuntime {

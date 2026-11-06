@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.runtime;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
 
 /** Single source of truth for control/passive FTP port validation. */
 public final class LanFtpPortPolicy {

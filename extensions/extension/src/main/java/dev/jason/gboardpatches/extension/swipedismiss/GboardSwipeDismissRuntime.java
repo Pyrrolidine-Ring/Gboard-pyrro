@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.swipedismiss;
+package dev.pyrrolidine.gboardpatches.extension.swipedismiss;
 
 import android.content.Context;
 import android.content.ContextWrapper;

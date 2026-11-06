@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.longpressquickactions;
+package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
 
 public final class GboardLongPressQuickActions1803Policy {
     private static final QuickAction SELECT_ALL = new QuickAction(

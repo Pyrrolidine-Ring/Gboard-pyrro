@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.content.Context;
 import android.util.Log;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.R;
 
 public final class GboardFeatureGroup implements GboardPatchesSettingsContract.Feature {
     private static final String TAG = "GboardPatches";

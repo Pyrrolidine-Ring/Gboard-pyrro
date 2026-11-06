@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.symbolfooter;
+package dev.pyrrolidine.gboardpatches.extension.symbolfooter;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

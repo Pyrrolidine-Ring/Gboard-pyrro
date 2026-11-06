@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.toprowswipe;
+package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
 
 import android.content.Context;
 import android.view.View;

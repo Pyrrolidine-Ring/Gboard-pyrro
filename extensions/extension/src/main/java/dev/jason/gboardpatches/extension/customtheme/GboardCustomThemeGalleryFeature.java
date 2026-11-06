@@ -1,15 +1,15 @@
-package dev.jason.gboardpatches.extension.customtheme;
+package dev.pyrrolidine.gboardpatches.extension.customtheme;
 
 import android.content.Context;
 import android.view.View;
 
 import java.util.Collections;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Full gallery child page beneath the Custom Theme settings page. */
 final class GboardCustomThemeGalleryFeature implements GboardPatchesSettingsContract.Feature {

@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.cursortrackpad;
+package dev.pyrrolidine.gboardpatches.extension.cursortrackpad;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardCursorTrackpad1803Runtime {
     private GboardCursorTrackpad1803Runtime() {

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.webclipboard;
+package dev.pyrrolidine.gboardpatches.extension.webclipboard;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -24,7 +24,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.atomic.AtomicLong;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsActivity;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsActivity;
 
 public final class ClipboardSyncService extends Service {
     private static final String TAG = "GboardWebClipboard";
@@ -33,11 +33,11 @@ public final class ClipboardSyncService extends Service {
     private static final String BIND_FAILED_TOAST =
             "Web Clipboard could not start on this port.";
     private static final String ACTION_START_OR_UPDATE =
-            "dev.jason.gboardpatches.extension.webclipboard.action.START_OR_UPDATE";
+            "dev.pyrrolidine.gboardpatches.extension.webclipboard.action.START_OR_UPDATE";
     private static final String ACTION_STOP =
-            "dev.jason.gboardpatches.extension.webclipboard.action.STOP";
+            "dev.pyrrolidine.gboardpatches.extension.webclipboard.action.STOP";
     private static final String ACTION_LOCAL_CLIP =
-            "dev.jason.gboardpatches.extension.webclipboard.action.LOCAL_CLIP";
+            "dev.pyrrolidine.gboardpatches.extension.webclipboard.action.LOCAL_CLIP";
     private static final String EXTRA_TEXT = "text";
     private static final String NOTIFICATION_CHANNEL_ID = "web_clipboard";
     private static final int NOTIFICATION_ID = 1002;

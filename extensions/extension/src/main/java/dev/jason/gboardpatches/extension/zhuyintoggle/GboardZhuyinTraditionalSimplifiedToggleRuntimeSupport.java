@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.zhuyintoggle;
+package dev.pyrrolidine.gboardpatches.extension.zhuyintoggle;
 
 import android.content.Context;
 import android.view.View;

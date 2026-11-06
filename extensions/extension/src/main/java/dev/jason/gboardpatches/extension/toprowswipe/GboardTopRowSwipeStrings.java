@@ -1,9 +1,9 @@
-package dev.jason.gboardpatches.extension.toprowswipe;
+package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
 
 import android.content.Context;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 final class GboardTopRowSwipeStrings {
     private static final int SCRIPT_PREVIEW_MAX_LENGTH = 80;

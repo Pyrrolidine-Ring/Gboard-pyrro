@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.flagsettings;
+package dev.pyrrolidine.gboardpatches.extension.flagsettings;
 
 import android.content.SharedPreferences;
 

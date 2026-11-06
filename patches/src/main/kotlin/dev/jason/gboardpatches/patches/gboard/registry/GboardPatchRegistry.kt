@@ -833,13 +833,13 @@ val gboardPackageRenamePatch = gboardPublicResourcePatch(
 
     val appDisplayName = stringOption(
         key = "app_display_name",
-        default = "GboardWu",
+        default = "aGboard",
         values = linkedMapOf(
             "Gboard" to "Gboard",
             "Gboard Dev" to "Gboard Dev",
             "Gboard Patches" to "Gboard Patches",
             "Gboard Mod" to "Gboard Mod",
-            "GboardWu" to "GboardWu",
+            "aGboard" to "aGboard",
         ),
         title = "App 名稱 / App name",
         description = "",

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.spacebarlogo;
+package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
 
 public final class GboardSpacebarLogoContract {
     public static final String ICON_GOOGLE_G = "GOOGLE_G";

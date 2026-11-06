@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.zhuyintoggle;
+package dev.pyrrolidine.gboardpatches.extension.zhuyintoggle;
 
 public final class GboardZhuyinTraditionalSimplifiedTogglePolicy {
     public static final int TOGGLE_KEY_ID = 0x7f0b296a;

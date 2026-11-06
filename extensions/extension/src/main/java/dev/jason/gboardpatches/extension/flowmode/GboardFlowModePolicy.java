@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.flowmode;
+package dev.pyrrolidine.gboardpatches.extension.flowmode;
 
 public final class GboardFlowModePolicy {
     public static final String ENABLE_LLM_PC_FLAG = "enable_llm_pc";

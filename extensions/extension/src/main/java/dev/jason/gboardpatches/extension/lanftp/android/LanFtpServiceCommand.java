@@ -1,18 +1,18 @@
-package dev.jason.gboardpatches.extension.lanftp.android;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
 
 import android.content.Context;
 import android.content.Intent;
 
 import java.util.Objects;
 
-import dev.jason.gboardpatches.extension.lanftp.config.LanFtpPreferences;
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.config.LanFtpPreferences;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
 
 /** Sole Bundle codec for the immutable settings-to-service start snapshot. */
 final class LanFtpServiceCommand {
     static final String ACTION_START_OR_UPDATE =
-            "dev.jason.gboardpatches.action.LAN_FTP_START_OR_UPDATE";
-    static final String ACTION_STOP = "dev.jason.gboardpatches.action.LAN_FTP_STOP";
+            "dev.pyrrolidine.gboardpatches.action.LAN_FTP_START_OR_UPDATE";
+    static final String ACTION_STOP = "dev.pyrrolidine.gboardpatches.action.LAN_FTP_STOP";
 
     private static final String EXTRA_CONTROL_PORT = "controlPort";
     private static final String EXTRA_PASSIVE_START = "passiveStart";

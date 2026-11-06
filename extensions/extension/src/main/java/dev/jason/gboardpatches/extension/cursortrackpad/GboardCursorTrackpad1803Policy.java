@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.cursortrackpad;
+package dev.pyrrolidine.gboardpatches.extension.cursortrackpad;
 
 public final class GboardCursorTrackpad1803Policy {
     public static final String FREE_CURSOR_FLAG = "free_cursor";

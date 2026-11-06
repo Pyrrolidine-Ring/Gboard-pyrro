@@ -1,13 +1,13 @@
-package dev.jason.gboardpatches.extension.clipboardcontentlimit;
+package dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardClipboardContentLimitSettingsRow {
     public void appendRow(List<GboardPatchesSettingsContract.Row> rows,

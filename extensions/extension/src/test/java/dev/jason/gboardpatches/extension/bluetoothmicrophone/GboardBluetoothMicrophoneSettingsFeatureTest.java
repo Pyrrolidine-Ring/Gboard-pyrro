@@ -1,11 +1,11 @@
-package dev.jason.gboardpatches.extension.bluetoothmicrophone;
+package dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public final class GboardBluetoothMicrophoneSettingsFeatureTest {
     @Test

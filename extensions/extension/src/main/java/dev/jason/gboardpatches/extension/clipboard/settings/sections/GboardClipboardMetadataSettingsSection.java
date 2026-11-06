@@ -1,13 +1,13 @@
-package dev.jason.gboardpatches.extension.clipboard;
+package dev.pyrrolidine.gboardpatches.extension.clipboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 final class GboardClipboardMetadataSettingsSection {
     void appendRows(List<GboardPatchesSettingsContract.Row> rows,

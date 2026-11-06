@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.spacebarlogo;
+package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -31,9 +31,9 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 final class GboardSpacebarLogoDialogs {
     private static final String TAG = "GboardPatches";

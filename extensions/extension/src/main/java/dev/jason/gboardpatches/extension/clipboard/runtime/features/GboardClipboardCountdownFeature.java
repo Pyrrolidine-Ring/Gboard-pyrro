@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.clipboard;
+package dev.pyrrolidine.gboardpatches.extension.clipboard;
 
 final class GboardClipboardCountdownFeature {
     private final GboardClipboardRuntimeSupport support;

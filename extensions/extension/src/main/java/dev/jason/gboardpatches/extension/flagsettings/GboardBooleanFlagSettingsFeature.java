@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.flagsettings;
+package dev.pyrrolidine.gboardpatches.extension.flagsettings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,9 +6,9 @@ import android.util.Log;
 
 import java.util.Collections;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public class GboardBooleanFlagSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

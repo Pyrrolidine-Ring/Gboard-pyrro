@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.customtheme;
+package dev.pyrrolidine.gboardpatches.extension.customtheme;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -21,8 +21,8 @@ import java.util.concurrent.Executors;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Imports a direct theme ZIP or lets the user choose one inner ZIP from a pack. */
 final class GboardCustomThemeZipImporter {

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.accesspointsmenu;
+package dev.pyrrolidine.gboardpatches.extension.accesspointsmenu;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.spacebarlogo;
+package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,7 +7,7 @@ import android.util.Log;
 
 import java.util.Locale;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardSpacebarLogoSettings {
     private static final String TAG = "GboardPatches";

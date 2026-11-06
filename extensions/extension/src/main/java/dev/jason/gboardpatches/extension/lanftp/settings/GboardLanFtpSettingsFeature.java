@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.settings;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.settings;
 
 import android.content.Context;
 import android.content.ClipData;
@@ -12,17 +12,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.lanftp.android.LanFtpServerController;
-import dev.jason.gboardpatches.extension.lanftp.android.LanFtpServerConfigSnapshot;
-import dev.jason.gboardpatches.extension.lanftp.android.LanFtpServerState;
-import dev.jason.gboardpatches.extension.lanftp.android.LanFtpRuntimeObserver;
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpPortPolicy;
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpCredentialPolicy;
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpServerController;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpServerConfigSnapshot;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpServerState;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpRuntimeObserver;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpPortPolicy;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpCredentialPolicy;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Root-level management UI for the module-owned LAN FTP service. */
 public final class GboardLanFtpSettingsFeature

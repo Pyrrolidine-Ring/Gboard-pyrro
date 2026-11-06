@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.content.Context;
 import android.util.Log;
@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.backuprestore.GboardBackupRestoreSettingsFeature;
-import dev.jason.gboardpatches.extension.clipboard.GboardClipboardSettingsFeature;
-import dev.jason.gboardpatches.extension.developeroptions.GboardDeveloperOptionsSettingsFeature;
-import dev.jason.gboardpatches.extension.keyboard.GboardAiVoiceSettingsGroupFeature;
-import dev.jason.gboardpatches.extension.keyboard.GboardKeyboardLayoutSettingsGroupFeature;
-import dev.jason.gboardpatches.extension.keyboard.GboardKeyboardToolsSettingsGroupFeature;
-import dev.jason.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature;
-import dev.jason.gboardpatches.extension.settingshomepage.GboardSettingsHomepageSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.backuprestore.GboardBackupRestoreSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.clipboard.GboardClipboardSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.developeroptions.GboardDeveloperOptionsSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardAiVoiceSettingsGroupFeature;
+import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardKeyboardLayoutSettingsGroupFeature;
+import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardKeyboardToolsSettingsGroupFeature;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.settingshomepage.GboardSettingsHomepageSettingsFeature;
 
 public final class GboardPatchesSettingsFeatureRegistry {
     private static final String TAG = "GboardPatches";

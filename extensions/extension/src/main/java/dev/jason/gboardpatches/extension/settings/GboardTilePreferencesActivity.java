@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 /** Generic Quick Settings preferences dispatcher driven by tile-service metadata. */
 public final class GboardTilePreferencesActivity extends Activity {
     public static final String META_DATA_NAVIGATION_PATH =
-            "dev.jason.gboardpatches.tile.NAVIGATION_PATH";
+            "dev.pyrrolidine.gboardpatches.tile.NAVIGATION_PATH";
     public static final String PATH_SEPARATOR = ";";
     private static final String TAG = "GboardTileSettings";
 

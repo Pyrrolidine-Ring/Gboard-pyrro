@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.runtime.fs;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs;
 
 import java.io.IOException;
 import java.io.InputStream;

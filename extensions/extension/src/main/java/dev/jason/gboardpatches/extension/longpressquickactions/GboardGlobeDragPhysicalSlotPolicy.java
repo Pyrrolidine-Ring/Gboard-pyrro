@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.longpressquickactions;
+package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
 
 /** Capability-gates canonical alphabet slots without language-specific IDs. */
 final class GboardGlobeDragPhysicalSlotPolicy {

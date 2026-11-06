@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.calculator;
+package dev.pyrrolidine.gboardpatches.extension.calculator;
 
 /** Tracks the active editor session without depending on Android types. */
 final class GboardCalculatorSessionState {

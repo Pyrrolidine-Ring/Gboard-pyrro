@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.ocr;
+package dev.pyrrolidine.gboardpatches.extension.ocr;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,10 +10,10 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardOcrSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

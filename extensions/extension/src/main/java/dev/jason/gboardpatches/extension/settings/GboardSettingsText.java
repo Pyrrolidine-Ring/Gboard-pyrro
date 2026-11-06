@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.content.Context;
 import android.content.res.Configuration;

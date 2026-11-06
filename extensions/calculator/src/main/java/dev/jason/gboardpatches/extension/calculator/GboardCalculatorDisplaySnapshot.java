@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.calculator;
+package dev.pyrrolidine.gboardpatches.extension.calculator;
 
 import android.inputmethodservice.InputMethodService;
 import android.view.View;

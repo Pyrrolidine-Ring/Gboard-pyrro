@@ -1,9 +1,9 @@
-package dev.jason.gboardpatches.extension.calculator;
+package dev.pyrrolidine.gboardpatches.extension.calculator;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardCalculatorSettings {
     public static final String PREF_KEY_ENABLED = "pref_simple_calculator_enabled";

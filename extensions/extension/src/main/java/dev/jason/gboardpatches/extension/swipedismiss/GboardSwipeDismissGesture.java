@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.swipedismiss;
+package dev.pyrrolidine.gboardpatches.extension.swipedismiss;
 
 public final class GboardSwipeDismissGesture {
     public static final float DISTANCE_DP = 48f;

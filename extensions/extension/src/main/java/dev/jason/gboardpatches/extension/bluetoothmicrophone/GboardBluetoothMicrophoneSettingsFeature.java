@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.bluetoothmicrophone;
+package dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,11 +6,11 @@ import android.util.Log;
 
 import java.util.Collections;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardBluetoothMicrophoneSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.featureflags;
+package dev.pyrrolidine.gboardpatches.extension.featureflags;
 
 import android.content.Context;
 
@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
 
 @SuppressWarnings("unused")
 public final class GboardFeatureFlagsRuntime {

@@ -1,11 +1,11 @@
-package dev.jason.gboardpatches.extension.editingaccesspoints;
+package dev.pyrrolidine.gboardpatches.extension.editingaccesspoints;
 
 import android.inputmethodservice.InputMethodService;
 import android.content.Context;
 import android.os.Looper;
 import android.content.SharedPreferences;
 import java.lang.ref.WeakReference;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardEditingAccessPointsRuntime {
     private static final EditorActionSession SESSION = new EditorActionSession();

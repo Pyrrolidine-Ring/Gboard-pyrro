@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.closeproactivesuggestions;
+package dev.pyrrolidine.gboardpatches.extension.closeproactivesuggestions;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardCloseProactiveSuggestionsRuntime {
     private GboardCloseProactiveSuggestionsRuntime() {

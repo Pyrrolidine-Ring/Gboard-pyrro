@@ -3,7 +3,7 @@ extension {
 }
 
 android {
-    namespace = "dev.jason.gboardpatches.calculator"
+    namespace = "dev.pyrrolidine.gboardpatches.calculator"
 }
 
 dependencies {

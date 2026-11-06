@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.websearch;
+package dev.pyrrolidine.gboardpatches.extension.websearch;
 
 public final class GboardFloatingWebSearchSettingsSnapshot {
     private final boolean enabled;

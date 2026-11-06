@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.roundedkeyboard;
+package dev.pyrrolidine.gboardpatches.extension.roundedkeyboard;
 
 import android.content.SharedPreferences;
 

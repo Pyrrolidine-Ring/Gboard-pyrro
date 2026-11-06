@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.backuprestore.flagstore;
+package dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore;
 
 import android.content.Context;
 
@@ -9,11 +9,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.backuprestore.GboardExportFileNames;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.backuprestore.GboardExportFileNames;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Settings surface for byte-exact Gboard flag-store replacement. */
 public final class GboardFlagStoreSettingsFeature

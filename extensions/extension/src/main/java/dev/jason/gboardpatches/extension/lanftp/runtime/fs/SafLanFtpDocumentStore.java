@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.runtime.fs;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -21,7 +21,7 @@ import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpPath;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpPath;
 
 public final class SafLanFtpDocumentStore implements LanFtpDocumentStore {
     private static final int MAX_DIRECTORY_ENTRIES =

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.writingtools;
+package dev.pyrrolidine.gboardpatches.extension.writingtools;
 
 import java.util.ArrayList;
 import java.util.Arrays;

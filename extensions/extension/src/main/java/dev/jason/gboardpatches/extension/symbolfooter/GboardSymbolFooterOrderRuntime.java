@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.symbolfooter;
+package dev.pyrrolidine.gboardpatches.extension.symbolfooter;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsProvider;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsProvider;
 
 public final class GboardSymbolFooterOrderRuntime {
     private static final String TAG = "GboardPatches";

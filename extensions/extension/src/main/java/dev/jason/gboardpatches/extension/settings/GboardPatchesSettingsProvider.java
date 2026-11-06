@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -12,8 +12,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import dev.jason.gboardpatches.extension.symbolfooter.GboardSymbolFooterOrderSettings;
-import dev.jason.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
+import dev.pyrrolidine.gboardpatches.extension.symbolfooter.GboardSymbolFooterOrderSettings;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
 
 public final class GboardPatchesSettingsProvider extends ContentProvider {
     private static final String TAG = "GboardPatches";
@@ -23,7 +23,7 @@ public final class GboardPatchesSettingsProvider extends ContentProvider {
     private static final String GBOARD_PACKAGE_JASON_DEV =
             "com.google.android.inputmethod.latin.jason.dev";
     private static final String GBOARD_PACKAGE_REVERSED_DEV =
-            "dev.jason.com.google.android.inputmethod.latin";
+            "dev.pyrrolidine.com.google.android.inputmethod.latin";
     public static final String METHOD_GET_SYMBOL_FOOTER_ORDER_SETTINGS =
             "get_symbol_footer_order_settings";
     public static final String BUNDLE_KEY_SYMBOL_FOOTER_ORDER =

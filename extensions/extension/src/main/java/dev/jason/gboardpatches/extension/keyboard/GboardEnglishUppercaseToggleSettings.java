@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.keyboard;
+package dev.pyrrolidine.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;

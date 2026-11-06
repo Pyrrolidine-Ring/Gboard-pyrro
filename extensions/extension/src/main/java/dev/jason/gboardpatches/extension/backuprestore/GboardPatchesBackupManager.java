@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.backuprestore;
+package dev.pyrrolidine.gboardpatches.extension.backuprestore;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -17,21 +17,21 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import dev.jason.gboardpatches.extension.BuildConfig;
-import dev.jason.gboardpatches.extension.clipboard.GboardClipboardSettings;
-import dev.jason.gboardpatches.extension.clipboardcontentlimit.GboardClipboardContentLimitSettings;
-import dev.jason.gboardpatches.extension.lanftp.config.LanFtpPreferences;
-import dev.jason.gboardpatches.extension.keyboard.GboardEnglishUppercaseToggleSettings;
-import dev.jason.gboardpatches.extension.keyboard.GboardLatinGlobeKeyIgnoreIntervalSettings;
-import dev.jason.gboardpatches.extension.manualincognito.GboardManualIncognitoSettings;
-import dev.jason.gboardpatches.extension.ocr.GboardOcrSettings;
-import dev.jason.gboardpatches.extension.settingshomepage.GboardSettingsHomepageSettings;
-import dev.jason.gboardpatches.extension.symbolfooter.GboardSymbolFooterOrderSettings;
-import dev.jason.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
-import dev.jason.gboardpatches.extension.webclipboard.WebClipboardPreferences;
-import dev.jason.gboardpatches.extension.writingtools.GboardAiWritingToolsSettings;
-import dev.jason.gboardpatches.extension.zhuyinbottomrow.GboardZhuyinBottomRowWeightSettings;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.BuildConfig;
+import dev.pyrrolidine.gboardpatches.extension.clipboard.GboardClipboardSettings;
+import dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit.GboardClipboardContentLimitSettings;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.config.LanFtpPreferences;
+import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardEnglishUppercaseToggleSettings;
+import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardLatinGlobeKeyIgnoreIntervalSettings;
+import dev.pyrrolidine.gboardpatches.extension.manualincognito.GboardManualIncognitoSettings;
+import dev.pyrrolidine.gboardpatches.extension.ocr.GboardOcrSettings;
+import dev.pyrrolidine.gboardpatches.extension.settingshomepage.GboardSettingsHomepageSettings;
+import dev.pyrrolidine.gboardpatches.extension.symbolfooter.GboardSymbolFooterOrderSettings;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
+import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardPreferences;
+import dev.pyrrolidine.gboardpatches.extension.writingtools.GboardAiWritingToolsSettings;
+import dev.pyrrolidine.gboardpatches.extension.zhuyinbottomrow.GboardZhuyinBottomRowWeightSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 /** Lossless typed JSON backup for Gboard Patches-owned settings stores. */
 public final class GboardPatchesBackupManager {

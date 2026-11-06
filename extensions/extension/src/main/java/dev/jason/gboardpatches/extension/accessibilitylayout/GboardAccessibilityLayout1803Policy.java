@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.accessibilitylayout;
+package dev.pyrrolidine.gboardpatches.extension.accessibilitylayout;
 
 public final class GboardAccessibilityLayout1803Policy {
     public static final String PK_SIMULATOR_FLAG = "enable_pk_simulator";

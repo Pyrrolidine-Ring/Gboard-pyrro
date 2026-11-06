@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.android;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -9,8 +9,8 @@ import android.content.pm.ServiceInfo;
 import android.os.Build;
 import android.os.SystemClock;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
 
 /** Owns notification rendering and foreground-service publication. */
 final class LanFtpNotificationController {

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.android;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
 
 import android.content.ContentResolver;
 import android.content.Context;

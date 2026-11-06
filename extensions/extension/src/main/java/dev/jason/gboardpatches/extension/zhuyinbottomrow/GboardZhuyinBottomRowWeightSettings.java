@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.zhuyinbottomrow;
+package dev.pyrrolidine.gboardpatches.extension.zhuyinbottomrow;
 
 import android.content.Context;
 import android.content.SharedPreferences;

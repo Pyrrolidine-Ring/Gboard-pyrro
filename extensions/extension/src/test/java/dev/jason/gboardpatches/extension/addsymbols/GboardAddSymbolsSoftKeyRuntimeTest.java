@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.addsymbols;
+package dev.pyrrolidine.gboardpatches.extension.addsymbols;
 
 import org.junit.Assert;
 import org.junit.Test;

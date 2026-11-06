@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.rambler;
+package dev.pyrrolidine.gboardpatches.extension.rambler;
 
 import android.content.Context;
 

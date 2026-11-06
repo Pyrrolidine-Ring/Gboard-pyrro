@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.cursortrackpad;
+package dev.pyrrolidine.gboardpatches.extension.cursortrackpad;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardCursorTrackpadSettings {
     public static final String PREF_KEY_ENABLED = "pref_force_cursor_trackpad_mode";

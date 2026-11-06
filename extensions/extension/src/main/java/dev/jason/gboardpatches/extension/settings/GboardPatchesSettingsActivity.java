@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
@@ -75,16 +75,16 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.BuildConfig;
-import dev.jason.gboardpatches.extension.backuprestore.GboardExportFileNames;
-import dev.jason.gboardpatches.extension.settings.keyboardpreview.GboardKeyboardPreviewController;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.BuildConfig;
+import dev.pyrrolidine.gboardpatches.extension.backuprestore.GboardExportFileNames;
+import dev.pyrrolidine.gboardpatches.extension.settings.keyboardpreview.GboardKeyboardPreviewController;
 
 public final class GboardPatchesSettingsActivity extends Activity
         implements GboardPatchesSettingsContract.Host {
     private static final String TAG = "GboardPatches";
     public static final String EXTRA_NAVIGATION_PATH =
-            "dev.jason.gboardpatches.extension.extra.PATCHES_NAVIGATION_PATH";
+            "dev.pyrrolidine.gboardpatches.extension.extra.PATCHES_NAVIGATION_PATH";
     private static final String ENTER_PREF_HEADER_EXTRA = "ENTER_PREF_HEADER";
     private static final String GBOARD_SETTINGS_ACTIVITY_CLASS =
             "com.google.android.apps.inputmethod.latin.preference.SettingsActivity";
@@ -95,7 +95,7 @@ public final class GboardPatchesSettingsActivity extends Activity
     private static final String GBOARD_PACKAGE_JASON_DEV =
             "com.google.android.inputmethod.latin.jason.dev";
     private static final String GBOARD_PACKAGE_REVERSED_DEV =
-            "dev.jason.com.google.android.inputmethod.latin";
+            "dev.pyrrolidine.com.google.android.inputmethod.latin";
     private static final String LIVE_TRANSCRIBE_PACKAGE_NAME =
             "com.google.audio.hearing.visualization.accessibility.scribe";
     private static final String SPEECH_SERVICES_PACKAGE_NAME =

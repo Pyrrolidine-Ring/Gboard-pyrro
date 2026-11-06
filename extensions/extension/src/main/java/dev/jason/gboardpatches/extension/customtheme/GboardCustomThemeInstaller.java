@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.customtheme;
+package dev.pyrrolidine.gboardpatches.extension.customtheme;
 
 import android.content.Context;
 import android.content.SharedPreferences;

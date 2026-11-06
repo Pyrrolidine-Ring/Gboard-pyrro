@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.frostedglass;
+package dev.pyrrolidine.gboardpatches.extension.frostedglass;
 
 import android.view.Window;
 

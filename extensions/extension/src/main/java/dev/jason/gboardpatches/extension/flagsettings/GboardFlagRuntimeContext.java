@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.flagsettings;
+package dev.pyrrolidine.gboardpatches.extension.flagsettings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,7 +7,7 @@ import android.os.UserManager;
 
 import java.lang.reflect.Method;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardFlagRuntimeContext {
     private static volatile Context applicationContext;

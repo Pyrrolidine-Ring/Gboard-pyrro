@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.emojisize;
+package dev.pyrrolidine.gboardpatches.extension.emojisize;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardEmojiSize1803Runtime {
     private GboardEmojiSize1803Runtime() {

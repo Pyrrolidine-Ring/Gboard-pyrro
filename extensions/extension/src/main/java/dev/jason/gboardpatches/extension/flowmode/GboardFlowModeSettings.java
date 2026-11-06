@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.flowmode;
+package dev.pyrrolidine.gboardpatches.extension.flowmode;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardFlowModeSettings {
     public static final String PREF_KEY_ENABLED = "pref_flow_mode_animation_enabled";

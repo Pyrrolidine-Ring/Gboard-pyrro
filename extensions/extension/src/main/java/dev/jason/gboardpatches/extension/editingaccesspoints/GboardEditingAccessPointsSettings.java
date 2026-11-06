@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.editingaccesspoints;
+package dev.pyrrolidine.gboardpatches.extension.editingaccesspoints;
 
 import android.content.SharedPreferences;
 import java.util.Map;

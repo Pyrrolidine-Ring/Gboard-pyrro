@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.manualincognito;
+package dev.pyrrolidine.gboardpatches.extension.manualincognito;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;

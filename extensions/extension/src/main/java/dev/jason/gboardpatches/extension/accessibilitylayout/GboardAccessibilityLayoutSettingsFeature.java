@@ -1,13 +1,13 @@
-package dev.jason.gboardpatches.extension.accessibilitylayout;
+package dev.pyrrolidine.gboardpatches.extension.accessibilitylayout;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.flagsettings.GboardBooleanFlagSettingsFeature;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardAccessibilityLayoutSettingsFeature
         extends GboardBooleanFlagSettingsFeature {

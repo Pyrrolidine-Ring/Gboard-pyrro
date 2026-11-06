@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.clipboardcontentlimit;
+package dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit;
 
 import android.content.Context;
 import android.content.SharedPreferences;

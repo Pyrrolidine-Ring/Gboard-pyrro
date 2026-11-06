@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.zhuyinslide;
+package dev.pyrrolidine.gboardpatches.extension.zhuyinslide;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.calculator;
+package dev.pyrrolidine.gboardpatches.extension.calculator;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

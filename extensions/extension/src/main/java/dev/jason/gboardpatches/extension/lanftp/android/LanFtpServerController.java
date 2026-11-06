@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.android;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
 
 import android.app.PendingIntent;
 import android.content.ComponentName;
@@ -12,10 +12,10 @@ import android.service.quicksettings.TileService;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.lanftp.config.LanFtpPreferences;
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
-import dev.jason.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsActivity;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.config.LanFtpPreferences;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsActivity;
 
 /** The single control seam for LAN FTP callers outside the runtime implementation. */
 public final class LanFtpServerController {

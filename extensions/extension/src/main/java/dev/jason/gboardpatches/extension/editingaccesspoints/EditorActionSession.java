@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.editingaccesspoints;
+package dev.pyrrolidine.gboardpatches.extension.editingaccesspoints;
 
 import android.view.inputmethod.InputConnection;
 import java.lang.ref.WeakReference;

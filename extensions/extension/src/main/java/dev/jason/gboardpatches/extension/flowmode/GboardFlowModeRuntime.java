@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.flowmode;
+package dev.pyrrolidine.gboardpatches.extension.flowmode;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardFlowModeRuntime {
     private static final int ENABLED_STATE_UNKNOWN = -1;

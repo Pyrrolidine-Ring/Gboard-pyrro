@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.accesspointsmenu;
+package dev.pyrrolidine.gboardpatches.extension.accesspointsmenu;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardAccessPointsMenuSettings {
     public static final String PREF_KEY_ENABLED =

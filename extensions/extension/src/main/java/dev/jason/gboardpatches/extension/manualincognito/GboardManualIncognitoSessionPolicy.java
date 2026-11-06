@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.manualincognito;
+package dev.pyrrolidine.gboardpatches.extension.manualincognito;
 
 final class GboardManualIncognitoSessionPolicy {
     final boolean manualApplied;

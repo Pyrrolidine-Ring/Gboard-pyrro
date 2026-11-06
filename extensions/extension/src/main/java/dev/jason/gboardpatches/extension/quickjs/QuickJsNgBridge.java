@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.quickjs;
+package dev.pyrrolidine.gboardpatches.extension.quickjs;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -20,7 +20,7 @@ import javax.net.ssl.SSLParameters;
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
-import dev.jason.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
 
 public final class QuickJsNgBridge {
     private static final int DEFAULT_HTTP_RESPONSE_LIMIT_BYTES =

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.runtime;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
 
 import java.text.Normalizer;
 import java.util.ArrayDeque;

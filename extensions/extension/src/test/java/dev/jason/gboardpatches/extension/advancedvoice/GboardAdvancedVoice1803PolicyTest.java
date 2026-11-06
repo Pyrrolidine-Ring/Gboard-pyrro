@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.advancedvoice;
+package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import java.util.Locale;
 
 public final class GboardAdvancedVoice1803PolicyTest {
     private static final String POLICY_CLASS =
-            "dev.jason.gboardpatches.extension.advancedvoice."
+            "dev.pyrrolidine.gboardpatches.extension.advancedvoice."
                     + "GboardAdvancedVoice1803Policy";
 
     @Test

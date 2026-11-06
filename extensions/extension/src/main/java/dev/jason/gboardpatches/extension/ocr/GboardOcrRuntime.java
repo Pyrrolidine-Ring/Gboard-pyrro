@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.ocr;
+package dev.pyrrolidine.gboardpatches.extension.ocr;
 
 import android.app.Application;
 import android.content.Context;

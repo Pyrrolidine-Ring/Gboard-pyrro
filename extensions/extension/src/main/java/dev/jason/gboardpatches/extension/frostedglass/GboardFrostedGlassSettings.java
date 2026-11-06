@@ -1,9 +1,9 @@
-package dev.jason.gboardpatches.extension.frostedglass;
+package dev.pyrrolidine.gboardpatches.extension.frostedglass;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 /** Settings owned by the module; the theme ZIP remains the source of palette and alpha. */
 public final class GboardFrostedGlassSettings {

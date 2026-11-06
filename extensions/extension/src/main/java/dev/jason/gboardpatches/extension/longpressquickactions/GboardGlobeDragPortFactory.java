@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.longpressquickactions;
+package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
 
 /** Single version-selection seam for the stable globe-drag runtime. */
 final class GboardGlobeDragPortFactory {

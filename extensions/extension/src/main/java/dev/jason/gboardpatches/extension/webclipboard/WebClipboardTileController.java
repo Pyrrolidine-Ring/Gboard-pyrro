@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.webclipboard;
+package dev.pyrrolidine.gboardpatches.extension.webclipboard;
 
 import android.app.ActivityManager;
 import android.content.ComponentName;

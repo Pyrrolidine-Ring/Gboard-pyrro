@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.runtime.fs;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +9,7 @@ import java.util.Objects;
 
 import org.apache.ftpserver.ftplet.FtpFile;
 
-import dev.jason.gboardpatches.extension.lanftp.runtime.LanFtpPath;
+import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpPath;
 
 public final class LanFtpFile implements FtpFile {
     private final LanFtpDocumentStore store;

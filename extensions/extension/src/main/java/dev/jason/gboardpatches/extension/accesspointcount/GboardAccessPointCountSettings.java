@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.accesspointcount;
+package dev.pyrrolidine.gboardpatches.extension.accesspointcount;
 
 import android.content.SharedPreferences;
 

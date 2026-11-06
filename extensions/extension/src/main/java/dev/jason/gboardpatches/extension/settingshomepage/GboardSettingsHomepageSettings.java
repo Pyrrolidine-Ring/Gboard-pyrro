@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settingshomepage;
+package dev.pyrrolidine.gboardpatches.extension.settingshomepage;
 
 import android.content.Context;
 import android.content.SharedPreferences;

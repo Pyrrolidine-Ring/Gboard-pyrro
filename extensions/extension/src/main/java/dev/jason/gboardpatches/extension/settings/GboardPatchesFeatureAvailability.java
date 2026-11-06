@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.settings;
+package dev.pyrrolidine.gboardpatches.extension.settings;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -8,85 +8,85 @@ import android.util.Log;
 
 public final class GboardPatchesFeatureAvailability {
     public static final String FEATURE_EDITING_ACCESS_POINTS =
-            "dev.jason.gboardpatches.feature.editing_access_points";
+            "dev.pyrrolidine.gboardpatches.feature.editing_access_points";
     public static final String FEATURE_CLIPBOARD_ENHANCEMENTS =
-            "dev.jason.gboardpatches.feature.clipboard_enhancements";
+            "dev.pyrrolidine.gboardpatches.feature.clipboard_enhancements";
     public static final String FEATURE_CLIPBOARD_CONTENT_LIMIT =
-            "dev.jason.gboardpatches.feature.clipboard_content_limit";
+            "dev.pyrrolidine.gboardpatches.feature.clipboard_content_limit";
     public static final String FEATURE_WEB_CLIPBOARD =
-            "dev.jason.gboardpatches.feature.web_clipboard";
+            "dev.pyrrolidine.gboardpatches.feature.web_clipboard";
     public static final String FEATURE_LAN_FTP =
-            "dev.jason.gboardpatches.feature.lan_ftp_server";
+            "dev.pyrrolidine.gboardpatches.feature.lan_ftp_server";
     public static final String FEATURE_DEVICE_INTELLIGENCE =
-            "dev.jason.gboardpatches.feature.device_intelligence";
+            "dev.pyrrolidine.gboardpatches.feature.device_intelligence";
     public static final String FEATURE_GRAMMAR_CHECKER =
-            "dev.jason.gboardpatches.feature.grammar_checker";
+            "dev.pyrrolidine.gboardpatches.feature.grammar_checker";
     public static final String FEATURE_INLINE_SUGGESTIONS =
-            "dev.jason.gboardpatches.feature.inline_suggestions";
+            "dev.pyrrolidine.gboardpatches.feature.inline_suggestions";
     public static final String FEATURE_KEY_SHAPE_SELECTION =
-            "dev.jason.gboardpatches.feature.key_shape_selection";
+            "dev.pyrrolidine.gboardpatches.feature.key_shape_selection";
     public static final String FEATURE_CUSTOM_SYMBOLS =
-            "dev.jason.gboardpatches.feature.custom_symbols";
+            "dev.pyrrolidine.gboardpatches.feature.custom_symbols";
     public static final String FEATURE_SETTINGS_HOMEPAGE =
-            "dev.jason.gboardpatches.feature.settings_homepage";
+            "dev.pyrrolidine.gboardpatches.feature.settings_homepage";
     public static final String FEATURE_SYMBOL_FOOTER_ORDER =
-            "dev.jason.gboardpatches.feature.symbol_footer_order";
+            "dev.pyrrolidine.gboardpatches.feature.symbol_footer_order";
     public static final String FEATURE_LATIN_GLOBE_KEY_IGNORE_INTERVAL =
-            "dev.jason.gboardpatches.feature.latin_globe_key_ignore_interval";
+            "dev.pyrrolidine.gboardpatches.feature.latin_globe_key_ignore_interval";
     public static final String FEATURE_ENGLISH_UPPERCASE_TOGGLE =
-            "dev.jason.gboardpatches.feature.english_uppercase_toggle";
+            "dev.pyrrolidine.gboardpatches.feature.english_uppercase_toggle";
     public static final String FEATURE_ZHUYIN_BOTTOM_ROW_WEIGHT =
-            "dev.jason.gboardpatches.feature.zhuyin_bottom_row_weight";
+            "dev.pyrrolidine.gboardpatches.feature.zhuyin_bottom_row_weight";
     public static final String FEATURE_AI_WRITING_TOOLS =
-            "dev.jason.gboardpatches.feature.ai_writing_tools";
+            "dev.pyrrolidine.gboardpatches.feature.ai_writing_tools";
     public static final String FEATURE_TOP_ROW_SWIPE =
-            "dev.jason.gboardpatches.feature.top_row_swipe";
+            "dev.pyrrolidine.gboardpatches.feature.top_row_swipe";
     public static final String FEATURE_DEVELOPER_OPTIONS =
-            "dev.jason.gboardpatches.feature.developer_options";
+            "dev.pyrrolidine.gboardpatches.feature.developer_options";
     public static final String FEATURE_BACKUP_RESTORE =
-            "dev.jason.gboardpatches.feature.backup_restore";
+            "dev.pyrrolidine.gboardpatches.feature.backup_restore";
     public static final String FEATURE_LONG_PRESS_QUICK_ACTIONS =
-            "dev.jason.gboardpatches.feature.long_press_quick_actions";
+            "dev.pyrrolidine.gboardpatches.feature.long_press_quick_actions";
     public static final String FEATURE_ADVANCED_VOICE_TYPING =
-            "dev.jason.gboardpatches.feature.advanced_voice_typing";
+            "dev.pyrrolidine.gboardpatches.feature.advanced_voice_typing";
     public static final String FEATURE_BLUETOOTH_MICROPHONE =
-            "dev.jason.gboardpatches.feature.bluetooth_microphone";
+            "dev.pyrrolidine.gboardpatches.feature.bluetooth_microphone";
     public static final String FEATURE_OCR_SCAN_TEXT =
-            "dev.jason.gboardpatches.feature.ocr_scan_text";
+            "dev.pyrrolidine.gboardpatches.feature.ocr_scan_text";
     public static final String FEATURE_MANUAL_INCOGNITO =
-            "dev.jason.gboardpatches.feature.manual_incognito";
+            "dev.pyrrolidine.gboardpatches.feature.manual_incognito";
     public static final String FEATURE_EMOJI_SIZE =
-            "dev.jason.gboardpatches.feature.emoji_size";
+            "dev.pyrrolidine.gboardpatches.feature.emoji_size";
     public static final String FEATURE_CURSOR_TRACKPAD =
-            "dev.jason.gboardpatches.feature.cursor_trackpad";
+            "dev.pyrrolidine.gboardpatches.feature.cursor_trackpad";
     public static final String FEATURE_ACCESS_POINTS_MENU_STYLE =
-            "dev.jason.gboardpatches.feature.access_points_menu_style";
+            "dev.pyrrolidine.gboardpatches.feature.access_points_menu_style";
     public static final String FEATURE_SPLIT_KEYBOARD =
-            "dev.jason.gboardpatches.feature.split_keyboard";
+            "dev.pyrrolidine.gboardpatches.feature.split_keyboard";
     public static final String FEATURE_ACCESSIBILITY_LAYOUT =
-            "dev.jason.gboardpatches.feature.accessibility_layout";
+            "dev.pyrrolidine.gboardpatches.feature.accessibility_layout";
     public static final String FEATURE_ROUNDED_KEYBOARD_PANEL =
-            "dev.jason.gboardpatches.feature.rounded_keyboard_panel";
+            "dev.pyrrolidine.gboardpatches.feature.rounded_keyboard_panel";
     public static final String FEATURE_SPACEBAR_LOGO =
-            "dev.jason.gboardpatches.feature.spacebar_logo";
+            "dev.pyrrolidine.gboardpatches.feature.spacebar_logo";
     public static final String FEATURE_CLOSE_PROACTIVE_SUGGESTIONS =
-            "dev.jason.gboardpatches.feature.close_proactive_suggestions";
+            "dev.pyrrolidine.gboardpatches.feature.close_proactive_suggestions";
     public static final String FEATURE_FLOW_MODE_ANIMATION =
-            "dev.jason.gboardpatches.feature.flow_mode_animation";
+            "dev.pyrrolidine.gboardpatches.feature.flow_mode_animation";
     public static final String FEATURE_QUICK_INSERT =
-            "dev.jason.gboardpatches.feature.quick_insert";
+            "dev.pyrrolidine.gboardpatches.feature.quick_insert";
     public static final String FEATURE_ACCESS_POINT_COUNT =
-            "dev.jason.gboardpatches.feature.access_point_count";
+            "dev.pyrrolidine.gboardpatches.feature.access_point_count";
     public static final String FEATURE_FLOATING_WEB_SEARCH =
-            "dev.jason.gboardpatches.feature.floating_web_search";
+            "dev.pyrrolidine.gboardpatches.feature.floating_web_search";
     public static final String FEATURE_SIMPLE_CALCULATOR =
-            "dev.jason.gboardpatches.feature.simple_calculator";
+            "dev.pyrrolidine.gboardpatches.feature.simple_calculator";
     public static final String FEATURE_CUSTOM_THEME =
-            "dev.jason.gboardpatches.feature.custom_theme";
+            "dev.pyrrolidine.gboardpatches.feature.custom_theme";
     public static final String FEATURE_FROSTED_GLASS =
-            "dev.jason.gboardpatches.feature.frosted_glass";
+            "dev.pyrrolidine.gboardpatches.feature.frosted_glass";
     public static final String FEATURE_SWIPE_DISMISS =
-            "dev.jason.gboardpatches.feature.swipe_dismiss";
+            "dev.pyrrolidine.gboardpatches.feature.swipe_dismiss";
 
     private static final String TAG = "GboardPatches";
 

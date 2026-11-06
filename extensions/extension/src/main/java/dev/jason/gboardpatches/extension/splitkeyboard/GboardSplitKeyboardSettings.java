@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.splitkeyboard;
+package dev.pyrrolidine.gboardpatches.extension.splitkeyboard;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardSplitKeyboardSettings {
     public static final String PREF_KEY_ENABLED = "pref_force_split_keyboard_enabled";

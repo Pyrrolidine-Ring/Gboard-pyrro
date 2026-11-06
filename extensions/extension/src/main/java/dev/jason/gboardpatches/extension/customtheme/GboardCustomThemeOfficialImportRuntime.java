@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.customtheme;
+package dev.pyrrolidine.gboardpatches.extension.customtheme;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 /** 18.0.3 adapter for the plus tile and activity-result path on Gboard's Theme page. */
 public final class GboardCustomThemeOfficialImportRuntime {

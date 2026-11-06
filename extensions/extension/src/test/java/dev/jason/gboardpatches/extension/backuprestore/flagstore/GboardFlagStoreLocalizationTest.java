@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.backuprestore.flagstore;
+package dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -18,8 +18,8 @@ import java.util.Collections;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardFlagStoreLocalizationTest {

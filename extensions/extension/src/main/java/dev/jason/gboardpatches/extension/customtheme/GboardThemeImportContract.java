@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.customtheme;
+package dev.pyrrolidine.gboardpatches.extension.customtheme;
 
 import java.util.Locale;
 

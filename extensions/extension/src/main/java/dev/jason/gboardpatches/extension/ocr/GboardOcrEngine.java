@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.ocr;
+package dev.pyrrolidine.gboardpatches.extension.ocr;
 
 import java.util.Arrays;
 

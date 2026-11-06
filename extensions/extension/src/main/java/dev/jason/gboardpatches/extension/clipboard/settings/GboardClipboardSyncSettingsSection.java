@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.clipboard;
+package dev.pyrrolidine.gboardpatches.extension.clipboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,14 +8,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
-import dev.jason.gboardpatches.extension.webclipboard.ClipboardSyncService;
-import dev.jason.gboardpatches.extension.webclipboard.ClipboardSyncWebPortal;
-import dev.jason.gboardpatches.extension.webclipboard.WebClipboardEndpointResolver;
-import dev.jason.gboardpatches.extension.webclipboard.WebClipboardPreferences;
-import dev.jason.gboardpatches.extension.webclipboard.WebClipboardTileController;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.webclipboard.ClipboardSyncService;
+import dev.pyrrolidine.gboardpatches.extension.webclipboard.ClipboardSyncWebPortal;
+import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardEndpointResolver;
+import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardPreferences;
+import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardTileController;
 
 final class GboardClipboardSyncSettingsSection {
     private final TextLookup textLookup;

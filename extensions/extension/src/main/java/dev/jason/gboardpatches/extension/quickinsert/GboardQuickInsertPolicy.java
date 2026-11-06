@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.quickinsert;
+package dev.pyrrolidine.gboardpatches.extension.quickinsert;
 
 public final class GboardQuickInsertPolicy {
     public static final String SUPER_INSERT_FLAG = "super_insert";

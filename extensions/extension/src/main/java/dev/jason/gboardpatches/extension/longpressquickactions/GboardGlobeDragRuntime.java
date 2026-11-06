@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.longpressquickactions;
+package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
 
 import android.inputmethodservice.InputMethodService;
 import android.os.SystemClock;

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.roundedkeyboard;
+package dev.pyrrolidine.gboardpatches.extension.roundedkeyboard;
 
 public final class GboardRoundedKeyboardConfig {
     public static final boolean DEFAULT_ENABLED = false;

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.runtime;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.writingtools;
+package dev.pyrrolidine.gboardpatches.extension.writingtools;
 
 import android.content.Context;
 import android.util.Log;

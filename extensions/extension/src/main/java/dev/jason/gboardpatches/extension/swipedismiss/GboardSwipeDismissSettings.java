@@ -1,9 +1,9 @@
-package dev.jason.gboardpatches.extension.swipedismiss;
+package dev.pyrrolidine.gboardpatches.extension.swipedismiss;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardSwipeDismissSettings {
     public static final String PREF_KEY_ENABLED = "pref_swipe_down_dismiss_keyboard_enabled";

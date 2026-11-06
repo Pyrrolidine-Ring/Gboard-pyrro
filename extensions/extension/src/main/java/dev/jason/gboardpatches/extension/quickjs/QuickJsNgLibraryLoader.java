@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.quickjs;
+package dev.pyrrolidine.gboardpatches.extension.quickjs;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.lang.reflect.Method;
 import java.security.MessageDigest;
 
-import dev.jason.gboardpatches.extension.toprowswipe.quickjs.QuickJsNgNativePayload;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.quickjs.QuickJsNgNativePayload;
 
 final class QuickJsNgLibraryLoader {
     private static final String SUPPORTED_ABI = "arm64-v8a";

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.lanftp.settings;
+package dev.pyrrolidine.gboardpatches.extension.lanftp.settings;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

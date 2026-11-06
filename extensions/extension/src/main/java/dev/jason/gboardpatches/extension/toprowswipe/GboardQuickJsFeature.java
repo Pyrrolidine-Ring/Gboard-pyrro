@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.toprowswipe;
+package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -35,7 +35,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
-import dev.jason.gboardpatches.extension.quickjs.QuickJsNgBridge;
+import dev.pyrrolidine.gboardpatches.extension.quickjs.QuickJsNgBridge;
 
 final class GboardQuickJsFeature {
     static final long DEFAULT_TIMEOUT_MS = GboardTopRowSwipeSettings.DEFAULT_TIMEOUT_MS;

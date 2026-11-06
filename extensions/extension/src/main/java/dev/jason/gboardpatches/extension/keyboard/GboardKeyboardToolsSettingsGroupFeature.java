@@ -1,24 +1,24 @@
-package dev.jason.gboardpatches.extension.keyboard;
+package dev.pyrrolidine.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 
 import java.util.Arrays;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.editingaccesspoints.GboardEditingAccessPointsSettingsFeature;
-import dev.jason.gboardpatches.extension.calculator.GboardCalculatorSettingsFeature;
-import dev.jason.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettingsFeature;
-import dev.jason.gboardpatches.extension.longpressquickactions.GboardLongPressQuickActionsSettingsFeature;
-import dev.jason.gboardpatches.extension.manualincognito.GboardManualIncognitoSettingsFeature;
-import dev.jason.gboardpatches.extension.ocr.GboardOcrSettingsFeature;
-import dev.jason.gboardpatches.extension.quickinsert.GboardQuickInsertSettingsFeature;
-import dev.jason.gboardpatches.extension.settings.GboardFeatureGroup;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
-import dev.jason.gboardpatches.extension.swipedismiss.GboardSwipeDismissSettingsFeature;
-import dev.jason.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettingsFeature;
-import dev.jason.gboardpatches.extension.websearch.GboardFloatingWebSearchSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.editingaccesspoints.GboardEditingAccessPointsSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.calculator.GboardCalculatorSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.longpressquickactions.GboardLongPressQuickActionsSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.manualincognito.GboardManualIncognitoSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.ocr.GboardOcrSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.quickinsert.GboardQuickInsertSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardFeatureGroup;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.swipedismiss.GboardSwipeDismissSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettingsFeature;
+import dev.pyrrolidine.gboardpatches.extension.websearch.GboardFloatingWebSearchSettingsFeature;
 
 public final class GboardKeyboardToolsSettingsGroupFeature
         implements GboardPatchesSettingsContract.Feature {

@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.emojisize;
+package dev.pyrrolidine.gboardpatches.extension.emojisize;
 
 public final class GboardEmojiSize1803Policy {
     public static final String EMOJI_SCALE_SUPPORTED_FLAG = "emoji_scale_supported";

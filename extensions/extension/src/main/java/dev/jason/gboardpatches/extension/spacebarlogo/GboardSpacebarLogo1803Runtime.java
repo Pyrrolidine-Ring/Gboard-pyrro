@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.spacebarlogo;
+package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
 
 import android.util.Log;
 import android.view.View;

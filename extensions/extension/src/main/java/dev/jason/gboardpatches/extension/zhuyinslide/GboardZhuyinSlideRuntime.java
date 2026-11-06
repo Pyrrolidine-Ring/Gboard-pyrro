@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.zhuyinslide;
+package dev.pyrrolidine.gboardpatches.extension.zhuyinslide;
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
@@ -6,7 +6,7 @@ import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Map;
 
-import dev.jason.gboardpatches.extension.toprowswipe.GboardTopRowSwipeRuntime;
+import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeRuntime;
 
 public final class GboardZhuyinSlideRuntime {
     private static final Object metadataLock = new Object();

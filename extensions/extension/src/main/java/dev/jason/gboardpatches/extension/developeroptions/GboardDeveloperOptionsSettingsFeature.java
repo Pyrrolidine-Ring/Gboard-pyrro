@@ -1,13 +1,13 @@
-package dev.jason.gboardpatches.extension.developeroptions;
+package dev.pyrrolidine.gboardpatches.extension.developeroptions;
 
 import android.content.Context;
 
 import java.util.Collections;
 
-import dev.jason.gboardpatches.extension.R;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.jason.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardDeveloperOptionsSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

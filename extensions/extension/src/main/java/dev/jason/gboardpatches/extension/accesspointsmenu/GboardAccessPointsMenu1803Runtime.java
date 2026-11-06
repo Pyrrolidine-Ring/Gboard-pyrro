@@ -1,8 +1,8 @@
-package dev.jason.gboardpatches.extension.accesspointsmenu;
+package dev.pyrrolidine.gboardpatches.extension.accesspointsmenu;
 
 import android.content.SharedPreferences;
 
-import dev.jason.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardAccessPointsMenu1803Runtime {
     private GboardAccessPointsMenu1803Runtime() {

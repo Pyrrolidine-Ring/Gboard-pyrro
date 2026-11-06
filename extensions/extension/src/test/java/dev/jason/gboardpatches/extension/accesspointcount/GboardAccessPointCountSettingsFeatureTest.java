@@ -1,4 +1,4 @@
-package dev.jason.gboardpatches.extension.accesspointcount;
+package dev.pyrrolidine.gboardpatches.extension.accesspointcount;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-import dev.jason.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public final class GboardAccessPointCountSettingsFeatureTest {
     @Test
