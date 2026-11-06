@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jasonwu1994/Gboard-patches/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/jasonwu1994/Gboard-patches?display_name=tag&label=Release&style=for-the-badge"></a>
-  <a href="https://github.com/jasonwu1994/Gboard-patches"><img alt="Total downloads" src="https://img.shields.io/github/downloads/jasonwu1994/Gboard-patches/total?label=Downloads&style=for-the-badge"></a>
-  <a href="https://morphe.software/add-source?github=jasonwu1994/Gboard-patches"><img alt="Add to Morphe" src="https://img.shields.io/badge/Morphe-Add%20Source-00A8FF?style=for-the-badge"></a>
-  <a href="https://github.com/jasonwu1994/Gboard-patches"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jasonwu1994/Gboard-patches?style=social"></a>
+  <a href="https://github.com/Pyrrolidine-Ring/Gboard-pyrro/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Pyrrolidine-Ring/Gboard-pyrro?display_name=tag&label=Release&style=for-the-badge"></a>
+  <a href="https://github.com/Pyrrolidine-Ring/Gboard-pyrro"><img alt="Total downloads" src="https://img.shields.io/github/downloads/Pyrrolidine-Ring/Gboard-pyrro/total?label=Downloads&style=for-the-badge"></a>
+  <a href="https://morphe.software/add-source?github=Pyrrolidine-Ring/Gboard-pyrro"><img alt="Add to Morphe" src="https://img.shields.io/badge/Morphe-Add%20Source-00A8FF?style=for-the-badge"></a>
+  <a href="https://github.com/Pyrrolidine-Ring/Gboard-pyrro"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Pyrrolidine-Ring/Gboard-pyrro?style=social"></a>
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/jasonwu1994"><img height="40" alt="Buy me a coffee on Ko-fi" src="https://storage.ko-fi.com/cdn/kofi5.png?v=3"></a>
+  <a href="https://ko-fi.com/alphapyrro"><img height="40" alt="Buy me a coffee on Ko-fi" src="https://storage.ko-fi.com/cdn/kofi5.png?v=3"></a>
 </p>
 
 ## Overview
@@ -304,8 +304,8 @@ Features tailored to Traditional Chinese and Zhuyin input workflows.
 
 Add this repository as a Morphe source:
 
-- [Open in Morphe](https://morphe.software/add-source?github=jasonwu1994/Gboard-patches)
-- Or manually add `https://github.com/jasonwu1994/Gboard-patches`
+- [Open in Morphe](https://morphe.software/add-source?github=Pyrrolidine-Ring/Gboard-pyrro)
+- Or manually add `https://github.com/Pyrrolidine-Ring/Gboard-pyrro`
 
 ## Build
 

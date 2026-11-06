@@ -132,3 +132,6 @@ local.properties
 
 # Local patch/build inspection artifacts
 .validation/
+
+# Ignore .txt files only in root dir
+/*.txt

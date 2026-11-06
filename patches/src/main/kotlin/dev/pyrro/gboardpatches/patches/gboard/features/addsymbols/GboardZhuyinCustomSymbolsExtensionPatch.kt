@@ -1,0 +1,5 @@
+package dev.pyrrolidine.gboardpatches.patches.gboard.features.addsymbols
+
+import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+
+internal val gboardZhuyinCustomSymbolsExtensionPatch = gboardPatchesExtensionCarrierPatch

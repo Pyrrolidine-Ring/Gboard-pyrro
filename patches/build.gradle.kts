@@ -45,7 +45,7 @@ abstract class GenerateTargetBindingsTask @Inject constructor(
     fun generate() {
         execOperations.javaexec {
             classpath(compilerClasspath)
-            mainClass.set("dev.jason.gboardpatches.tools.bindings.TargetBindingGenerator")
+            mainClass.set("dev.pyrrolidine.gboardpatches.tools.bindings.TargetBindingGenerator")
             args(
                 profileFile.get().asFile.absolutePath,
                 productCatalogFile.get().asFile.absolutePath,
@@ -57,7 +57,7 @@ abstract class GenerateTargetBindingsTask @Inject constructor(
     }
 }
 
-group = "dev.jason.gboardpatches"
+group = "dev.pyrrolidine.gboardpatches"
 
 val generatedPatchInfoDir = layout.buildDirectory.dir("generated/sources/patchBuildInfo/kotlin/main")
 val generatedVersionBindingsDir = layout.buildDirectory.dir("generated/sources/versionBindings/kotlin/main")
@@ -114,12 +114,12 @@ val generatePatchBuildInfo = tasks.register("generatePatchBuildInfo") {
     outputs.dir(outputDir)
 
     doLast {
-        val packageDir = outputDir.get().file("dev/jason/gboardpatches/patches/shared").asFile
+        val packageDir = outputDir.get().file("dev/pyrro/gboardpatches/patches/shared").asFile
         packageDir.mkdirs()
 
         packageDir.resolve("PatchBuildInfo.kt").writeText(
             """
-            package dev.jason.gboardpatches.patches.shared
+            package dev.pyrrolidine.gboardpatches.patches.shared
 
             internal object PatchBuildInfo {
                 const val VERSION = "$patchVersion"
@@ -171,12 +171,12 @@ val generateGboardVersionBindings = tasks.register<GenerateTargetBindingsTask>(
 ) {
     val outputFile = generatedVersionBindingsDir.map { directory ->
         directory.file(
-            "dev/jason/gboardpatches/patches/gboard/shared/generated/GboardVersionBindings.kt"
+            "dev/pyrro/gboardpatches/patches/gboard/shared/generated/GboardVersionBindings.kt"
         )
     }
     val admissionOutputFile = generatedVersionBindingsDir.map { directory ->
         directory.file(
-            "dev/jason/gboardpatches/patches/gboard/shared/generated/GboardTargetAdmission.kt"
+            "dev/pyrro/gboardpatches/patches/gboard/shared/generated/GboardTargetAdmission.kt"
         )
     }
 
@@ -195,10 +195,10 @@ patches {
     about {
         name = "Gboard Patches"
         description = "Morphe patches for Gboard."
-        source = "https://github.com/jasonwu1994/gboard-patches"
-        author = "Jason Wu"
-        contact = "https://github.com/jasonwu1994/gboard-patches/issues"
-        website = "https://github.com/jasonwu1994/gboard-patches"
+        source = "https://github.com/Pyrrolidine-Ring/Gboard-pyrro"
+        author = "alphapyrro"
+        contact = "https://github.com/Pyrrolidine-Ring/Gboard-pyrro/issues"
+        website = "https://github.com/Pyrrolidine-Ring/Gboard-pyrro"
         license = "GPLv3"
     }
 }
@@ -231,7 +231,7 @@ tasks {
         dependsOn("compileKotlin")
         classpath = sourceSets.main.get().runtimeClasspath
         mainClass.set(
-            "dev.jason.gboardpatches.patches.gboard.registry.GboardCapabilityWiringVerifier"
+            "dev.pyrrolidine.gboardpatches.patches.gboard.registry.GboardCapabilityWiringVerifier"
         )
         args(gboardProductCatalog.asFile.absolutePath)
     }
@@ -289,7 +289,7 @@ tasks {
         dependsOn(build, patchMetadataSourceSet.classesTaskName)
 
         classpath = patchMetadataSourceSet.runtimeClasspath
-        mainClass.set("dev.jason.gboardpatches.util.PatchListGeneratorKt")
+        mainClass.set("dev.pyrrolidine.gboardpatches.util.PatchListGeneratorKt")
     }
 
     register("normalizePatchMetadataEncoding") {

@@ -1091,7 +1091,7 @@
 ### ✨ New Features
 
 * **Gboard:** add `Chinese Online Voice Input` to force-enable Chinese voice input.
-* **Gboard:** update `Package Rename` to use the new coexistence package name `dev.jason.com.google.android.inputmethod.latin`; if you were using the old `com.google.android.inputmethod.latin.jason.dev` package, this release installs under the new package name instead of overwriting the old install.
+* **Gboard:** update `Package Rename` to use the new coexistence package name `dev.pyrrolidine.com.google.android.inputmethod.latin`; if you were using the old `com.google.android.inputmethod.latin.jason.dev` package, this release installs under the new package name instead of overwriting the old install.
 
 ### 🚀 Updated App Support
 
@@ -1100,7 +1100,7 @@
 ### ✨ 新功能
 
 * **Gboard:** 新增 `Chinese Online Voice Input`，可強制啟用中文語音輸入。
-* **Gboard:** 更新 `Package Rename`，改用新的共存套件名稱 `dev.jason.com.google.android.inputmethod.latin`；若你先前使用的是舊套件名稱 `com.google.android.inputmethod.latin.jason.dev`，這次會以新套件名稱安裝，不會直接覆蓋舊安裝。
+* **Gboard:** 更新 `Package Rename`，改用新的共存套件名稱 `dev.pyrrolidine.com.google.android.inputmethod.latin`；若你先前使用的是舊套件名稱 `com.google.android.inputmethod.latin.jason.dev`，這次會以新套件名稱安裝，不會直接覆蓋舊安裝。
 
 ### 🚀 支援版本更新
 

@@ -87,19 +87,30 @@ val customThemeBindingsAuthority = objects.fileProperty().apply {
 }
 
 android {
-    namespace = "dev.jason.gboardpatches.extension"
+    namespace = "dev.pyrrolidine.gboardpatches.extension"
 
     buildFeatures {
         buildConfig = true
     }
 
     defaultConfig {
-        buildConfigField("String", "PATCH_AUTHOR", "\"jasonwu1994\"")
-        buildConfigField("String", "PATCH_AUTHOR_URL", "\"https://github.com/jasonwu1994\"")
+        buildConfigField("String", "PATCH_AUTHOR", "\"alphapyrro\"")
+        buildConfigField("String", "PATCH_AUTHOR_URL", "\"https://github.com/alphapyrro\"")
         buildConfigField(
             "String",
             "PATCH_REPOSITORY_URL",
-            "\"https://github.com/jasonwu1994/Gboard-patches\""
+            "\"# 1. Sanitize DOS CRLF line-endings on the SOURCE files BEFORE copying:
+sed -i 's/\r$//' /storage/emulated/0/Apktool_M/Commands/{opbup,opdl,tmxbup,tmxrst,short8,rvshort8,short8m,pyrrotest}
+
+# 2. Copy the 8 dedicated binaries directly into $PREFIX/bin:
+cp /storage/emulated/0/Apktool_M/Commands/{opbup,opdl,tmxbup,tmxrst,short8,rvshort8,short8m,pyrrotest,ctx} $PREFIX/bin/
+
+# 3. Enforce POSIX execution mode bits on all 8 scripts:
+chmod +x $PREFIX/bin/{opbup,opdl,tmxbup,tmxrst,short8,rvshort8,short8m,pyrrotest,ctx}
+
+# 4. Query CTX version
+ctx --version
+\""
         )
         buildConfigField("String", "PATCH_VERSION", "\"${project.version}\"")
     }
@@ -125,7 +136,7 @@ val generateQuickJsNativePayload = tasks.register("generateQuickJsNativePayload"
     val payloadFile = quickJsPayloadSourceDir.file("libgboardpatches_quickjs.so")
     val outputFile = generatedQuickJsPayloadDir.map { directory ->
         directory.file(
-            "dev/jason/gboardpatches/extension/toprowswipe/quickjs/QuickJsNgNativePayload.java"
+            "dev/pyrro/gboardpatches/extension/toprowswipe/quickjs/QuickJsNgNativePayload.java"
         )
     }
 
@@ -159,7 +170,7 @@ val generateQuickJsNativePayload = tasks.register("generateQuickJsNativePayload"
         output.parentFile.mkdirs()
         output.writeText(
             """
-            package dev.jason.gboardpatches.extension.toprowswipe.quickjs;
+            package dev.pyrrolidine.gboardpatches.extension.toprowswipe.quickjs;
 
             public final class QuickJsNgNativePayload {
                 private static final String ABI = "arm64-v8a";
@@ -296,16 +307,16 @@ val generateSettingsText = tasks.register("generateSettingsText") {
         val stringEntries = entries.filter { it.type == "string" }
         val pluralEntries = entries.filter { it.type == "plurals" }
         val javaOutput = generatedSettingsTextJavaDir.get().asFile.resolve(
-            "dev/jason/gboardpatches/extension/settings/GboardSettingsTextCatalog.java"
+            "dev/pyrro/gboardpatches/extension/settings/GboardSettingsTextCatalog.java"
         )
         javaOutput.parentFile.mkdirs()
         javaOutput.writeText(buildString {
-            appendLine("package dev.jason.gboardpatches.extension.settings;")
+            appendLine("package dev.pyrrolidine.gboardpatches.extension.settings;")
             appendLine()
             appendLine("import java.util.HashMap;")
             appendLine("import java.util.Map;")
             appendLine()
-            appendLine("import dev.jason.gboardpatches.extension.R;")
+            appendLine("import dev.pyrrolidine.gboardpatches.extension.R;")
             appendLine()
             appendLine("final class GboardSettingsTextCatalog {")
             appendLine("    private static final Map<Integer, String> ENGLISH = createEnglish();")
@@ -375,7 +386,7 @@ val generateLanFtpMessageResource = tasks.register("generateLanFtpMessageResourc
     val runtimeClasspath = configurations.named("releaseRuntimeClasspath")
     val outputFile = generatedLanFtpMessagesJavaDir.map { directory ->
         directory.file(
-            "dev/jason/gboardpatches/extension/lanftp/runtime/LanFtpMessageResource.java"
+            "dev/pyrro/gboardpatches/extension/lanftp/runtime/LanFtpMessageResource.java"
         )
     }
     inputs.files(runtimeClasspath)
@@ -400,7 +411,7 @@ val generateLanFtpMessageResource = tasks.register("generateLanFtpMessageResourc
         output.parentFile.mkdirs()
         output.writeText(
             """
-            package dev.jason.gboardpatches.extension.lanftp.runtime;
+            package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
 
             import java.util.Collections;
             import java.util.HashMap;
@@ -456,7 +467,7 @@ $renderedMessages
 val generateCustomThemeVersionBindings = tasks.register("generateCustomThemeVersionBindings") {
     val outputFile = generatedCustomThemeBindingsJavaDir.map { directory ->
         directory.file(
-            "dev/jason/gboardpatches/extension/customtheme/" +
+            "dev/pyrro/gboardpatches/extension/customtheme/" +
                 "GboardCustomThemeVersionBindings.java"
         )
     }
@@ -542,7 +553,7 @@ val generateCustomThemeVersionBindings = tasks.register("generateCustomThemeVers
         output.parentFile.mkdirs()
         output.writeText(
             """
-            package dev.jason.gboardpatches.extension.customtheme;
+            package dev.pyrrolidine.gboardpatches.extension.customtheme;
 
             /** Generated from the reviewed Gboard target binding profile. */
             final class GboardCustomThemeVersionBindings {
@@ -587,10 +598,10 @@ tasks.named("syncExtension") {
         }
         val dexText = String(extensionDex.readBytes(), StandardCharsets.ISO_8859_1)
         val requiredLanFtpTypes = listOf(
-            "Ldev/jason/gboardpatches/extension/lanftp/android/LanFtpServerConfigSnapshot;",
-            "Ldev/jason/gboardpatches/extension/lanftp/android/LanFtpServerState;",
-            "Ldev/jason/gboardpatches/extension/lanftp/runtime/LanFtpServerConfig;",
-            "Ldev/jason/gboardpatches/extension/lanftp/runtime/LanFtpSessionInfo;",
+            "Ldev/pyrro/gboardpatches/extension/lanftp/android/LanFtpServerConfigSnapshot;",
+            "Ldev/pyrro/gboardpatches/extension/lanftp/android/LanFtpServerState;",
+            "Ldev/pyrro/gboardpatches/extension/lanftp/runtime/LanFtpServerConfig;",
+            "Ldev/pyrro/gboardpatches/extension/lanftp/runtime/LanFtpSessionInfo;",
         )
         requiredLanFtpTypes.forEach { descriptor ->
             check(dexText.contains(descriptor)) {

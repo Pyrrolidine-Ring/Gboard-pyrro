@@ -3,4 +3,4 @@
 *.cmd           text eol=crlf
 *.ps1           text eol=crlf
 /patches/src/main/resources/gboard/gboard-version-bindings.json text eol=lf
-/patches/src/main/kotlin/dev/jason/gboardpatches/patches/gboard/shared/generated/GboardVersionBindings.kt text eol=lf
+/patches/src/main/kotlin/dev/pyrro/gboardpatches/patches/gboard/shared/generated/GboardVersionBindings.kt text eol=lf
