@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared
+package dev.pyrro.gboardpatches.patches.gboard.shared
 
 /**
  * Register layout for the admitted 18.0.3 pvi#B pointer-owner method. The target

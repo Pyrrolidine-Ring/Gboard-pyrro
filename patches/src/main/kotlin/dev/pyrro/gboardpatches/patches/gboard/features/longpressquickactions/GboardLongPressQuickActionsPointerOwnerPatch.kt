@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions
+package dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
@@ -9,17 +9,17 @@ import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import com.android.tools.smali.dexlib2.immutable.ImmutableMethod
 import com.android.tools.smali.dexlib2.immutable.ImmutableMethodImplementation
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardPointerOwnerRegisterContract
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardPointerOwnerFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardPointerOwnerFeatureSpec
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardPointerOwnerTransformationContext
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardPointerOwnerTransformationAdapter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isInvoke
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.returnInstructionIndices
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPointerOwnerFeaturePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardPointerOwnerRegisterContract
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardPointerOwnerFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardPointerOwnerFeatureSpec
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardPointerOwnerTransformationContext
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardPointerOwnerTransformationAdapter
+import dev.pyrro.gboardpatches.patches.gboard.shared.isInvoke
+import dev.pyrro.gboardpatches.patches.gboard.shared.returnInstructionIndices
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPointerOwnerFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 private val POINTER_OWNER_RUNTIME_CALL =
     RuntimeCallId.LONG_PRESS_QUICK_ACTIONS_RUNTIME_MAYBE_ENSURE_LONG_PRESS_SCHEDULED

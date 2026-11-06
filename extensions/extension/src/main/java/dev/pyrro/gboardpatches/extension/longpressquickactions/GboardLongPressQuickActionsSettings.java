@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardLongPressQuickActionsSettings {
     public static final String PREF_KEY_ENABLED =

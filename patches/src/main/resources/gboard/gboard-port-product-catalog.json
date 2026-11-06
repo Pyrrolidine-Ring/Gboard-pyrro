@@ -60,7 +60,7 @@
     {
       "feature_id": "access_point_count",
       "public_patch_name": "Top Toolbar Item Count",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.access_point_count",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.access_point_count",
       "target_family_ids": [
         "accesspointcount",
         "flag.reader"
@@ -91,7 +91,7 @@
     {
       "feature_id": "access_points_menu_style",
       "public_patch_name": "Access Points menu style",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.access_points_menu_style",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.access_points_menu_style",
       "target_family_ids": [
         "accesspointsmenu",
         "flag.reader"
@@ -145,7 +145,7 @@
     {
       "feature_id": "advanced_voice_typing",
       "public_patch_name": "Advanced Voice Typing",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.advanced_voice_typing",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.advanced_voice_typing",
       "target_family_ids": [
         "advancedvoice",
         "flag.reader",
@@ -199,7 +199,7 @@
     {
       "feature_id": "ai_writing_tools",
       "public_patch_name": "AI Writing Tools",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.ai_writing_tools",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.ai_writing_tools",
       "target_family_ids": [
         "writingtools",
         "flag.reader"
@@ -237,7 +237,7 @@
     {
       "feature_id": "backup_restore",
       "public_patch_name": "Backup & Restore",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.backup_restore",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.backup_restore",
       "target_family_ids": [],
       "migration_scope": "version-neutral-extension",
       "consumer_files": [
@@ -259,7 +259,7 @@
     {
       "feature_id": "change_emoji_size",
       "public_patch_name": "Change emoji size",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.emoji_size",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.emoji_size",
       "target_family_ids": [
         "emojisize",
         "flag.reader"
@@ -290,7 +290,7 @@
     {
       "feature_id": "clipboard_custom_character_limit",
       "public_patch_name": "Clipboard Custom Character Limit",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.clipboard_content_limit",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.clipboard_content_limit",
       "target_family_ids": [
         "clipboardcontentlimit",
         "flag.reader"
@@ -321,7 +321,7 @@
     {
       "feature_id": "clipboard_enhancements",
       "public_patch_name": "Clipboard Enhancements",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.clipboard_enhancements",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.clipboard_enhancements",
       "target_family_ids": [
         "clipboard"
       ],
@@ -357,7 +357,7 @@
     {
       "feature_id": "close_proactive_suggestions",
       "public_patch_name": "Close Proactive Suggestions",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.close_proactive_suggestions",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.close_proactive_suggestions",
       "target_family_ids": [
         "closeproactivesuggestions",
         "flag.reader"
@@ -388,7 +388,7 @@
     {
       "feature_id": "custom_symbols",
       "public_patch_name": "Custom Symbols",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.custom_symbols",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.custom_symbols",
       "target_family_ids": [
         "addsymbols",
         "keyboard.routing",
@@ -464,7 +464,7 @@
     {
       "feature_id": "custom_theme",
       "public_patch_name": "Custom Theme",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.custom_theme",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.custom_theme",
       "target_family_ids": [
         "theme.import"
       ],
@@ -503,7 +503,7 @@
     {
       "feature_id": "developer_options",
       "public_patch_name": "Developer options",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.developer_options",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.developer_options",
       "target_family_ids": [
         "developeroptions"
       ],
@@ -526,7 +526,7 @@
     {
       "feature_id": "editing_access_points",
       "public_patch_name": "Toolbar Editing Buttons",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.editing_access_points",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.editing_access_points",
       "target_family_ids": [
         "accesspoint.1803",
         "editingaccesspoints"
@@ -559,7 +559,7 @@
     {
       "feature_id": "emojis_stickers_gifs_tab_order",
       "public_patch_name": "Emojis, stickers & GIFs Tab Order",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.symbol_footer_order",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.symbol_footer_order",
       "target_family_ids": [
         "symbolfooter"
       ],
@@ -585,7 +585,7 @@
     {
       "feature_id": "enable_accessibility_layout",
       "public_patch_name": "Enable accessibility layout",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.accessibility_layout",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.accessibility_layout",
       "target_family_ids": [
         "accessibilitylayout",
         "flag.reader"
@@ -616,7 +616,7 @@
     {
       "feature_id": "enable_cursor_trackpad_mode",
       "public_patch_name": "Enable cursor trackpad mode",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.cursor_trackpad",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.cursor_trackpad",
       "target_family_ids": [
         "cursortrackpad",
         "flag.reader"
@@ -647,7 +647,7 @@
     {
       "feature_id": "enable_inline_autofill_suggestions",
       "public_patch_name": "Enable Inline Autofill Suggestions",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.device_intelligence",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.device_intelligence",
       "target_family_ids": [
         "inlineautofill",
         "flag.reader"
@@ -679,7 +679,7 @@
     {
       "feature_id": "enable_ocr_scan_text",
       "public_patch_name": "Enable OCR / Scan Text",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.ocr_scan_text",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.ocr_scan_text",
       "target_family_ids": [
         "ocr",
         "flag.reader"
@@ -729,7 +729,7 @@
     {
       "feature_id": "enable_split_keyboard",
       "public_patch_name": "Enable split keyboard",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.split_keyboard",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.split_keyboard",
       "target_family_ids": [
         "splitkeyboard"
       ],
@@ -760,7 +760,7 @@
     {
       "feature_id": "english_qwerty_up_flick_uppercase",
       "public_patch_name": "English QWERTY Up-Flick Uppercase",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.english_uppercase_toggle",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.english_uppercase_toggle",
       "target_family_ids": [
         "englishqwerty",
         "pointer.lifecycle",
@@ -816,7 +816,7 @@
     {
       "feature_id": "floating_web_search",
       "public_patch_name": "Floating Web Search",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.floating_web_search",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.floating_web_search",
       "target_family_ids": [
         "accesspoint.1803"
       ],
@@ -845,7 +845,7 @@
     {
       "feature_id": "flow_mode_animation",
       "public_patch_name": "Hyperspeed Typing Animation",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.flow_mode_animation",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.flow_mode_animation",
       "target_family_ids": [
         "flag.reader",
         "flowmode"
@@ -888,7 +888,7 @@
     {
       "feature_id": "frosted_glass",
       "public_patch_name": "Frosted Glass",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.frosted_glass",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.frosted_glass",
       "target_family_ids": [
         "frosted_glass.lifecycle"
       ],
@@ -916,7 +916,7 @@
     {
       "feature_id": "g_logo_on_spacebar",
       "public_patch_name": "G Logo on Spacebar",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.spacebar_logo",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.spacebar_logo",
       "target_family_ids": [
         "softkey.bind",
         "spacebarlogo"
@@ -960,7 +960,7 @@
     {
       "feature_id": "grammar_checker",
       "public_patch_name": "Grammar Checker",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.grammar_checker",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.grammar_checker",
       "target_family_ids": [
         "featureflags",
         "flag.reader"
@@ -992,7 +992,7 @@
     {
       "feature_id": "incognito_mode_toggle",
       "public_patch_name": "Incognito Mode Toggle",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.manual_incognito",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.manual_incognito",
       "target_family_ids": [
         "manualincognito"
       ],
@@ -1030,7 +1030,7 @@
     {
       "feature_id": "inline_suggestions",
       "public_patch_name": "Inline Suggestions",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.inline_suggestions",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.inline_suggestions",
       "target_family_ids": [
         "featureflags",
         "flag.reader"
@@ -1062,7 +1062,7 @@
     {
       "feature_id": "key_shape_selection",
       "public_patch_name": "Key Shape Selection",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.key_shape_selection",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.key_shape_selection",
       "target_family_ids": [
         "featureflags",
         "flag.reader"
@@ -1094,7 +1094,7 @@
     {
       "feature_id": "lan_ftp_server",
       "public_patch_name": "FTP Server",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.lan_ftp_server",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.lan_ftp_server",
       "target_family_ids": [],
       "migration_scope": "version-neutral-extension",
       "consumer_files": [
@@ -1118,7 +1118,7 @@
     {
       "feature_id": "latin_globe_key_ignore_interval",
       "public_patch_name": "Latin Globe Key Ignore Interval",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.latin_globe_key_ignore_interval",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.latin_globe_key_ignore_interval",
       "target_family_ids": [
         "latinglobe"
       ],
@@ -1144,7 +1144,7 @@
     {
       "feature_id": "long_press_editing_shortcuts",
       "public_patch_name": "Long-Press Editing Shortcuts",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.long_press_quick_actions",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.long_press_quick_actions",
       "target_family_ids": [
         "gesture.dispatch",
         "longpressquickactions",
@@ -1249,7 +1249,7 @@
     {
       "feature_id": "quick_insert",
       "public_patch_name": "Quick Insert",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.quick_insert",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.quick_insert",
       "target_family_ids": [
         "flag.reader",
         "quickinsert"
@@ -1280,7 +1280,7 @@
     {
       "feature_id": "rounded_keyboard_panel",
       "public_patch_name": "Rounded Keyboard Panel",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.rounded_keyboard_panel",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.rounded_keyboard_panel",
       "target_family_ids": [
         "roundedkeyboard"
       ],
@@ -1329,7 +1329,7 @@
     {
       "feature_id": "settings_homepage_override",
       "public_patch_name": "Settings Homepage Override",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.settings_homepage",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.settings_homepage",
       "target_family_ids": [
         "settingshomepage"
       ],
@@ -1355,7 +1355,7 @@
     {
       "feature_id": "simple_calculator",
       "public_patch_name": "Simple Calculator",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.simple_calculator",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.simple_calculator",
       "target_family_ids": [
         "calculator.lifecycle"
       ],
@@ -1385,7 +1385,7 @@
     {
       "feature_id": "swipe_down_to_dismiss_keyboard",
       "public_patch_name": "Swipe Down to Dismiss Keyboard",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.swipe_dismiss",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.swipe_dismiss",
       "target_family_ids": [
         "swipedismiss"
       ],
@@ -1411,7 +1411,7 @@
     {
       "feature_id": "swipeable_custom_top_row",
       "public_patch_name": "Swipeable Custom Top Row",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.top_row_swipe",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.top_row_swipe",
       "target_family_ids": [
         "gesture.dispatch",
         "pointer.lifecycle",
@@ -1497,7 +1497,7 @@
     {
       "feature_id": "use_bluetooth_microphone",
       "public_patch_name": "Use Bluetooth Microphone",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.bluetooth_microphone",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.bluetooth_microphone",
       "target_family_ids": [
         "bluetoothmicrophone",
         "flag.reader"
@@ -1528,7 +1528,7 @@
     {
       "feature_id": "web_clipboard",
       "public_patch_name": "Web Clipboard",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.web_clipboard",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.web_clipboard",
       "target_family_ids": [
         "webclipboard"
       ],
@@ -1568,7 +1568,7 @@
     {
       "feature_id": "zhuyin_bottom_row_key_sizes",
       "public_patch_name": "Zhuyin Bottom Row Key Sizes",
-      "feature_marker": "dev.pyrrolidine.gboardpatches.feature.zhuyin_bottom_row_weight",
+      "feature_marker": "dev.pyrro.gboardpatches.feature.zhuyin_bottom_row_weight",
       "target_family_ids": [
         "softkey.bind",
         "zhuyinbottomrow"

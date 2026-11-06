@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.customtheme;
+package dev.pyrro.gboardpatches.extension.customtheme;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,11 +7,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Settings page that gates entry to the Custom Theme gallery. */
 public final class GboardCustomThemeSettingsFeature

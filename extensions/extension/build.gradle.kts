@@ -87,7 +87,7 @@ val customThemeBindingsAuthority = objects.fileProperty().apply {
 }
 
 android {
-    namespace = "dev.pyrrolidine.gboardpatches.extension"
+    namespace = "dev.pyrro.gboardpatches.extension"
 
     buildFeatures {
         buildConfig = true
@@ -159,7 +159,7 @@ val generateQuickJsNativePayload = tasks.register("generateQuickJsNativePayload"
         output.parentFile.mkdirs()
         output.writeText(
             """
-            package dev.pyrrolidine.gboardpatches.extension.toprowswipe.quickjs;
+            package dev.pyrro.gboardpatches.extension.toprowswipe.quickjs;
 
             public final class QuickJsNgNativePayload {
                 private static final String ABI = "arm64-v8a";
@@ -300,12 +300,12 @@ val generateSettingsText = tasks.register("generateSettingsText") {
         )
         javaOutput.parentFile.mkdirs()
         javaOutput.writeText(buildString {
-            appendLine("package dev.pyrrolidine.gboardpatches.extension.settings;")
+            appendLine("package dev.pyrro.gboardpatches.extension.settings;")
             appendLine()
             appendLine("import java.util.HashMap;")
             appendLine("import java.util.Map;")
             appendLine()
-            appendLine("import dev.pyrrolidine.gboardpatches.extension.R;")
+            appendLine("import dev.pyrro.gboardpatches.extension.R;")
             appendLine()
             appendLine("final class GboardSettingsTextCatalog {")
             appendLine("    private static final Map<Integer, String> ENGLISH = createEnglish();")
@@ -400,7 +400,7 @@ val generateLanFtpMessageResource = tasks.register("generateLanFtpMessageResourc
         output.parentFile.mkdirs()
         output.writeText(
             """
-            package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+            package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
             import java.util.Collections;
             import java.util.HashMap;
@@ -542,7 +542,7 @@ val generateCustomThemeVersionBindings = tasks.register("generateCustomThemeVers
         output.parentFile.mkdirs()
         output.writeText(
             """
-            package dev.pyrrolidine.gboardpatches.extension.customtheme;
+            package dev.pyrro.gboardpatches.extension.customtheme;
 
             /** Generated from the reviewed Gboard target binding profile. */
             final class GboardCustomThemeVersionBindings {

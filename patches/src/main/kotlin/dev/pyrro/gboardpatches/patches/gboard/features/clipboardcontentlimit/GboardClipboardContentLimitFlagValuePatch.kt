@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.clipboardcontentlimit
+package dev.pyrro.gboardpatches.patches.gboard.features.clipboardcontentlimit
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
 
 internal val gboardClipboardContentLimitFlagValuePatch = gboardFlagFamilyFeaturePatch(
     description = "在 text_clip_item_char_limit 原始結果後套用使用者設定值",

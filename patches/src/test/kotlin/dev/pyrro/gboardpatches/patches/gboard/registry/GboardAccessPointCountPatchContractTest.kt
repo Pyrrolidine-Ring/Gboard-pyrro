@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.accesspointcount.ACCESS_POINT_COUNT_FEATURE_MARKER
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.accesspointcount.gboardAccessPointCountFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.accesspointcount.gboardAccessPointCountFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.accesspointcount.ACCESS_POINT_COUNT_FEATURE_MARKER
+import dev.pyrro.gboardpatches.patches.gboard.features.accesspointcount.gboardAccessPointCountFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.accesspointcount.gboardAccessPointCountFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertSame
 import org.junit.Assert.assertTrue
@@ -37,7 +37,7 @@ class GboardAccessPointCountPatchContractTest {
             dependency === gboardAccessPointCountFlagValuePatch
         })
         assertEquals(
-            "dev.pyrrolidine.gboardpatches.feature.access_point_count",
+            "dev.pyrro.gboardpatches.feature.access_point_count",
             ACCESS_POINT_COUNT_FEATURE_MARKER,
         )
     }

@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.spacebarlogo
+package dev.pyrro.gboardpatches.patches.gboard.features.spacebarlogo
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.afterDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.beforeDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.afterDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.beforeDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
 
 internal val SPACEBAR_LOGO_BEFORE_BIND_DELEGATE by lazy {
     GboardSoftKeyFamilyFeature.SPACEBAR_LOGO.beforeDelegate()

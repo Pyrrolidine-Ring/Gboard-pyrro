@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.accessibilitylayout
+package dev.pyrro.gboardpatches.patches.gboard.features.accessibilitylayout
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardAccessibilityLayoutFeatureMarkerPatch = resourcePatch(
     description = "標記 Show accessibility layout feature 已被打入 target APK",
@@ -15,4 +15,4 @@ internal val gboardAccessibilityLayoutFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val ACCESSIBILITY_LAYOUT_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.accessibility_layout"
+    "dev.pyrro.gboardpatches.feature.accessibility_layout"

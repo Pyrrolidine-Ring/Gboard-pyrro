@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.manualincognito
+package dev.pyrro.gboardpatches.patches.gboard.features.manualincognito
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
 
 internal object GboardManualIncognitoTargets {
     val onStartInput = method(

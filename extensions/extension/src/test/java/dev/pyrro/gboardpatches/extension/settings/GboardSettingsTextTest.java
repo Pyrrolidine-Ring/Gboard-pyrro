@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settings;
+package dev.pyrro.gboardpatches.extension.settings;
 
 import android.content.Context;
 
@@ -11,7 +11,7 @@ import org.robolectric.RuntimeEnvironment;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.R;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardSettingsTextTest {

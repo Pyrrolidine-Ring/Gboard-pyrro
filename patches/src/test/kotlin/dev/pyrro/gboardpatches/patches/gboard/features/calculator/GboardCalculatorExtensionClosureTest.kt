@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.calculator
+package dev.pyrro.gboardpatches.patches.gboard.features.calculator
 
 import java.io.File
 import org.junit.Assert.assertFalse

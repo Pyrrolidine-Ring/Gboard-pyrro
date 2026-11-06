@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.englishqwerty
+package dev.pyrro.gboardpatches.patches.gboard.features.englishqwerty
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files

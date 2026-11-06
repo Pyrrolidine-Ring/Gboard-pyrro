@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
+package dev.pyrro.gboardpatches.extension.spacebarlogo;
 
 import org.junit.Assert;
 import org.junit.Test;

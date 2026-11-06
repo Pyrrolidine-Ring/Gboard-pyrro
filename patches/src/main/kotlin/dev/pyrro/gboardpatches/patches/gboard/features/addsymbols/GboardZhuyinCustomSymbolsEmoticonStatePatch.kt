@@ -1,15 +1,15 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.addsymbols
+package dev.pyrro.gboardpatches.patches.gboard.features.addsymbols
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.BytecodePatchContext
 import app.morphe.patcher.patch.bytecodePatch
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.indexOfFirstFieldAccess
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.instructionIndices
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
+import dev.pyrro.gboardpatches.patches.gboard.shared.indexOfFirstFieldAccess
+import dev.pyrro.gboardpatches.patches.gboard.shared.instructionIndices
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 private const val EMOTICON_KEYBOARD_CLASS =
     "Lcom/google/android/apps/inputmethod/libs/search/emoticon/EmoticonKeyboardM2;"

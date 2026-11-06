@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone;
+package dev.pyrro.gboardpatches.extension.bluetoothmicrophone;
 
 import org.junit.Assert;
 import org.junit.Test;

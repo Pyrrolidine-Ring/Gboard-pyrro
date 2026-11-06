@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -17,8 +17,8 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Assert;
 import org.junit.Test;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpEngine;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpEngine;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
 
 public final class LanFtpEngineLifecycleTest {
     @Test

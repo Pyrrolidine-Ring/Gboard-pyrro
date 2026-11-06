@@ -1,21 +1,21 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.manualincognito
+package dev.pyrro.gboardpatches.patches.gboard.features.manualincognito
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.applyVoidExitLifecycleDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isInvoke
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isOpcode
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isRegisterOperation
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.returnInstructionIndices
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.applyVoidExitLifecycleDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.isInvoke
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isOpcode
+import dev.pyrro.gboardpatches.patches.gboard.shared.isRegisterOperation
+import dev.pyrro.gboardpatches.patches.gboard.shared.returnInstructionIndices
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardManualIncognitoLifecyclePatch = bytecodePatch(
     description = "在 18.0.3 input session lifecycle 與 incognito predicate 加入薄 delegate。",

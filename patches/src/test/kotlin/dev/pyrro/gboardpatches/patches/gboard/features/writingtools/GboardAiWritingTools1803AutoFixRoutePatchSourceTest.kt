@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools
+package dev.pyrro.gboardpatches.patches.gboard.features.writingtools
 
 import java.nio.file.Files
 import java.nio.file.Path

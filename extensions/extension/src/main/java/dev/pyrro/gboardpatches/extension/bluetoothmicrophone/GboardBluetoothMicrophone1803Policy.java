@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone;
+package dev.pyrro.gboardpatches.extension.bluetoothmicrophone;
 
 public final class GboardBluetoothMicrophone1803Policy {
     public static final String BLUETOOTH_MICROPHONE_FLAG =

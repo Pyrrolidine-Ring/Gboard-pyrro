@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 import android.view.inputmethod.InputConnection;
 

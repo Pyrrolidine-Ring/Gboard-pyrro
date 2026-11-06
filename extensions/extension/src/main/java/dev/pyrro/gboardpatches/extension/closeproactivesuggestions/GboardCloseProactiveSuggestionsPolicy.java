@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.closeproactivesuggestions;
+package dev.pyrro.gboardpatches.extension.closeproactivesuggestions;
 
 public final class GboardCloseProactiveSuggestionsPolicy {
     public static final String FLAG_NAME =

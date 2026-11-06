@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore;
+package dev.pyrro.gboardpatches.extension.backuprestore;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -24,9 +24,9 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardBackupRestoreLocalizationTest {

@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.accesspointcount
+package dev.pyrro.gboardpatches.patches.gboard.features.accesspointcount
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardAccessPointCountFeatureMarkerPatch = resourcePatch(
     description = "標記 Top Toolbar Item Count feature 已被打入 target APK。",
@@ -15,4 +15,4 @@ internal val gboardAccessPointCountFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val ACCESS_POINT_COUNT_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.access_point_count"
+    "dev.pyrro.gboardpatches.feature.access_point_count"

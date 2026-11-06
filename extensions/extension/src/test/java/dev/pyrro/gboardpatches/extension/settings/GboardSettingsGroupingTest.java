@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settings;
+package dev.pyrro.gboardpatches.extension.settings;
 
 import android.content.Context;
 
@@ -139,19 +139,19 @@ public final class GboardSettingsGroupingTest {
 
         Assert.assertTrue(availabilitySource.contains("FEATURE_BLUETOOTH_MICROPHONE"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.bluetooth_microphone"));
+                "dev.pyrro.gboardpatches.feature.bluetooth_microphone"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.close_proactive_suggestions"));
+                "dev.pyrro.gboardpatches.feature.close_proactive_suggestions"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.flow_mode_animation"));
+                "dev.pyrro.gboardpatches.feature.flow_mode_animation"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.quick_insert"));
+                "dev.pyrro.gboardpatches.feature.quick_insert"));
         Assert.assertTrue(availabilitySource.contains("FEATURE_ACCESS_POINT_COUNT"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.access_point_count"));
+                "dev.pyrro.gboardpatches.feature.access_point_count"));
         Assert.assertTrue(availabilitySource.contains("FEATURE_SWIPE_DISMISS"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.swipe_dismiss"));
+                "dev.pyrro.gboardpatches.feature.swipe_dismiss"));
     }
 
     @Test
@@ -166,16 +166,16 @@ public final class GboardSettingsGroupingTest {
         Assert.assertTrue(availabilitySource.contains(
                 "FEATURE_LATIN_GLOBE_KEY_IGNORE_INTERVAL"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.latin_globe_key_ignore_interval"));
+                "dev.pyrro.gboardpatches.feature.latin_globe_key_ignore_interval"));
         Assert.assertTrue(availabilitySource.contains("FEATURE_ENGLISH_UPPERCASE_TOGGLE"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.english_uppercase_toggle"));
+                "dev.pyrro.gboardpatches.feature.english_uppercase_toggle"));
         Assert.assertTrue(availabilitySource.contains("FEATURE_AI_WRITING_TOOLS"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.ai_writing_tools"));
+                "dev.pyrro.gboardpatches.feature.ai_writing_tools"));
         Assert.assertTrue(availabilitySource.contains("FEATURE_ZHUYIN_BOTTOM_ROW_WEIGHT"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.zhuyin_bottom_row_weight"));
+                "dev.pyrro.gboardpatches.feature.zhuyin_bottom_row_weight"));
         Assert.assertTrue(patchSource.contains(
                 "gboardLatinGlobeKeyIgnoreIntervalFeatureMarkerPatch"));
         Assert.assertTrue(patchSource.contains(
@@ -274,7 +274,7 @@ public final class GboardSettingsGroupingTest {
         return (Runnable) method.invoke(target);
     }
 
-    private static final class RecordingHost extends dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
+    private static final class RecordingHost extends dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
         private GboardPatchesSettingsContract.Feature openedFeature;
 
         @Override

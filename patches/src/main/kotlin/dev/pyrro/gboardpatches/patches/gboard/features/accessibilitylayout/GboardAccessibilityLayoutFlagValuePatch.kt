@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.accessibilitylayout
+package dev.pyrro.gboardpatches.patches.gboard.features.accessibilitylayout
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
 
 internal val gboardAccessibilityLayoutFlagValuePatch = gboardFlagFamilyFeaturePatch(
     description = "在 enable_pk_simulator 原始結果後套用使用者設定值",

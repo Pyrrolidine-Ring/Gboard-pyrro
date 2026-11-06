@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit;
+package dev.pyrro.gboardpatches.extension.clipboardcontentlimit;
 
 final class GboardClipboardContentLimitPolicy {
     static final String TEXT_CLIP_ITEM_CHAR_LIMIT = "text_clip_item_char_limit";

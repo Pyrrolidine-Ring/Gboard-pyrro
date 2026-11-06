@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.util
+package dev.pyrro.gboardpatches.util
 
 import app.morphe.patcher.patch.loadPatchesFromJar
-import dev.pyrrolidine.gboardpatches.patches.gboard.registry.GboardPublishedPatchCatalog
+import dev.pyrro.gboardpatches.patches.gboard.registry.GboardPublishedPatchCatalog
 import java.io.File
 import java.net.URLClassLoader
 import java.util.jar.Manifest

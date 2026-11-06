@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import org.apache.ftpserver.ftplet.AuthenticationFailedException;
 import org.apache.ftpserver.ftplet.User;
@@ -8,7 +8,7 @@ import org.apache.ftpserver.usermanager.impl.WriteRequest;
 import org.junit.Assert;
 import org.junit.Test;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpUserManager;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpUserManager;
 
 public final class LanFtpUserManagerTest {
     private static final String PASSWORD = "abcdef";

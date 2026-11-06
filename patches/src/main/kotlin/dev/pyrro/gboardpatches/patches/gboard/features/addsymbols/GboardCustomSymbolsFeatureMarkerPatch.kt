@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.addsymbols
+package dev.pyrro.gboardpatches.patches.gboard.features.addsymbols
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardCustomSymbolsFeatureMarkerPatch = resourcePatch(
     description = "標記 custom symbols feature 已被打入 target APK，共用 settings UI 過濾"
@@ -15,4 +15,4 @@ internal val gboardCustomSymbolsFeatureMarkerPatch = resourcePatch(
 }
 
 private const val CUSTOM_SYMBOLS_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.custom_symbols"
+    "dev.pyrro.gboardpatches.feature.custom_symbols"

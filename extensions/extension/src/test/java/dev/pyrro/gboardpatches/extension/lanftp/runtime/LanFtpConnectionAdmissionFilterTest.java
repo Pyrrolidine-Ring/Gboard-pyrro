@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
 import org.apache.mina.core.session.DummySession;
 import org.apache.mina.core.session.IoEvent;

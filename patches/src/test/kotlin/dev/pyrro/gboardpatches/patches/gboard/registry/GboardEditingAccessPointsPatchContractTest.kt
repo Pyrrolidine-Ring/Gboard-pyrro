@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.editingaccesspoints.gboardEditingAccessPointsLifecyclePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.editingaccesspoints.gboardEditingAccessPointsFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.accesspoint.gboardAccessPointContributions1803Patch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.features.editingaccesspoints.gboardEditingAccessPointsLifecyclePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.editingaccesspoints.gboardEditingAccessPointsFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.accesspoint.gboardAccessPointContributions1803Patch
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 import org.junit.Assert.*
 import org.junit.Test
 

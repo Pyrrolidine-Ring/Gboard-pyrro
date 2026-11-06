@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settings.keyboardpreview;
+package dev.pyrro.gboardpatches.extension.settings.keyboardpreview;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
+package dev.pyrro.gboardpatches.extension.lanftp.android;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,7 +12,7 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.shadows.ShadowContentResolver;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.config.LanFtpPreferences;
+import dev.pyrro.gboardpatches.extension.lanftp.config.LanFtpPreferences;
 
 @RunWith(RobolectricTestRunner.class)
 public final class LanFtpStartupFailureStateTest {

@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.quickinsert;
+package dev.pyrro.gboardpatches.extension.quickinsert;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardQuickInsertSettings {
     public static final String PREF_KEY_ENABLED = "pref_quick_insert_enabled";

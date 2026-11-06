@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.editingaccesspoints
+package dev.pyrro.gboardpatches.patches.gboard.features.editingaccesspoints
 
 import app.morphe.patcher.patch.BytecodePatchContext
 import com.android.tools.smali.dexlib2.AccessFlags
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFieldTarget
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.mutableClass
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFieldTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.mutableClass
 
 /** Reviewed target shape. No editor policy belongs in this version adapter. */
 internal object GboardEditingAccessPoints1803Targets {

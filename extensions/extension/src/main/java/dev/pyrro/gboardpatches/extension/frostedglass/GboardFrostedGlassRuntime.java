@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.frostedglass;
+package dev.pyrro.gboardpatches.extension.frostedglass;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -28,7 +28,7 @@ import java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicBoolean;
 import org.lsposed.hiddenapibypass.HiddenApiBypass;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 /** Android public-API runtime for a bounded IME background blur. */
 public final class GboardFrostedGlassRuntime {

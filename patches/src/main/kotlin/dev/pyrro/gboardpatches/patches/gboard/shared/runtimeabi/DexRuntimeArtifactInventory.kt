@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi
+package dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi
 
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcodes

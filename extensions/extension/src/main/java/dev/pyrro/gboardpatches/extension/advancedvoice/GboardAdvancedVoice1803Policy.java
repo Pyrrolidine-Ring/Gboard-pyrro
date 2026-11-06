@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import java.util.Locale;
 

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import dev.pyrrolidine.gboardpatches.extension.core.PatchedServiceBridge;
+import dev.pyrro.gboardpatches.extension.core.PatchedServiceBridge;
 
 public final class GboardTopRowSwipeSettings {
     private static final String REMOTE_SYNC_THREAD_NAME = "gboardpatches-top-row-remote-sync";

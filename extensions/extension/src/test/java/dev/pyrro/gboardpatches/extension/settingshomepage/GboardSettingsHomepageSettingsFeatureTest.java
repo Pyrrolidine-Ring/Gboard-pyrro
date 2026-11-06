@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settingshomepage;
+package dev.pyrro.gboardpatches.extension.settingshomepage;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = 35)
@@ -139,7 +139,7 @@ public final class GboardSettingsHomepageSettingsFeatureTest {
         return titles;
     }
 
-    private static final class CapturingHost extends dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
+    private static final class CapturingHost extends dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
         private final SharedPreferences preferences;
         private final Context context;
         private String[] choiceLabels;

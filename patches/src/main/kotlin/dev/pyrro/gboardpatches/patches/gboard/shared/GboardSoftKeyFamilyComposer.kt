@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared
+package dev.pyrro.gboardpatches.patches.gboard.shared
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.BytecodePatchContext
@@ -10,14 +10,14 @@ import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.englishqwerty.GBOARD_ENGLISH_SOFT_KEY_HELPER_NAMES
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.englishqwerty.installGboardEnglishQwertySoftKeyHelpers
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbi
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.englishqwerty.GBOARD_ENGLISH_SOFT_KEY_HELPER_NAMES
+import dev.pyrro.gboardpatches.patches.gboard.features.englishqwerty.installGboardEnglishQwertySoftKeyHelpers
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbi
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import java.util.WeakHashMap
 
 internal enum class GboardSoftKeyFamilyFeature(

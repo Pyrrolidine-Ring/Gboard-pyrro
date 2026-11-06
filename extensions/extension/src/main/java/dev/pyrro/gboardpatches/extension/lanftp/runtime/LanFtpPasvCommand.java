@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
 import java.io.IOException;
 import java.net.Inet6Address;

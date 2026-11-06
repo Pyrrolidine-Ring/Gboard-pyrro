@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

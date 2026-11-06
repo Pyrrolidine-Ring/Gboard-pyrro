@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 internal class FeatureFlagSource private constructor(
     private val tokens: List<Token>,

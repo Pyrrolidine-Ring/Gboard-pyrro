@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.developeroptions;
+package dev.pyrro.gboardpatches.extension.developeroptions;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,8 +11,8 @@ import java.nio.file.Path;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
 
 public final class GboardDeveloperOptionsSettingsFeatureTest {
     @Test
@@ -24,7 +24,7 @@ public final class GboardDeveloperOptionsSettingsFeatureTest {
                 Files.isRegularFile(sourcePath));
 
         Class<?> featureClass = Class.forName(
-                "dev.pyrrolidine.gboardpatches.extension.developeroptions."
+                "dev.pyrro.gboardpatches.extension.developeroptions."
                         + "GboardDeveloperOptionsSettingsFeature");
         Constructor<?> constructor = featureClass.getDeclaredConstructor(
                 String.class, String.class);
@@ -80,7 +80,7 @@ public final class GboardDeveloperOptionsSettingsFeatureTest {
     @Test
     public void versionSupportRequiresExactFull1803ReleaseName() throws Exception {
         String activityClassName =
-                "dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsActivity";
+                "dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsActivity";
         Method versionCheck = Class.forName(activityClassName).getDeclaredMethod(
                 "isSupportedDeveloperOptionsTargetVersion", String.class);
         versionCheck.setAccessible(true);

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -13,7 +13,7 @@ import org.apache.ftpserver.ftplet.FtpRequest;
 import org.apache.ftpserver.impl.FtpIoSession;
 import org.apache.ftpserver.impl.FtpServerContext;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs.LanFtpFile;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.fs.LanFtpFile;
 
 /** STOR implementation that promotes a closed staging file before emitting reply 226. */
 final class LanFtpStorCommand extends AbstractCommand {

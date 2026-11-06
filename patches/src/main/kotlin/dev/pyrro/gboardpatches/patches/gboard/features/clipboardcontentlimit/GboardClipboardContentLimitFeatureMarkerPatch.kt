@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.clipboardcontentlimit
+package dev.pyrro.gboardpatches.patches.gboard.features.clipboardcontentlimit
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardClipboardContentLimitFeatureMarkerPatch = resourcePatch(
     description = "標記 Clipboard Custom Character Limit feature 已被打入 target APK",
@@ -15,4 +15,4 @@ internal val gboardClipboardContentLimitFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val CLIPBOARD_CONTENT_LIMIT_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.clipboard_content_limit"
+    "dev.pyrro.gboardpatches.feature.clipboard_content_limit"

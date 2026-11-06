@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.writingtools;
+package dev.pyrro.gboardpatches.extension.writingtools;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -124,7 +124,7 @@ public final class GboardAiWritingToolsRuntimeTest {
                         proofread,
                         settings,
                         official(true, true),
-                        "dev.pyrrolidine.com.google.android.inputmethod.latin"));
+                        "dev.pyrro.com.google.android.inputmethod.latin"));
         String stylization = "composer_stylization_base";
         Assert.assertEquals("202504090000_writing_tools_config",
                 GboardAiWritingToolsRuntime.computeOverrideValue(
@@ -133,7 +133,7 @@ public final class GboardAiWritingToolsRuntimeTest {
                         stylization,
                         settings,
                         official(true, true),
-                        "dev.pyrrolidine.com.google.android.inputmethod.latin"));
+                        "dev.pyrro.com.google.android.inputmethod.latin"));
     }
 
     @Test
@@ -156,7 +156,7 @@ public final class GboardAiWritingToolsRuntimeTest {
                 wrongType,
                 serverSettings(false),
                 official(true, true),
-                "dev.pyrrolidine.com.google.android.inputmethod.latin"));
+                "dev.pyrro.com.google.android.inputmethod.latin"));
     }
 
     @Test

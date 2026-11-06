@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.util.Log;
 import java.lang.reflect.Method;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardLongPressQuickActionsRuntimeSettings {
     private static final long CACHE_WINDOW_MS = 1_000L;

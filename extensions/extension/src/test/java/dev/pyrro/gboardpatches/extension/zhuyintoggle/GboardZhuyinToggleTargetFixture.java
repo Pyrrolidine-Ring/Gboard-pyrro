@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyintoggle;
+package dev.pyrro.gboardpatches.extension.zhuyintoggle;
 
 import android.content.Context;
 
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideTargetFixture;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideTargetFixture;
 
 final class GboardZhuyinToggleTargetFixture {
     private GboardZhuyinToggleTargetFixture() {

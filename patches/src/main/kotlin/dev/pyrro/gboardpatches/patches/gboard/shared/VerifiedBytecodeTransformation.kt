@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared
+package dev.pyrro.gboardpatches.patches.gboard.shared
 
 internal enum class VerifiedTransformationState {
     STOCK,

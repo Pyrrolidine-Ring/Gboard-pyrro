@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.clipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.clipboard
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
@@ -6,16 +6,16 @@ import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationState
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.applyVerified
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isOpcode
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationState
+import dev.pyrro.gboardpatches.patches.gboard.shared.applyVerified
+import dev.pyrro.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isOpcode
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 private val COLUMN_RUNTIME_CALL = RuntimeCallId.CLIPBOARD_RUNTIME_RESOLVE_COLUMN_COUNT_OVERRIDE
 

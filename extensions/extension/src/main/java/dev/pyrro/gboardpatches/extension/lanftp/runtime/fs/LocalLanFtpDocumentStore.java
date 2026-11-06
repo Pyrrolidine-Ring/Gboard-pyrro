@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime.fs;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,7 +17,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpPath;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpPath;
 
 /** Local-file backend rooted at one canonical directory such as {@code /sdcard}. */
 public final class LocalLanFtpDocumentStore implements LanFtpDocumentStore {

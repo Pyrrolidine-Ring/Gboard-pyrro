@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit;
+package dev.pyrro.gboardpatches.extension.clipboardcontentlimit;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import java.lang.reflect.Method;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 @SuppressWarnings("unused")
 public final class GboardClipboardContentLimitRuntime {

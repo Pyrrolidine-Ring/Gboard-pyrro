@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 
 public final class GboardLongPressQuickActions1803PolicyTest {
     private static final String POLICY_CLASS =
-            "dev.pyrrolidine.gboardpatches.extension.longpressquickactions."
+            "dev.pyrro.gboardpatches.extension.longpressquickactions."
                     + "GboardLongPressQuickActions1803Policy";
 
     @Test

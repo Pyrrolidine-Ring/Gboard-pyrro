@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import android.app.Application;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.util.Log;
 import java.lang.reflect.Method;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardAdvancedVoice1803RuntimeSettings {
     private static final String TAG = "GboardPatches";

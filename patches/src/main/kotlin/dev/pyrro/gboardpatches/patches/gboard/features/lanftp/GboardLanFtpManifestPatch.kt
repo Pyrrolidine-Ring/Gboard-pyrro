@@ -1,17 +1,17 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp
+package dev.pyrro.gboardpatches.patches.gboard.features.lanftp
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestComponent
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestIntentFilter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestMetaData
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestUsesPermission
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.removeManifestAndroidAttribute
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.setManifestAndroidAttribute
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestComponent
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestIntentFilter
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestMetaData
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestUsesPermission
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.removeManifestAndroidAttribute
+import dev.pyrro.gboardpatches.patches.gboard.shared.setManifestAndroidAttribute
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Document
 
 internal val gboardLanFtpManifestPatch = resourcePatch(
@@ -181,13 +181,13 @@ private val LAN_FTP_PERMISSIONS = listOf(
 )
 
 internal const val LAN_FTP_SERVICE_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpService"
+    "dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpService"
 internal const val LAN_FTP_STATUS_PROVIDER_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpStatusProvider"
+    "dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpStatusProvider"
 internal const val LAN_FTP_TILE_SERVICE_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpTileService"
+    "dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpTileService"
 internal const val TILE_PREFERENCES_ACTIVITY_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.settings.GboardTilePreferencesActivity"
+    "dev.pyrro.gboardpatches.extension.settings.GboardTilePreferencesActivity"
 internal const val LAN_FTP_STATUS_PROVIDER_AUTHORITY_SUFFIX = ".lan_ftp_status"
 internal const val LAN_FTP_PROCESS = ":lan_file_transfer"
 private const val ACTION_QS_TILE = "android.service.quicksettings.action.QS_TILE"
@@ -197,9 +197,9 @@ private const val CATEGORY_DEFAULT = "android.intent.category.DEFAULT"
 private const val BIND_QUICK_SETTINGS_TILE_PERMISSION =
     "android.permission.BIND_QUICK_SETTINGS_TILE"
 private const val TILE_NAVIGATION_PATH_META_DATA =
-    "dev.pyrrolidine.gboardpatches.tile.NAVIGATION_PATH"
+    "dev.pyrro.gboardpatches.tile.NAVIGATION_PATH"
 private const val LAN_FTP_NAVIGATION_PATH =
-    "dev.pyrrolidine.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature"
+    "dev.pyrro.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature"
 private const val LAN_FTP_RESOURCE_ROOT = "lan-ftp-res"
 private const val LAN_FTP_FULL_BACKUP_POLICY =
     "@xml/gboard_patches_lan_ftp_backup_rules"

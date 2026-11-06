@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
+package dev.pyrro.gboardpatches.extension.spacebarlogo;
 
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideTargetFixture;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideTargetFixture;
 
 import org.junit.Assert;
 import org.junit.Test;

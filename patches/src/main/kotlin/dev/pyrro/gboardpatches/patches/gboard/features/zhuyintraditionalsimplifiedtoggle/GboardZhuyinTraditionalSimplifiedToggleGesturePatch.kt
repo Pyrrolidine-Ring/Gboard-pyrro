@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.zhuyintraditionalsimplifiedtoggle
+package dev.pyrro.gboardpatches.patches.gboard.features.zhuyintraditionalsimplifiedtoggle
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardGestureFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardGestureFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardGestureFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardGestureFamilyFeaturePatch
 
 internal val gboardZhuyinTraditionalSimplifiedToggleGesturePatch =
     gboardGestureFamilyFeaturePatch(

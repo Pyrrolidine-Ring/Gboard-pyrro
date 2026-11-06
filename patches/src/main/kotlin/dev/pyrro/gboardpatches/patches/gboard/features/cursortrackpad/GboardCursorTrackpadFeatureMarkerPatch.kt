@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.cursortrackpad
+package dev.pyrro.gboardpatches.patches.gboard.features.cursortrackpad
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardCursorTrackpadFeatureMarkerPatch = resourcePatch(
     description = "標記 Enable cursor trackpad mode feature 已被打入 target APK",
@@ -15,4 +15,4 @@ internal val gboardCursorTrackpadFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val CURSOR_TRACKPAD_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.cursor_trackpad"
+    "dev.pyrro.gboardpatches.feature.cursor_trackpad"

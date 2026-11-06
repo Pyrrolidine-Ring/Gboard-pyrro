@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.zhuyinbottomrow
+package dev.pyrro.gboardpatches.patches.gboard.features.zhuyinbottomrow
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.afterDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.afterDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
 
 internal val ZHUYIN_BOTTOM_ROW_AFTER_BIND_DELEGATE by lazy {
     GboardSoftKeyFamilyFeature.ZHUYIN_BOTTOM_ROW.afterDelegate()

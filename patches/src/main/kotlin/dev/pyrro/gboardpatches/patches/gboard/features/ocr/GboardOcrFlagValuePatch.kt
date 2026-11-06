@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.ocr
+package dev.pyrro.gboardpatches.patches.gboard.features.ocr
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 internal val gboardOcrFlagValuePatch = gboardFlagFamilyFeaturePatch(
     description = "強制啟用 stock OCR 入口與所有語言 gate。",

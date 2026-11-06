@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.websearch;
+package dev.pyrro.gboardpatches.extension.websearch;
 
 import android.content.Context;
 

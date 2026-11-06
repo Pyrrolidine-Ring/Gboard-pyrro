@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settings.keyboardpreview;
+package dev.pyrro.gboardpatches.extension.settings.keyboardpreview;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -36,8 +36,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.Supplier;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 /** Shared Patches-shell affordance for opening an editor that immediately shows Gboard. */
 public final class GboardKeyboardPreviewController {

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 import org.junit.Assert;
 import org.junit.Test;

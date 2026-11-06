@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.clipboard;
+package dev.pyrro.gboardpatches.extension.clipboard;
 
 import org.junit.Assert;
 import org.junit.Test;

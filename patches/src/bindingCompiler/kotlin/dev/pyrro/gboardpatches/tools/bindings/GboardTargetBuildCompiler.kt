@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.tools.bindings
+package dev.pyrro.gboardpatches.tools.bindings
 
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
@@ -330,7 +330,7 @@ object GboardTargetBuildCompiler {
         artifactIdentity: GboardArtifactIdentity,
         contributionsByFeature: Map<String, Set<String>>,
     ): String = buildString {
-        append("package dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated\n\n")
+        append("package dev.pyrro.gboardpatches.patches.gboard.shared.generated\n\n")
         append("import app.morphe.patcher.patch.ApkFileType\n\n")
         append("internal object GboardTargetAdmission {\n")
         append("    const val targetVersion = ").append(targetVersion.kotlinLiteral()).append("\n")

@@ -1,15 +1,15 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.webclipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.webclipboard
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestComponent
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestIntentFilter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestMetaData
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestUsesPermission
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.setManifestAndroidAttribute
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestComponent
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestIntentFilter
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestMetaData
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestUsesPermission
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.setManifestAndroidAttribute
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Document
 
 internal val gboardWebClipboardManifestPatch = resourcePatch(
@@ -130,15 +130,15 @@ private val WEB_CLIPBOARD_PERMISSIONS = listOf(
 )
 
 private const val PATCHES_SETTINGS_ACTIVITY_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsActivity"
+    "dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsActivity"
 private const val TILE_PREFERENCES_ACTIVITY_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.settings.GboardTilePreferencesActivity"
+    "dev.pyrro.gboardpatches.extension.settings.GboardTilePreferencesActivity"
 private const val CLIPBOARD_SYNC_SERVICE_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.webclipboard.ClipboardSyncService"
+    "dev.pyrro.gboardpatches.extension.webclipboard.ClipboardSyncService"
 private const val WEB_CLIPBOARD_TILE_SERVICE_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardTileService"
+    "dev.pyrro.gboardpatches.extension.webclipboard.WebClipboardTileService"
 private const val WEB_CLIPBOARD_PACKAGE_REPLACED_RECEIVER_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardPackageReplacedReceiver"
+    "dev.pyrro.gboardpatches.extension.webclipboard.WebClipboardPackageReplacedReceiver"
 private const val ACTION_QS_TILE = "android.service.quicksettings.action.QS_TILE"
 private const val ACTION_QS_TILE_PREFERENCES =
     "android.service.quicksettings.action.QS_TILE_PREFERENCES"
@@ -147,8 +147,8 @@ private const val CATEGORY_DEFAULT = "android.intent.category.DEFAULT"
 private const val BIND_QUICK_SETTINGS_TILE_PERMISSION =
     "android.permission.BIND_QUICK_SETTINGS_TILE"
 private const val TILE_NAVIGATION_PATH_META_DATA =
-    "dev.pyrrolidine.gboardpatches.tile.NAVIGATION_PATH"
+    "dev.pyrro.gboardpatches.tile.NAVIGATION_PATH"
 private const val WEB_CLIPBOARD_NAVIGATION_PATH =
-    "dev.pyrrolidine.gboardpatches.extension.clipboard.GboardClipboardSettingsFeature;" +
-        "dev.pyrrolidine.gboardpatches.extension.clipboard.GboardWebClipboardSettingsFeature"
+    "dev.pyrro.gboardpatches.extension.clipboard.GboardClipboardSettingsFeature;" +
+        "dev.pyrro.gboardpatches.extension.clipboard.GboardWebClipboardSettingsFeature"
 private const val WEB_CLIPBOARD_RESOURCE_ROOT = "web-clipboard-res"

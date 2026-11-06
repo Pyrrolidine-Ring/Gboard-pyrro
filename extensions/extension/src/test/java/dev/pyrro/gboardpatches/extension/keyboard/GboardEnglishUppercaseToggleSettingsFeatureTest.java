@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.keyboard;
+package dev.pyrro.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -14,7 +14,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public final class GboardEnglishUppercaseToggleSettingsFeatureTest {
     @Test
@@ -95,7 +95,7 @@ public final class GboardEnglishUppercaseToggleSettingsFeatureTest {
         return null;
     }
 
-    private static final class CapturingHost extends dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
+    private static final class CapturingHost extends dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
         private final SharedPreferences preferences;
         private final Context context;
 
@@ -114,7 +114,7 @@ public final class GboardEnglishUppercaseToggleSettingsFeatureTest {
 
                 @Override
                 public String getPackageName() {
-                    return "dev.pyrrolidine.gboardpatches.test";
+                    return "dev.pyrro.gboardpatches.test";
                 }
             };
         }

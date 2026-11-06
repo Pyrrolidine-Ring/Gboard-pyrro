@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.accessibilitylayout;
+package dev.pyrro.gboardpatches.extension.accessibilitylayout;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardAccessibilityLayout1803Runtime {
     private GboardAccessibilityLayout1803Runtime() {

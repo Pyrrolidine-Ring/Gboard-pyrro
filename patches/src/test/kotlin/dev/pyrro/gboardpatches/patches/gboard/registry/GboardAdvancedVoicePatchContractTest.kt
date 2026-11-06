@@ -1,12 +1,12 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.advancedvoice.gboardAdvancedVoice1803ZhTwPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.advancedvoice.gboardAdvancedVoiceFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.advancedvoice.gboardAdvancedVoiceFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.rambler.gboardRambler1803OfficialSelectorPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
+import dev.pyrro.gboardpatches.patches.gboard.features.advancedvoice.gboardAdvancedVoice1803ZhTwPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.advancedvoice.gboardAdvancedVoiceFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.advancedvoice.gboardAdvancedVoiceFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.rambler.gboardRambler1803OfficialSelectorPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

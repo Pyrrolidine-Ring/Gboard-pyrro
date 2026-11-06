@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.accesspointcount;
+package dev.pyrro.gboardpatches.extension.accesspointcount;
 
 import android.content.Context;
 import android.content.SharedPreferences;

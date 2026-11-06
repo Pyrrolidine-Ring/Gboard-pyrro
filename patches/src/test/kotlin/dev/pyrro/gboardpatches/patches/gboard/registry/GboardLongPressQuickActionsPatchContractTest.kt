@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsInputEventPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsGesturePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsPointerOwnerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsSoftKeyPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsInputEventPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsGesturePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsPointerOwnerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions.gboardLongPressQuickActionsSoftKeyPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

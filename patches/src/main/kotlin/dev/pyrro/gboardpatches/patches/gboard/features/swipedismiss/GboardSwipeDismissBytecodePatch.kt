@@ -1,17 +1,17 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.swipedismiss
+package dev.pyrro.gboardpatches.patches.gboard.features.swipedismiss
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import app.morphe.patcher.util.smali.ExternalLabel
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardSwipeDismissBytecodePatch = bytecodePatch(
     description = "在 KeyboardViewHolder.dispatchTouchEvent 注入 header 下滑關閉手勢攔截器。",

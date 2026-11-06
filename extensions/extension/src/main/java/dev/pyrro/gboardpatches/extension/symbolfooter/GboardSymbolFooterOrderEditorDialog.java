@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.symbolfooter;
+package dev.pyrro.gboardpatches.extension.symbolfooter;
 
 import android.app.Activity;
 import android.app.AlertDialog;

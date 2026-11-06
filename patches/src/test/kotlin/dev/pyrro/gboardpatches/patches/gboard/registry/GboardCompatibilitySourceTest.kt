@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import app.morphe.patcher.patch.ApkFileType
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path
@@ -52,7 +52,7 @@ class GboardCompatibilitySourceTest {
         }
         assertTrue(
             registry.contains(
-                "import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD",
+                "import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD",
             ),
         )
     }

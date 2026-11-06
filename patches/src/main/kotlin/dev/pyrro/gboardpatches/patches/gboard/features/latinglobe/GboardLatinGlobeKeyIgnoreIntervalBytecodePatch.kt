@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.latinglobe
+package dev.pyrro.gboardpatches.patches.gboard.features.latinglobe
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
@@ -16,21 +16,21 @@ import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.WideLiteralInstruction
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import com.android.tools.smali.dexlib2.iface.reference.TypeReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationState
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.applyVerified
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isInvoke
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isFieldReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isOpcode
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isRegisterOperation
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.mutableClass
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationState
+import dev.pyrro.gboardpatches.patches.gboard.shared.applyVerified
+import dev.pyrro.gboardpatches.patches.gboard.shared.isInvoke
+import dev.pyrro.gboardpatches.patches.gboard.shared.isFieldReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isOpcode
+import dev.pyrro.gboardpatches.patches.gboard.shared.isReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isRegisterOperation
+import dev.pyrro.gboardpatches.patches.gboard.shared.mutableClass
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 private const val LATIN_IME_CLASS =
     "Lcom/google/android/apps/inputmethod/libs/latin5/LatinIme;"

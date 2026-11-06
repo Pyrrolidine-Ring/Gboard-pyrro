@@ -1,14 +1,14 @@
-package dev.pyrrolidine.gboardpatches.extension.accesspoint;
+package dev.pyrro.gboardpatches.extension.accesspoint;
 
 import android.content.Context;
 import android.util.Log;
-import dev.pyrrolidine.gboardpatches.extension.editingaccesspoints.GboardEditingAccessPoints1803Contribution;
+import dev.pyrro.gboardpatches.extension.editingaccesspoints.GboardEditingAccessPoints1803Contribution;
 
 import java.lang.reflect.Field;
 
-import dev.pyrrolidine.gboardpatches.extension.manualincognito.GboardManualIncognitoRuntime;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.websearch.GboardFloatingWebSearchAccessPoint1803Contribution;
+import dev.pyrro.gboardpatches.extension.manualincognito.GboardManualIncognitoRuntime;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.websearch.GboardFloatingWebSearchAccessPoint1803Contribution;
 
 public final class GboardAccessPointContributions1803Runtime {
     private static final String TAG = "GboardPatches";

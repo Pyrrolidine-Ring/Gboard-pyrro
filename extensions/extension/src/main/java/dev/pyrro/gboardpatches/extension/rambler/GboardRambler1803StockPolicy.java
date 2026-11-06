@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.rambler;
+package dev.pyrro.gboardpatches.extension.rambler;
 
 import java.util.Arrays;
 import java.util.Collections;

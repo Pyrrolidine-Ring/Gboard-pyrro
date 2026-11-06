@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.symbolfooter;
+package dev.pyrro.gboardpatches.extension.symbolfooter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,10 +13,10 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardSymbolFooterOrderSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

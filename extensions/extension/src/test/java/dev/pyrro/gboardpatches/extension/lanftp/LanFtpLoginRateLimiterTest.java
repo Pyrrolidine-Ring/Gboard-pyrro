@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import java.lang.reflect.Field;
 import java.util.ArrayDeque;
@@ -7,7 +7,7 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpLoginRateLimiter;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpLoginRateLimiter;
 
 public final class LanFtpLoginRateLimiterTest {
     @Test

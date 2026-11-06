@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore;
+package dev.pyrro.gboardpatches.extension.backuprestore.flagstore;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

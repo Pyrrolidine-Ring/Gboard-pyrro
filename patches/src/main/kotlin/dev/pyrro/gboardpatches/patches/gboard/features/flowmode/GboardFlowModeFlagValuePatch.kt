@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.flowmode
+package dev.pyrro.gboardpatches.patches.gboard.features.flowmode
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
 
 internal val gboardFlowModeFlagValuePatch = gboardFlagFamilyFeaturePatch(
     description = "在 Flow Mode flags 的 stock result 後套用 feature 設定。",

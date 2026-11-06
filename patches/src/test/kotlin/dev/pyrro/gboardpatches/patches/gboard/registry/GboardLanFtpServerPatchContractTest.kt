@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp.LAN_FTP_FEATURE_MARKER
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp.gboardLanFtpFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp.gboardLanFtpManifestPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.lanftp.LAN_FTP_FEATURE_MARKER
+import dev.pyrro.gboardpatches.patches.gboard.features.lanftp.gboardLanFtpFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.lanftp.gboardLanFtpManifestPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.splitkeyboard
+package dev.pyrro.gboardpatches.patches.gboard.features.splitkeyboard
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFieldTarget
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFieldTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
 
 internal object GboardSplitKeyboard1803Targets {
     const val ORDER_RETURN_TYPE = "Lvvw;"

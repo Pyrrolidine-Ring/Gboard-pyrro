@@ -1,12 +1,12 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.closeproactivesuggestions.gboardCloseProactiveSuggestionsFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.closeproactivesuggestions.gboardCloseProactiveSuggestionsFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.flowmode.gboardFlowModeFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.flowmode.gboardFlowModeFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.flowmode.gboardFlowModeKeyEventPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.quickinsert.gboardQuickInsertFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.quickinsert.gboardQuickInsertFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.closeproactivesuggestions.gboardCloseProactiveSuggestionsFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.closeproactivesuggestions.gboardCloseProactiveSuggestionsFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.flowmode.gboardFlowModeFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.flowmode.gboardFlowModeFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.flowmode.gboardFlowModeKeyEventPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.quickinsert.gboardQuickInsertFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.quickinsert.gboardQuickInsertFlagValuePatch
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertSame
 import org.junit.Assert.assertTrue

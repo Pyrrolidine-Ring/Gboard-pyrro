@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.customtheme
+package dev.pyrro.gboardpatches.patches.gboard.features.customtheme
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestUsesPermission
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestUsesPermission
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardCustomThemeManifestPatch = resourcePatch(
     description = "為 Custom Theme 按需下載加入網路權限。"

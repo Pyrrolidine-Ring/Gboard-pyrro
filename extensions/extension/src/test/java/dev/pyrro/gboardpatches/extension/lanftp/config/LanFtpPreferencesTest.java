@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.config;
+package dev.pyrro.gboardpatches.extension.lanftp.config;
 
 import android.content.Context;
 import android.content.ContextWrapper;

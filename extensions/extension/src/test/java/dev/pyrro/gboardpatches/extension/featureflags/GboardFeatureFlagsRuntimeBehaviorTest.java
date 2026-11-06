@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.featureflags;
+package dev.pyrro.gboardpatches.extension.featureflags;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -12,7 +12,7 @@ import android.content.ContextWrapper;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -400,10 +400,10 @@ public final class GboardFeatureFlagsRuntimeBehaviorTest {
     public void retiredClipboardFlagsNeverReturnToTheActiveMap() throws Exception {
         Bundle retiredMarkers = new Bundle();
         retiredMarkers.putBoolean(
-                "dev.pyrrolidine.gboardpatches.feature.clipboard_entity_extraction",
+                "dev.pyrro.gboardpatches.feature.clipboard_entity_extraction",
                 true);
         retiredMarkers.putBoolean(
-                "dev.pyrrolidine.gboardpatches.feature.clipboard_item_edit",
+                "dev.pyrro.gboardpatches.feature.clipboard_item_edit",
                 true);
         installMetaData(retiredMarkers);
         resetRuntimeState();

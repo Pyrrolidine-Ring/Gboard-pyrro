@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.customtheme
+package dev.pyrro.gboardpatches.patches.gboard.features.customtheme
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardCustomThemeFeatureMarkerPatch = resourcePatch(
     description = "標記 Custom Theme feature 已被打入 target APK。"
@@ -12,4 +12,4 @@ internal val gboardCustomThemeFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val CUSTOM_THEME_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.custom_theme"
+    "dev.pyrro.gboardpatches.feature.custom_theme"

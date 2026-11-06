@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.webclipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.webclipboard
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files

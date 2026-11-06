@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.ocr
+package dev.pyrro.gboardpatches.patches.gboard.features.ocr
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
 
 internal object GboardOcrPatchTargets {
     val configLabel = method("b", "Ljava/lang/String;")

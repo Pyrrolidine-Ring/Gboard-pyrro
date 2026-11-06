@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.calculator
+package dev.pyrro.gboardpatches.patches.gboard.features.calculator
 
 import app.morphe.patcher.patch.bytecodePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.mergeBundledExtension
+import dev.pyrro.gboardpatches.patches.gboard.shared.mergeBundledExtension
 
 internal val gboardCalculatorExtensionPatch = bytecodePatch(
     description = "將 Simple Calculator 專屬 runtime extension 併入 target APK。",

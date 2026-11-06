@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
+package dev.pyrro.gboardpatches.extension.lanftp.android;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,8 +7,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
 
 public final class LanFtpPlainValueTypesTest {
     private static final Class<?>[] VALUE_TYPES = {

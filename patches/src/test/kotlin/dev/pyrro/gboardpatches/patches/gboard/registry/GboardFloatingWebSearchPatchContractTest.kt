@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.websearch.gboardFloatingWebSearchFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.websearch.gboardFloatingWebSearchManifestPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.accesspoint.gboardAccessPointContributions1803Patch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.websearch.gboardFloatingWebSearchFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.websearch.gboardFloatingWebSearchManifestPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.accesspoint.gboardAccessPointContributions1803Patch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
@@ -33,7 +33,7 @@ class GboardOcrPatchContractTest {
         )
         assertTrue(!keyboardGroup.contains("GboardLatinGlobeKeyIgnoreIntervalSettingsFeature"))
         assertTrue(availability.contains("FEATURE_OCR_SCAN_TEXT"))
-        assertTrue(availability.contains("dev.pyrrolidine.gboardpatches.feature.ocr_scan_text"))
+        assertTrue(availability.contains("dev.pyrro.gboardpatches.feature.ocr_scan_text"))
         assertTrue(settingsText.contains("<translation locale=\"zh-Hant\">OCR / 掃描文字</translation>"))
         assertTrue(settingsText.contains(
             "<translation locale=\"en\">Control the backend engine used for text " +

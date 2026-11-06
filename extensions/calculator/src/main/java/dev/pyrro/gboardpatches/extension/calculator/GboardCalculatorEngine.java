@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.calculator;
+package dev.pyrro.gboardpatches.extension.calculator;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

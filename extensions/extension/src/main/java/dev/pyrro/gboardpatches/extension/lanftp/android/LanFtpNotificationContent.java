@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
+package dev.pyrro.gboardpatches.extension.lanftp.android;
 
 import java.util.Locale;
 import java.util.Objects;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
 
 /** Pure notification presentation derived from a portable runtime session snapshot. */
 final class LanFtpNotificationContent {

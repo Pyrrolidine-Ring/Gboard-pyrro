@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.clipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.clipboard
 
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import com.android.tools.smali.dexlib2.iface.instruction.Instruction
 import com.android.tools.smali.dexlib2.iface.instruction.OffsetInstruction
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardStructuralFingerprint
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isInvoke
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReferenceInClass
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardStructuralFingerprint
+import dev.pyrro.gboardpatches.patches.gboard.shared.isInvoke
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReferenceInClass
 
 internal fun MutableMethod.requireExactClipboardTarget(
     owner: String,

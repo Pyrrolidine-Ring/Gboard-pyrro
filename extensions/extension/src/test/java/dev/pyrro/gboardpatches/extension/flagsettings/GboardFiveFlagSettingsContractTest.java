@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.flagsettings;
+package dev.pyrro.gboardpatches.extension.flagsettings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -14,22 +14,22 @@ import org.robolectric.RuntimeEnvironment;
 import java.util.Arrays;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.accessibilitylayout.GboardAccessibilityLayoutSettings;
-import dev.pyrrolidine.gboardpatches.extension.accessibilitylayout.GboardAccessibilityLayoutSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.accesspointsmenu.GboardAccessPointsMenuSettings;
-import dev.pyrrolidine.gboardpatches.extension.accesspointsmenu.GboardAccessPointsMenuSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettings;
-import dev.pyrrolidine.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.emojisize.GboardEmojiSizeSettings;
-import dev.pyrrolidine.gboardpatches.extension.emojisize.GboardEmojiSizeSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardKeyboardLayoutSettingsGroupFeature;
-import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardKeyboardToolsSettingsGroupFeature;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
-import dev.pyrrolidine.gboardpatches.extension.splitkeyboard.GboardSplitKeyboardSettings;
-import dev.pyrrolidine.gboardpatches.extension.splitkeyboard.GboardSplitKeyboardSettingsFeature;
+import dev.pyrro.gboardpatches.extension.accessibilitylayout.GboardAccessibilityLayoutSettings;
+import dev.pyrro.gboardpatches.extension.accessibilitylayout.GboardAccessibilityLayoutSettingsFeature;
+import dev.pyrro.gboardpatches.extension.accesspointsmenu.GboardAccessPointsMenuSettings;
+import dev.pyrro.gboardpatches.extension.accesspointsmenu.GboardAccessPointsMenuSettingsFeature;
+import dev.pyrro.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettings;
+import dev.pyrro.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettingsFeature;
+import dev.pyrro.gboardpatches.extension.emojisize.GboardEmojiSizeSettings;
+import dev.pyrro.gboardpatches.extension.emojisize.GboardEmojiSizeSettingsFeature;
+import dev.pyrro.gboardpatches.extension.keyboard.GboardKeyboardLayoutSettingsGroupFeature;
+import dev.pyrro.gboardpatches.extension.keyboard.GboardKeyboardToolsSettingsGroupFeature;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
+import dev.pyrro.gboardpatches.extension.splitkeyboard.GboardSplitKeyboardSettings;
+import dev.pyrro.gboardpatches.extension.splitkeyboard.GboardSplitKeyboardSettingsFeature;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardFiveFlagSettingsContractTest {

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore;
+package dev.pyrro.gboardpatches.extension.backuprestore;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -17,21 +17,21 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.BuildConfig;
-import dev.pyrrolidine.gboardpatches.extension.clipboard.GboardClipboardSettings;
-import dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit.GboardClipboardContentLimitSettings;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.config.LanFtpPreferences;
-import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardEnglishUppercaseToggleSettings;
-import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardLatinGlobeKeyIgnoreIntervalSettings;
-import dev.pyrrolidine.gboardpatches.extension.manualincognito.GboardManualIncognitoSettings;
-import dev.pyrrolidine.gboardpatches.extension.ocr.GboardOcrSettings;
-import dev.pyrrolidine.gboardpatches.extension.settingshomepage.GboardSettingsHomepageSettings;
-import dev.pyrrolidine.gboardpatches.extension.symbolfooter.GboardSymbolFooterOrderSettings;
-import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
-import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardPreferences;
-import dev.pyrrolidine.gboardpatches.extension.writingtools.GboardAiWritingToolsSettings;
-import dev.pyrrolidine.gboardpatches.extension.zhuyinbottomrow.GboardZhuyinBottomRowWeightSettings;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.BuildConfig;
+import dev.pyrro.gboardpatches.extension.clipboard.GboardClipboardSettings;
+import dev.pyrro.gboardpatches.extension.clipboardcontentlimit.GboardClipboardContentLimitSettings;
+import dev.pyrro.gboardpatches.extension.lanftp.config.LanFtpPreferences;
+import dev.pyrro.gboardpatches.extension.keyboard.GboardEnglishUppercaseToggleSettings;
+import dev.pyrro.gboardpatches.extension.keyboard.GboardLatinGlobeKeyIgnoreIntervalSettings;
+import dev.pyrro.gboardpatches.extension.manualincognito.GboardManualIncognitoSettings;
+import dev.pyrro.gboardpatches.extension.ocr.GboardOcrSettings;
+import dev.pyrro.gboardpatches.extension.settingshomepage.GboardSettingsHomepageSettings;
+import dev.pyrro.gboardpatches.extension.symbolfooter.GboardSymbolFooterOrderSettings;
+import dev.pyrro.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
+import dev.pyrro.gboardpatches.extension.webclipboard.WebClipboardPreferences;
+import dev.pyrro.gboardpatches.extension.writingtools.GboardAiWritingToolsSettings;
+import dev.pyrro.gboardpatches.extension.zhuyinbottomrow.GboardZhuyinBottomRowWeightSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 /** Lossless typed JSON backup for Gboard Patches-owned settings stores. */
 public final class GboardPatchesBackupManager {

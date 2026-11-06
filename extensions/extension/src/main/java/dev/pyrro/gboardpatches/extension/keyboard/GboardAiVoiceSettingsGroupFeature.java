@@ -1,17 +1,17 @@
-package dev.pyrrolidine.gboardpatches.extension.keyboard;
+package dev.pyrro.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 
 import java.util.Arrays;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.advancedvoice.GboardAdvancedVoiceSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone.GboardBluetoothMicrophoneSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardFeatureGroup;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
-import dev.pyrrolidine.gboardpatches.extension.writingtools.GboardAiWritingToolsSettingsFeature;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.advancedvoice.GboardAdvancedVoiceSettingsFeature;
+import dev.pyrro.gboardpatches.extension.bluetoothmicrophone.GboardBluetoothMicrophoneSettingsFeature;
+import dev.pyrro.gboardpatches.extension.settings.GboardFeatureGroup;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.writingtools.GboardAiWritingToolsSettingsFeature;
 
 public final class GboardAiVoiceSettingsGroupFeature
         implements GboardPatchesSettingsContract.Feature {

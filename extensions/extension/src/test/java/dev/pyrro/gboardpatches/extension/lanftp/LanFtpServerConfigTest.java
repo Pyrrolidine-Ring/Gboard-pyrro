@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
 
 public final class LanFtpServerConfigTest {
     @Test

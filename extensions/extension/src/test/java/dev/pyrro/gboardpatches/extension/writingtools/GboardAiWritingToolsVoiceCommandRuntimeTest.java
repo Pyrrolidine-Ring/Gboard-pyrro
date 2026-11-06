@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.writingtools;
+package dev.pyrro.gboardpatches.extension.writingtools;
 
 import org.junit.Assert;
 import org.junit.Test;

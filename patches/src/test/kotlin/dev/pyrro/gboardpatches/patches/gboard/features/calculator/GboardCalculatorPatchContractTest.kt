@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.calculator
+package dev.pyrro.gboardpatches.patches.gboard.features.calculator
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

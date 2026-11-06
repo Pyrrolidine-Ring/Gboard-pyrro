@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.calculator;
+package dev.pyrro.gboardpatches.extension.calculator;
 
 import org.junit.Assert;
 import org.junit.Test;

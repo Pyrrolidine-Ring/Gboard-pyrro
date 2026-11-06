@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.ocr;
+package dev.pyrro.gboardpatches.extension.ocr;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -14,8 +14,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost;
 
 public final class GboardOcrSettingsFeatureTest {
     @After
@@ -197,7 +197,7 @@ public final class GboardOcrSettingsFeatureTest {
 
                 @Override
                 public String getPackageName() {
-                    return "dev.pyrrolidine.gboardpatches.test";
+                    return "dev.pyrro.gboardpatches.test";
                 }
             };
         }

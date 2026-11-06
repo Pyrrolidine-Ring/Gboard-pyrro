@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,7 +28,7 @@ public final class GboardOfflineSpeechLanguageFormatterTest {
     private static List<String> format(List<String> tags, Locale locale) throws Exception {
         try {
             Class<?> formatter = Class.forName(
-                    "dev.pyrrolidine.gboardpatches.extension.advancedvoice."
+                    "dev.pyrro.gboardpatches.extension.advancedvoice."
                             + "GboardOfflineSpeechLanguageFormatter");
             Method method = formatter.getMethod("format", List.class, Locale.class);
             return (List<String>) method.invoke(null, tags, locale);

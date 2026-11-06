@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyintoggle;
+package dev.pyrro.gboardpatches.extension.zhuyintoggle;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -122,7 +122,7 @@ public final class GboardZhuyinTraditionalSimplifiedToggleRuntimeSourceTest {
                 "private static final class WeakIdentityMap");
 
         assertTrue(runtime.contains(
-                "import dev.pyrrolidine.gboardpatches.extension.zhuyinslide."
+                "import dev.pyrro.gboardpatches.extension.zhuyinslide."
                         + "GboardZhuyinSlideRuntime;"));
         assertTrue(markMethod.contains(
                 "GboardZhuyinSlideRuntime.inheritPatchedMetadata(base, patched);"));

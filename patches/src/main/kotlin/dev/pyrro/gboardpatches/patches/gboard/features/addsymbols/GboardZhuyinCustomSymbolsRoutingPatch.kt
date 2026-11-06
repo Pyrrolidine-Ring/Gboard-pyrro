@@ -1,17 +1,17 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.addsymbols
+package dev.pyrro.gboardpatches.patches.gboard.features.addsymbols
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.BytecodePatchContext
 import app.morphe.patcher.patch.bytecodePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.mutableClass
+import dev.pyrro.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
+import dev.pyrro.gboardpatches.patches.gboard.shared.mutableClass
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 private const val PROVIDER_RECEIVER_WRAPPER_CLASS = "Loyc;"
 private const val METRICS_UTILS_CLASS = "Lhyx;"

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 import android.view.inputmethod.InputConnection;
 
@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public final class GboardLongPressQuickActions1803RuntimeTest {
     private static final String RUNTIME_CLASS =
-            "dev.pyrrolidine.gboardpatches.extension.longpressquickactions."
+            "dev.pyrro.gboardpatches.extension.longpressquickactions."
                     + "GboardLongPressQuickActions1803Runtime";
 
     @Test

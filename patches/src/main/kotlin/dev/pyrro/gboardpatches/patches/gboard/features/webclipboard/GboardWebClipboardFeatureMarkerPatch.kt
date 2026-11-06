@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.webclipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.webclipboard
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Element
 
 internal val gboardWebClipboardFeatureMarkerPatch = resourcePatch(
@@ -48,4 +48,4 @@ private fun Element.setAndroidAttribute(localName: String, value: String) {
 }
 
 private const val WEB_CLIPBOARD_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.web_clipboard"
+    "dev.pyrro.gboardpatches.feature.web_clipboard"

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyinslide;
+package dev.pyrro.gboardpatches.extension.zhuyinslide;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
-import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
+import dev.pyrro.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettings;
 
 public final class QuickJsScriptEvaluator {
     public static final class Result {

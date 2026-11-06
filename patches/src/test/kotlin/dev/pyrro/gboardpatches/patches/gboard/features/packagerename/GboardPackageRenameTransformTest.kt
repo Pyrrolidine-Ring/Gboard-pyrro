@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.packagerename
+package dev.pyrro.gboardpatches.patches.gboard.features.packagerename
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.applyGboardPatchesSettings
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.applyGboardPatchesSettings
 import java.io.ByteArrayInputStream
 import java.io.StringWriter
 import java.nio.charset.StandardCharsets
@@ -472,14 +472,14 @@ class GboardPackageRenameTransformTest {
         service.setAttributeNS(
             ANDROID_NS,
             "android:name",
-            "dev.pyrrolidine.gboardpatches.extension.webclipboard.ClipboardSyncService",
+            "dev.pyrro.gboardpatches.extension.webclipboard.ClipboardSyncService",
         )
         application.appendChild(service)
 
         applyGboardPackageRename(manifest, loadSettingsDocuments())
 
         assertEquals(
-            "dev.pyrrolidine.gboardpatches.extension.webclipboard.ClipboardSyncService",
+            "dev.pyrro.gboardpatches.extension.webclipboard.ClipboardSyncService",
             androidAttribute(service, "name"),
         )
     }
@@ -640,12 +640,12 @@ class GboardPackageRenameTransformTest {
 
     private companion object {
         const val SOURCE_PACKAGE = "com.google.android.inputmethod.latin"
-        const val FINAL_PACKAGE = "dev.pyrrolidine.com.google.android.inputmethod.latin"
-        const val DOUBLE_PREFIX = "dev.pyrrolidine.dev.pyrrolidine.com.google.android.inputmethod.latin"
+        const val FINAL_PACKAGE = "dev.pyrro.com.google.android.inputmethod.latin"
+        const val DOUBLE_PREFIX = "dev.pyrro.dev.pyrro.com.google.android.inputmethod.latin"
         const val SETTINGS_ACTIVITY_CLASS =
-            "dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsActivity"
+            "dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsActivity"
         const val SETTINGS_PROVIDER_CLASS =
-            "dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsProvider"
+            "dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsProvider"
         const val MANIFEST_FIXTURE =
             "/gboard/18.0.3/package-rename/AndroidManifest.normalized.xml"
         const val SETTINGS_FIXTURE = "/gboard/18.0.3/package-rename/settings.xml"

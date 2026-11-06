@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.closeproactivesuggestions;
+package dev.pyrro.gboardpatches.extension.closeproactivesuggestions;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardCloseProactiveSuggestionsSettings {
     public static final String PREF_KEY_ENABLED =

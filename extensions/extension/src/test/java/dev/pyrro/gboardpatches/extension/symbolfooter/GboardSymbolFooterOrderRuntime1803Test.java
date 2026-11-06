@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.symbolfooter;
+package dev.pyrro.gboardpatches.extension.symbolfooter;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -27,7 +27,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsProvider;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsProvider;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardSymbolFooterOrderRuntime1803Test {

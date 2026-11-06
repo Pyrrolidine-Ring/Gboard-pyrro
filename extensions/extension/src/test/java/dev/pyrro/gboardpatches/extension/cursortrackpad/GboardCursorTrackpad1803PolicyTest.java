@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.cursortrackpad;
+package dev.pyrro.gboardpatches.extension.cursortrackpad;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.toprowswipe
+package dev.pyrro.gboardpatches.patches.gboard.features.toprowswipe
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
-import dev.pyrrolidine.gboardpatches.patches.gboard.registry.gboardCustomTopRowSwipePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
+import dev.pyrro.gboardpatches.patches.gboard.registry.gboardCustomTopRowSwipePatch
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

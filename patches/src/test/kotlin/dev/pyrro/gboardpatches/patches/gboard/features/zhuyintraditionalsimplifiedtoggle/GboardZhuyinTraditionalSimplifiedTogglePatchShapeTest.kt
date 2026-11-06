@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.zhuyintraditionalsimplifiedtoggle
+package dev.pyrro.gboardpatches.patches.gboard.features.zhuyintraditionalsimplifiedtoggle
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
 import java.nio.file.Files
 import java.nio.file.Path
 import org.junit.Assert.assertEquals

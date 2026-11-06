@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyintoggle;
+package dev.pyrro.gboardpatches.extension.zhuyintoggle;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -6,7 +6,7 @@ import android.inputmethodservice.InputMethodService;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideRuntime;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideRuntime;
 
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;

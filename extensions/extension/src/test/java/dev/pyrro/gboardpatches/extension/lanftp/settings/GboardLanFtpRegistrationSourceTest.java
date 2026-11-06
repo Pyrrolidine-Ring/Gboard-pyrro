@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.settings;
+package dev.pyrro.gboardpatches.extension.lanftp.settings;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,7 +28,7 @@ public final class GboardLanFtpRegistrationSourceTest {
                 + "lanftp/android/LanFtpStatusProvider.java");
 
         Assert.assertTrue(availability.contains(
-                "dev.pyrrolidine.gboardpatches.feature.lan_ftp_server"));
+                "dev.pyrro.gboardpatches.feature.lan_ftp_server"));
         int clipboard = registry.indexOf("new GboardClipboardSettingsFeature()");
         int ftp = registry.indexOf("new GboardLanFtpSettingsFeature(context)");
         int settingsHomepage = registry.indexOf("new GboardSettingsHomepageSettingsFeature()");

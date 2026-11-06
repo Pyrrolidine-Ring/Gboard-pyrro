@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.clipboard;
+package dev.pyrro.gboardpatches.extension.clipboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardPreferences;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.webclipboard.WebClipboardPreferences;
 
 public final class GboardWebClipboardSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

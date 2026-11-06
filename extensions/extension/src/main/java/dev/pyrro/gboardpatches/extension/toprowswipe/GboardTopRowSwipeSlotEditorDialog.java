@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import dev.pyrrolidine.gboardpatches.extension.toprowswipe.QuickJsScriptEvaluator;
+import dev.pyrro.gboardpatches.extension.toprowswipe.QuickJsScriptEvaluator;
 
 final class GboardTopRowSwipeSlotEditorDialog {
     private static final String TAG = "GboardTopRowSwipe";

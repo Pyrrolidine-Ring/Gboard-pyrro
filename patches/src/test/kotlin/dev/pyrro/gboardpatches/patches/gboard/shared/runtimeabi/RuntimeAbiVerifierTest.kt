@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi
+package dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

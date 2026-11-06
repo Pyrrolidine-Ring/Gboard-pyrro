@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.bluetoothmicrophone;
+package dev.pyrro.gboardpatches.extension.bluetoothmicrophone;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 public final class GboardBluetoothMicrophone1803Runtime {
     private static final String TAG = "GboardPatches";

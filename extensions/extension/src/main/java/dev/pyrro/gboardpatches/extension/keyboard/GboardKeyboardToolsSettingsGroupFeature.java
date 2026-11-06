@@ -1,24 +1,24 @@
-package dev.pyrrolidine.gboardpatches.extension.keyboard;
+package dev.pyrro.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 
 import java.util.Arrays;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.editingaccesspoints.GboardEditingAccessPointsSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.calculator.GboardCalculatorSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.longpressquickactions.GboardLongPressQuickActionsSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.manualincognito.GboardManualIncognitoSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.ocr.GboardOcrSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.quickinsert.GboardQuickInsertSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardFeatureGroup;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
-import dev.pyrrolidine.gboardpatches.extension.swipedismiss.GboardSwipeDismissSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.websearch.GboardFloatingWebSearchSettingsFeature;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.editingaccesspoints.GboardEditingAccessPointsSettingsFeature;
+import dev.pyrro.gboardpatches.extension.calculator.GboardCalculatorSettingsFeature;
+import dev.pyrro.gboardpatches.extension.cursortrackpad.GboardCursorTrackpadSettingsFeature;
+import dev.pyrro.gboardpatches.extension.longpressquickactions.GboardLongPressQuickActionsSettingsFeature;
+import dev.pyrro.gboardpatches.extension.manualincognito.GboardManualIncognitoSettingsFeature;
+import dev.pyrro.gboardpatches.extension.ocr.GboardOcrSettingsFeature;
+import dev.pyrro.gboardpatches.extension.quickinsert.GboardQuickInsertSettingsFeature;
+import dev.pyrro.gboardpatches.extension.settings.GboardFeatureGroup;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.swipedismiss.GboardSwipeDismissSettingsFeature;
+import dev.pyrro.gboardpatches.extension.toprowswipe.GboardTopRowSwipeSettingsFeature;
+import dev.pyrro.gboardpatches.extension.websearch.GboardFloatingWebSearchSettingsFeature;
 
 public final class GboardKeyboardToolsSettingsGroupFeature
         implements GboardPatchesSettingsContract.Feature {

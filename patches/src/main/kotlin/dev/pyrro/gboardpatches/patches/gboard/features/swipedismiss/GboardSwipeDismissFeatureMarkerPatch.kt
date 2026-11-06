@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.swipedismiss
+package dev.pyrro.gboardpatches.patches.gboard.features.swipedismiss
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardSwipeDismissFeatureMarkerPatch = resourcePatch(
     description = "標記 Swipe Down to Dismiss Keyboard feature 已被打入 target APK，共用 settings UI 過濾。",
@@ -15,4 +15,4 @@ internal val gboardSwipeDismissFeatureMarkerPatch = resourcePatch(
 }
 
 private const val SWIPE_DISMISS_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.swipe_dismiss"
+    "dev.pyrro.gboardpatches.feature.swipe_dismiss"

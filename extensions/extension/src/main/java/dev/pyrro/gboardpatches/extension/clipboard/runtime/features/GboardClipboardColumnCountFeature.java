@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.clipboard;
+package dev.pyrro.gboardpatches.extension.clipboard;
 
 import android.content.Context;
 

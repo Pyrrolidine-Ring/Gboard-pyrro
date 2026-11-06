@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -28,8 +28,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public final class GboardTopRowSwipeSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.spacebarlogo;
+package dev.pyrro.gboardpatches.extension.spacebarlogo;
 
 import android.content.Context;
 import android.graphics.Canvas;

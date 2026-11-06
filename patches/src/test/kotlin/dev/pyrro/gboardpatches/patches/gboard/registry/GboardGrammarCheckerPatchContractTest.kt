@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.gboardGrammarCheckerFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.gboardGrammarCheckerFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.gboardGrammarCheckerFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.gboardGrammarCheckerFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path
@@ -226,7 +226,7 @@ class GboardGrammarCheckerPatchContractTest {
                     """\"dev\.jason\.gboardpatches\.feature\.grammar_checker\"""",
             ),
             "// private const val GRAMMAR_CHECKER_FEATURE_MARKER_NAME =\n" +
-                "//     \"dev.pyrrolidine.gboardpatches.feature.grammar_checker\"",
+                "//     \"dev.pyrro.gboardpatches.feature.grammar_checker\"",
         )
 
         assertNotEquals(markerSource, mutatedMarker)
@@ -282,7 +282,7 @@ class GboardGrammarCheckerPatchContractTest {
                     """\"dev\.jason\.gboardpatches\.feature\.grammar_checker\";""",
             ),
             "// public static final String FEATURE_GRAMMAR_CHECKER = " +
-                "\"dev.pyrrolidine.gboardpatches.feature.grammar_checker\";",
+                "\"dev.pyrro.gboardpatches.feature.grammar_checker\";",
         )
 
         assertNotEquals(availabilitySource, mutatedAvailability)
@@ -338,7 +338,7 @@ class GboardGrammarCheckerPatchContractTest {
     private companion object {
         const val GBOARD_PACKAGE = "com.google.android.inputmethod.latin"
         const val GRAMMAR_FLAG = "enable_grammar_checker"
-        const val GRAMMAR_MARKER = "dev.pyrrolidine.gboardpatches.feature.grammar_checker"
+        const val GRAMMAR_MARKER = "dev.pyrro.gboardpatches.feature.grammar_checker"
         const val TARGET_VERSION = "18.0.3.954559732-release-arm64-v8a"
         const val GRAMMAR_MARKER_PATH =
             "patches/src/main/kotlin/dev/pyrro/gboardpatches/patches/gboard/features/" +
@@ -357,9 +357,9 @@ class GboardGrammarCheckerPatchContractTest {
             runtimeFlagConstantName = "FLAG_GRAMMAR_CHECKER",
             runtimeFlagLiteral = GRAMMAR_FLAG,
             siblingMarkerLiterals = listOf(
-                "dev.pyrrolidine.gboardpatches.feature.device_intelligence",
-                "dev.pyrrolidine.gboardpatches.feature.inline_suggestions",
-                "dev.pyrrolidine.gboardpatches.feature.key_shape_selection",
+                "dev.pyrro.gboardpatches.feature.device_intelligence",
+                "dev.pyrro.gboardpatches.feature.inline_suggestions",
+                "dev.pyrro.gboardpatches.feature.key_shape_selection",
             ),
         )
     }

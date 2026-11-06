@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser

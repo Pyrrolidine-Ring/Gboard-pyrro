@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.settingshomepage
+package dev.pyrro.gboardpatches.patches.gboard.features.settingshomepage
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Element
 
 internal val gboardSettingsHomepageFeatureMarkerPatch = resourcePatch(
@@ -48,4 +48,4 @@ private fun Element.setAndroidAttribute(localName: String, value: String) {
 }
 
 private const val SETTINGS_HOMEPAGE_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.settings_homepage"
+    "dev.pyrro.gboardpatches.feature.settings_homepage"

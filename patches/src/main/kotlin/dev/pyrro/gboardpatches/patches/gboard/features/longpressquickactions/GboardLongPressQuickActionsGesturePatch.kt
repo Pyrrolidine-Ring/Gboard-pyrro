@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.longpressquickactions
+package dev.pyrro.gboardpatches.patches.gboard.features.longpressquickactions
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardGestureFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardGestureFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardGestureFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardGestureFamilyFeaturePatch
 
 internal val gboardLongPressQuickActionsGesturePatch = gboardGestureFamilyFeaturePatch(
     description = "Consume owned globe-drag editing gestures before other gesture policies.",

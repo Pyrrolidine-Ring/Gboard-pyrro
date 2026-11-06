@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.customtheme;
+package dev.pyrro.gboardpatches.extension.customtheme;
 
 import android.content.Context;
 import org.json.JSONArray;

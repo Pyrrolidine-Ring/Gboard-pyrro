@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.zhuyintraditionalsimplifiedtoggle
+package dev.pyrro.gboardpatches.patches.gboard.features.zhuyintraditionalsimplifiedtoggle
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.afterDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.beforeDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.afterDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.beforeDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
 
 internal val ZHUYIN_TOGGLE_PATCH_INCOMING_METADATA_DELEGATE by lazy {
     GboardSoftKeyFamilyFeature.ZHUYIN_TOGGLE.beforeDelegate()

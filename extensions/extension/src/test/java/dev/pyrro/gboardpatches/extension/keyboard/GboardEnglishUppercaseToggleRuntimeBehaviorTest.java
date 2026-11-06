@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.keyboard;
+package dev.pyrro.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 import android.content.ContextWrapper;

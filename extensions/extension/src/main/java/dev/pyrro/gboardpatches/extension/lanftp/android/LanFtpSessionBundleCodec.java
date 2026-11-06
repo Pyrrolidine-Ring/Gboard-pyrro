@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
+package dev.pyrro.gboardpatches.extension.lanftp.android;
 
 import android.os.Bundle;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
 
 /** Sole Android IPC codec for the atomic LAN FTP session value. */
 final class LanFtpSessionBundleCodec {

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.config;
+package dev.pyrro.gboardpatches.extension.lanftp.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,10 +9,10 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpServerConfigSnapshot;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpPortPolicy;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpCredentialPolicy;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpServerConfigSnapshot;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpPortPolicy;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpCredentialPolicy;
 
 /** Persistent user settings and conservative implementation defaults for the LAN FTP server. */
 public final class LanFtpPreferences {

@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.addsymbols
+package dev.pyrro.gboardpatches.patches.gboard.features.addsymbols
 
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.indexOfFirstMethodCall
+import dev.pyrro.gboardpatches.patches.gboard.shared.indexOfFirstMethodCall
 
 internal fun MutableMethod.returnRegisterAt(index: Int): Int {
     val instructions = implementation?.instructions ?: error("No instructions available")

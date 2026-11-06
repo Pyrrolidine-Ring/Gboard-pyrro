@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools
+package dev.pyrro.gboardpatches.patches.gboard.features.writingtools
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 internal const val AI_WRITING_TOOLS_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.ai_writing_tools"
+    "dev.pyrro.gboardpatches.feature.ai_writing_tools"
 internal val AI_WRITING_TOOLS_RUNTIME_CLASS = RuntimeAbiCatalog.abi(
     RuntimeCallId.AI_WRITING_TOOLS_RUNTIME_APPLY_OVERRIDDEN_FLAG_VALUE,
 ).owner

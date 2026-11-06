@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
+package dev.pyrro.gboardpatches.extension.lanftp.android;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
 
 /** Single sanitized value type shared by the service registry, provider and UI controller. */
 public final class LanFtpRuntimeStatus {

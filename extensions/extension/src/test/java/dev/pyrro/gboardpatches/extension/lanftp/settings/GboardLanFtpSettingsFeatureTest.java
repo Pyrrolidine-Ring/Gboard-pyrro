@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.settings;
+package dev.pyrro.gboardpatches.extension.lanftp.settings;
 
 import android.content.Context;
 
@@ -10,11 +10,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpRuntimeStatus;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpServerState;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.config.LanFtpPreferences;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
+import dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpRuntimeStatus;
+import dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpServerState;
+import dev.pyrro.gboardpatches.extension.lanftp.config.LanFtpPreferences;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpSessionInfo;
 
 public final class GboardLanFtpSettingsFeatureTest {
     private static LanFtpServerState state(LanFtpPreferences.Snapshot settings,

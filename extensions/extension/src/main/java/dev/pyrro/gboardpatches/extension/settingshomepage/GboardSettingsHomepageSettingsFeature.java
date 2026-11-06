@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settingshomepage;
+package dev.pyrro.gboardpatches.extension.settingshomepage;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,10 +9,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardSettingsHomepageSettingsFeature
         implements GboardPatchesSettingsContract.Feature {

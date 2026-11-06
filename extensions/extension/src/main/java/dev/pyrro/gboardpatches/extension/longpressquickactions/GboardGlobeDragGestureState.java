@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 /** Version-independent ownership state for one globe-drag gesture. */
 final class GboardGlobeDragGestureState {

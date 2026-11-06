@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.clipboard;
+package dev.pyrro.gboardpatches.extension.clipboard;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardPreferences;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.webclipboard.WebClipboardPreferences;
 
 public final class GboardClipboardSettingsFeatureTest {
     @Test
@@ -154,7 +154,7 @@ public final class GboardClipboardSettingsFeatureTest {
         throw new AssertionError("Row is not actionable: " + row.getClass().getSimpleName());
     }
 
-    private static final class CapturingHost extends dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
+    private static final class CapturingHost extends dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
         private final SharedPreferences preferences;
         private final Context context;
         private GboardPatchesSettingsContract.Feature openedFeature;
@@ -179,7 +179,7 @@ public final class GboardClipboardSettingsFeatureTest {
 
                 @Override
                 public String getPackageName() {
-                    return "dev.pyrrolidine.gboardpatches.test";
+                    return "dev.pyrro.gboardpatches.test";
                 }
 
                 @Override

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime.fs;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpPath;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpPath;
 
 /**
  * Keeps an in-flight upload hidden until it can safely replace the final file.

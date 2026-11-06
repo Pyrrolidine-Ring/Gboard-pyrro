@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.accessibilitylayout;
+package dev.pyrro.gboardpatches.extension.accessibilitylayout;
 
 import org.junit.Assert;
 import org.junit.Test;

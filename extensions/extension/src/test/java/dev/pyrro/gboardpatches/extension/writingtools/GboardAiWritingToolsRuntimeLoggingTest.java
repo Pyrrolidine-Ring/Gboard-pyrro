@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.writingtools;
+package dev.pyrro.gboardpatches.extension.writingtools;
 
 import android.content.Context;
 import android.content.ContextWrapper;

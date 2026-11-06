@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.tools.bindings
+package dev.pyrro.gboardpatches.tools.bindings
 
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject

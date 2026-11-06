@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore;
+package dev.pyrro.gboardpatches.extension.backuprestore.flagstore;
 
 /** Version-neutral classification and metadata for Gboard's persisted flag-store files. */
 public final class GboardFlagStorageStatus {

@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.quickinsert
+package dev.pyrro.gboardpatches.patches.gboard.features.quickinsert
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardQuickInsertFeatureMarkerPatch = resourcePatch(
     description = "標記 Quick Insert feature 已被打入 target APK。",
@@ -15,4 +15,4 @@ internal val gboardQuickInsertFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val QUICK_INSERT_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.quick_insert"
+    "dev.pyrro.gboardpatches.feature.quick_insert"

@@ -1,14 +1,14 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.about
+package dev.pyrro.gboardpatches.patches.gboard.features.about
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.insertAfter
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PATCH_AUTHOR
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PATCH_AUTHOR_URL
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PATCH_REPOSITORY_URL
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PATCH_VERSION
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.gboard.shared.insertAfter
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PATCH_AUTHOR
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PATCH_AUTHOR_URL
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PATCH_REPOSITORY_URL
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PATCH_VERSION
 import org.w3c.dom.Document
 import org.w3c.dom.Element
 

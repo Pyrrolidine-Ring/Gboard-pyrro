@@ -1,20 +1,20 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.addsymbols
+package dev.pyrro.gboardpatches.patches.gboard.features.addsymbols
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardExpressionCorpusPatchState
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.indexOfFirstMoveResultAfter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.invokeRegisters
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isOpcode
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isRegisterOperation
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.methodCallIndices
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.requireGboardExpressionCorpusPatchState
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardExpressionCorpusPatchState
+import dev.pyrro.gboardpatches.patches.gboard.shared.findMutableMethodOrThrow
+import dev.pyrro.gboardpatches.patches.gboard.shared.indexOfFirstMoveResultAfter
+import dev.pyrro.gboardpatches.patches.gboard.shared.invokeRegisters
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isOpcode
+import dev.pyrro.gboardpatches.patches.gboard.shared.isRegisterOperation
+import dev.pyrro.gboardpatches.patches.gboard.shared.methodCallIndices
+import dev.pyrro.gboardpatches.patches.gboard.shared.requireGboardExpressionCorpusPatchState
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallEmitter
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 private const val EXPRESSION_CORPUS_MANAGER_CLASS = "Lgri;"
 

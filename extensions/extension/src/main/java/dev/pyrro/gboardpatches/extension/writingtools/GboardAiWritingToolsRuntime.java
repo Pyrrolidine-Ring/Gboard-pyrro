@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.writingtools;
+package dev.pyrro.gboardpatches.extension.writingtools;
 
 import android.content.Context;
 import android.util.Log;
@@ -42,7 +42,7 @@ public final class GboardAiWritingToolsRuntime {
     static final String ALL_LANGUAGES_ALLOWLIST_VALUE = "*";
     static final String MODELESS_SMART_EDIT_REGEX_VERSION = "v3";
     static final String RENAMED_GBOARD_PACKAGE =
-            "dev.pyrrolidine.com.google.android.inputmethod.latin";
+            "dev.pyrro.com.google.android.inputmethod.latin";
     static final String PROOFREAD_MODEL_CONFIG =
             "202408051448_prod_sd_config";
     static final String TEXT_STYLIZATION_MODEL_CONFIG =

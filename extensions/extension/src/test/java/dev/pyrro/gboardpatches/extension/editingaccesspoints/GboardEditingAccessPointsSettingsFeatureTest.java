@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.editingaccesspoints;
+package dev.pyrro.gboardpatches.extension.editingaccesspoints;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,9 +8,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 import static org.junit.Assert.*;
 
 @RunWith(RobolectricTestRunner.class)

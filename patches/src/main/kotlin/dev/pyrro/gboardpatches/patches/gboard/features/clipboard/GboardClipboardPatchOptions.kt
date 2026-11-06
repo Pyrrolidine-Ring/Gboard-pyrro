@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.clipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.clipboard
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeAbiCatalog
+import dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi.RuntimeCallId
 
 internal val CLIPBOARD_RUNTIME_CLASS = RuntimeAbiCatalog.abi(
     RuntimeCallId.CLIPBOARD_RUNTIME_AFTER_ADAPTER_TRIM,

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyinslide;
+package dev.pyrro.gboardpatches.extension.zhuyinslide;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotSame;
@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 
 import android.content.Context;
 
-import dev.pyrrolidine.gboardpatches.extension.zhuyintoggle
+import dev.pyrro.gboardpatches.extension.zhuyintoggle
         .GboardZhuyinTraditionalSimplifiedToggleRuntime;
 
 import java.lang.reflect.Field;

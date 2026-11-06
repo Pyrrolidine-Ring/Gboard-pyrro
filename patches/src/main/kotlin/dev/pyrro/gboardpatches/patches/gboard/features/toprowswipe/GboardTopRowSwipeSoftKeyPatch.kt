@@ -1,9 +1,9 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.toprowswipe
+package dev.pyrro.gboardpatches.patches.gboard.features.toprowswipe
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.afterDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.beforeDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.afterDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.beforeDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
 
 internal val TOP_ROW_SWIPE_PATCH_INCOMING_METADATA_DELEGATE by lazy {
     GboardSoftKeyFamilyFeature.TOP_ROW_SWIPE.beforeDelegate()

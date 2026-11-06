@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.editingaccesspoints;
+package dev.pyrro.gboardpatches.extension.editingaccesspoints;
 
 import android.view.inputmethod.InputConnection;
 import java.lang.reflect.Proxy;

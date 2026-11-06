@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.editingaccesspoints;
+package dev.pyrro.gboardpatches.extension.editingaccesspoints;
 
 /** Android editor semantics; independent of keyboard language and Gboard transport codes. */
 public enum EditorAction {

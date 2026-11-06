@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.core;
+package dev.pyrro.gboardpatches.extension.core;
 
 import android.content.Context;
 import android.content.SharedPreferences;

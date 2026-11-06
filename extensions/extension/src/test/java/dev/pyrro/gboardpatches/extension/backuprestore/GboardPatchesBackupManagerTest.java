@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore;
+package dev.pyrro.gboardpatches.extension.backuprestore;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -19,8 +19,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.keyboard.GboardLatinGlobeKeyIgnoreIntervalSettings;
-import dev.pyrrolidine.gboardpatches.extension.zhuyinbottomrow.GboardZhuyinBottomRowWeightSettings;
+import dev.pyrro.gboardpatches.extension.keyboard.GboardLatinGlobeKeyIgnoreIntervalSettings;
+import dev.pyrro.gboardpatches.extension.zhuyinbottomrow.GboardZhuyinBottomRowWeightSettings;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardPatchesBackupManagerTest {

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.splitkeyboard;
+package dev.pyrro.gboardpatches.extension.splitkeyboard;
 
 import java.util.Arrays;
 import java.util.Collections;

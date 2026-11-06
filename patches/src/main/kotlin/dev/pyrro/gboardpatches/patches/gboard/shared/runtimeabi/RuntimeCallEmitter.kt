@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared.runtimeabi
+package dev.pyrro.gboardpatches.patches.gboard.shared.runtimeabi
 
 internal object RuntimeCallEmitter {
     fun invoke(call: RuntimeCallId, registers: String): String =

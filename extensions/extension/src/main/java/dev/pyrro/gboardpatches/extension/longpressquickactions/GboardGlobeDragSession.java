@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.longpressquickactions;
+package dev.pyrro.gboardpatches.extension.longpressquickactions;
 
 /** Terminal ownership and editor dispatch for one globe drag. */
 final class GboardGlobeDragSession {

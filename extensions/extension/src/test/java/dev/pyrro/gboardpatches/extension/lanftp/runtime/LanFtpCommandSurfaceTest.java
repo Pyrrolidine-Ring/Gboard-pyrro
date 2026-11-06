@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
 import org.apache.ftpserver.command.CommandFactory;
 import org.junit.Assert;

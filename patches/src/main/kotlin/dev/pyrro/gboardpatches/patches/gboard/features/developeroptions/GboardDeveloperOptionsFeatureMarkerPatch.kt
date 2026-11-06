@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.developeroptions
+package dev.pyrro.gboardpatches.patches.gboard.features.developeroptions
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Element
 
 internal val gboardDeveloperOptionsFeatureMarkerPatch = resourcePatch(
@@ -57,9 +57,9 @@ private fun Element.setAndroidAttribute(localName: String, value: String) {
 }
 
 private const val DEVELOPER_OPTIONS_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.developer_options"
+    "dev.pyrro.gboardpatches.feature.developer_options"
 private val SUPPORTED_GBOARD_PACKAGES = listOf(
     "com.google.android.inputmethod.latin",
     "com.google.android.inputmethod.latin.jason.dev",
-    "dev.pyrrolidine.com.google.android.inputmethod.latin"
+    "dev.pyrro.com.google.android.inputmethod.latin"
 )

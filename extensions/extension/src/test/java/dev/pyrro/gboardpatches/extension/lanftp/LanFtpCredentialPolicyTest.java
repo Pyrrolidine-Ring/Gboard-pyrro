@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.HashSet;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpCredentialPolicy;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpCredentialPolicy;
 
 public final class LanFtpCredentialPolicyTest {
     @Test

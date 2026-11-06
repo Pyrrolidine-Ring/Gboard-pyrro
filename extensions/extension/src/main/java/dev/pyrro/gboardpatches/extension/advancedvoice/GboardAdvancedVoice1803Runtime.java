@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import android.content.Context;
 import android.util.Log;
@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import dev.pyrrolidine.gboardpatches.extension.rambler.GboardRambler1803StockPolicy;
+import dev.pyrro.gboardpatches.extension.rambler.GboardRambler1803StockPolicy;
 
 public final class GboardAdvancedVoice1803Runtime {
     private static final String TAG = "GboardPatches";

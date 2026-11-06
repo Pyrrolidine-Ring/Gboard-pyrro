@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore;
+package dev.pyrro.gboardpatches.extension.backuprestore;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;

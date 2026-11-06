@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
@@ -343,7 +343,7 @@ class GboardDeveloperOnlyPatchLoaderIntegrationTest {
 
     private companion object {
         const val GENERATED_PACKAGE =
-            "dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated"
+            "dev.pyrro.gboardpatches.patches.gboard.shared.generated"
         const val EXTERNAL_PACKAGE = "com.google.android.inputmethod.latin"
         const val EXTERNAL_SIGNATURE =
             "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

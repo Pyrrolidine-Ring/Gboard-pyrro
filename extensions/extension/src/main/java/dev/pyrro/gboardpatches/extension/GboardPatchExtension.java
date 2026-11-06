@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension;
+package dev.pyrro.gboardpatches.extension;
 
 @SuppressWarnings("unused")
 public class GboardPatchExtension {

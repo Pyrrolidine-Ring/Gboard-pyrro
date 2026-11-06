@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags
+package dev.pyrro.gboardpatches.patches.gboard.features.featureflags
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardInlineSuggestionsFeatureMarkerPatch = resourcePatch(
     description = "標記 inline suggestions rollout flag patch 已打入 target APK"
@@ -14,4 +14,4 @@ internal val gboardInlineSuggestionsFeatureMarkerPatch = resourcePatch(
 }
 
 private const val INLINE_SUGGESTIONS_FEATURE_MARKER_NAME =
-    "dev.pyrrolidine.gboardpatches.feature.inline_suggestions"
+    "dev.pyrro.gboardpatches.feature.inline_suggestions"

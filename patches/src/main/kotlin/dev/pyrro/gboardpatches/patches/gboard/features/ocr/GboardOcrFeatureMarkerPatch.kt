@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.ocr
+package dev.pyrro.gboardpatches.patches.gboard.features.ocr
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardOcrFeatureMarkerPatch = resourcePatch(
     description = "標記 OCR / Scan Text feature 已被打入 target APK。",
@@ -15,4 +15,4 @@ internal val gboardOcrFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val OCR_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.ocr_scan_text"
+    "dev.pyrro.gboardpatches.feature.ocr_scan_text"

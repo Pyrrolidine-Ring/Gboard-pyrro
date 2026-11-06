@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,7 +15,7 @@ import java.util.zip.ZipOutputStream;
 
 public final class GboardDictationPayloadDetectorTest {
     private static final String MORPHE_PACKAGE =
-            "dev.pyrrolidine.com.google.android.inputmethod.latin";
+            "dev.pyrro.com.google.android.inputmethod.latin";
     private static final String OFFICIAL_PACKAGE =
             "com.google.android.inputmethod.latin";
     private static final String DICTATION_ENTRY =

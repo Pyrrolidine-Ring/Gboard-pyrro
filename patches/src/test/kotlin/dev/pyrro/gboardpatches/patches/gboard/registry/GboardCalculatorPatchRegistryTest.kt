@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

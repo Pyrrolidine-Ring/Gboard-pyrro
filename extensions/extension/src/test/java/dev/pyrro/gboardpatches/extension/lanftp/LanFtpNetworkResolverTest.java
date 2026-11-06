@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import java.net.InetAddress;
 import java.util.Arrays;
 import java.util.Optional;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpNetworkResolver;
+import dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpNetworkResolver;
 
 public final class LanFtpNetworkResolverTest {
     @Test

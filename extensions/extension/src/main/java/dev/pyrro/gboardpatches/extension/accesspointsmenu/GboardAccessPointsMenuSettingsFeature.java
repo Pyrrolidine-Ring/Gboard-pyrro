@@ -1,13 +1,13 @@
-package dev.pyrrolidine.gboardpatches.extension.accesspointsmenu;
+package dev.pyrro.gboardpatches.extension.accesspointsmenu;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettingsFeature;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardBooleanFlagSettingsFeature;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardAccessPointsMenuSettingsFeature
         extends GboardBooleanFlagSettingsFeature {

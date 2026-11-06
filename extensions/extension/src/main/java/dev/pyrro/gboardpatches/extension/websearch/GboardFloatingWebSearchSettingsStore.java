@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.extension.websearch;
+package dev.pyrro.gboardpatches.extension.websearch;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 final class GboardFloatingWebSearchSettingsStore {
     private static final String TAG = "GboardPatches";

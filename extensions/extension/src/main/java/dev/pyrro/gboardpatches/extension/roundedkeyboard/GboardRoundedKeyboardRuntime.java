@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.roundedkeyboard;
+package dev.pyrro.gboardpatches.extension.roundedkeyboard;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardRoundedKeyboardRuntime {
     private static final String MAIN_PANEL_SELECTOR =

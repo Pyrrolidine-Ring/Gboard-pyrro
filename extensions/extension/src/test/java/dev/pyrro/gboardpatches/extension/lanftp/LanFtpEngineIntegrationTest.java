@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp;
+package dev.pyrro.gboardpatches.extension.lanftp;
 
 import org.apache.ftpserver.ftplet.FileSystemFactory;
 import org.apache.ftpserver.ftplet.FileSystemView;
@@ -26,8 +26,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Random;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpEngine;
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpEngine;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpServerConfig;
 
 public final class LanFtpEngineIntegrationTest {
     private static final Pattern PASV = Pattern.compile(

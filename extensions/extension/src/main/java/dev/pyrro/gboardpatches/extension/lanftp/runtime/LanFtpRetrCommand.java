@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,7 @@ import org.apache.ftpserver.ftplet.FtpRequest;
 import org.apache.ftpserver.impl.FtpIoSession;
 import org.apache.ftpserver.impl.FtpServerContext;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs.LanFtpFile;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.fs.LanFtpFile;
 
 /** Binary RETR with long-offset seek and throttled in-flight byte publication. */
 final class LanFtpRetrCommand extends AbstractCommand {

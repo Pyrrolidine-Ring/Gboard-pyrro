@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.splitkeyboard;
+package dev.pyrro.gboardpatches.extension.splitkeyboard;
 
 import android.content.SharedPreferences;
 
@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.List;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardSplitKeyboard1803Runtime {
     private static final String IMMUTABLE_LIST_CLASS = "vvw";

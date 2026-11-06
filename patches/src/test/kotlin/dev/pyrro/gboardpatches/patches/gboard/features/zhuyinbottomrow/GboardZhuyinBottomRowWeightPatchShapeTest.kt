@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.zhuyinbottomrow
+package dev.pyrro.gboardpatches.patches.gboard.features.zhuyinbottomrow
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardVersionBindings
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

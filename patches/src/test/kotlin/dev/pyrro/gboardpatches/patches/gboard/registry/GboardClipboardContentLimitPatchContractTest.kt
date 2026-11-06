@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import java.nio.file.Files
 import java.nio.file.Path
@@ -44,7 +44,7 @@ class GboardClipboardContentLimitPatchContractTest {
         )
 
         assertTrue(marker.contains(
-            "dev.pyrrolidine.gboardpatches.feature.clipboard_content_limit",
+            "dev.pyrro.gboardpatches.feature.clipboard_content_limit",
         ))
         assertTrue(policy.contains("text_clip_item_char_limit"))
         assertTrue(runtime.contains("stockResult instanceof Long"))

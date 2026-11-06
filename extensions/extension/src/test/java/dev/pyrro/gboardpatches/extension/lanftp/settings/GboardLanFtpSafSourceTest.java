@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.settings;
+package dev.pyrro.gboardpatches.extension.lanftp.settings;
 
 import org.junit.Assert;
 import org.junit.Test;

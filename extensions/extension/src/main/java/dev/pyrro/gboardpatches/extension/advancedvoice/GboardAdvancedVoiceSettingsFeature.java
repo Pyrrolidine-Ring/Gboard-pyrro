@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,11 +12,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesFeatureAvailability;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 public final class GboardAdvancedVoiceSettingsFeature
         implements GboardPatchesSettingsContract.Feature {
@@ -429,7 +429,7 @@ public final class GboardAdvancedVoiceSettingsFeature
         addPackageName(packageNames, context == null ? null : context.getPackageName());
         addPackageName(packageNames, "com.google.android.inputmethod.latin");
         addPackageName(packageNames, "com.google.android.inputmethod.latin.jason.dev");
-        addPackageName(packageNames, "dev.pyrrolidine.com.google.android.inputmethod.latin");
+        addPackageName(packageNames, "dev.pyrro.com.google.android.inputmethod.latin");
         return packageNames;
     }
 

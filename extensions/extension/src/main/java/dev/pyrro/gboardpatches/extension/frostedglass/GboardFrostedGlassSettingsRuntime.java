@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.extension.frostedglass;
+package dev.pyrro.gboardpatches.extension.frostedglass;
 
 import android.content.SharedPreferences;
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardFrostedGlassSettingsRuntime {
     private GboardFrostedGlassSettingsRuntime() {}

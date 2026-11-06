@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore;
+package dev.pyrro.gboardpatches.extension.backuprestore.flagstore;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

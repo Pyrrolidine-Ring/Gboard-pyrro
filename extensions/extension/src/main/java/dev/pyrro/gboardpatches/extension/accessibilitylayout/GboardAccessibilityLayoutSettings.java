@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.accessibilitylayout;
+package dev.pyrro.gboardpatches.extension.accessibilitylayout;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardAccessibilityLayoutSettings {
     public static final String PREF_KEY_ENABLED = "pref_show_accessibility_layout";

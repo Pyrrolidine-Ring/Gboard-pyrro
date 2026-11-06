@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.accesspoint.gboardAccessPointContributions1803Patch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.manualincognito.gboardManualIncognitoFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.manualincognito.gboardManualIncognitoLifecyclePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.manualincognito.gboardManualIncognitoPolicyPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.accesspoint.gboardAccessPointContributions1803Patch
+import dev.pyrro.gboardpatches.patches.gboard.features.manualincognito.gboardManualIncognitoFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.manualincognito.gboardManualIncognitoLifecyclePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.manualincognito.gboardManualIncognitoPolicyPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

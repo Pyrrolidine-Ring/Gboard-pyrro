@@ -1,6 +1,6 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared.accesspoint
+package dev.pyrro.gboardpatches.patches.gboard.shared.accesspoint
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
 
 internal object GboardAccessPointContributions1803Targets {
     val orderFactory = GboardMethodTarget(

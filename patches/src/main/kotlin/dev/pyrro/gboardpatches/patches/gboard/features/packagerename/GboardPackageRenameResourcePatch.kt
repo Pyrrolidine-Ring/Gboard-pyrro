@@ -1,18 +1,18 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.packagerename
+package dev.pyrro.gboardpatches.patches.gboard.features.packagerename
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp.LAN_FTP_STATUS_PROVIDER_AUTHORITY_SUFFIX
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp.LAN_FTP_STATUS_PROVIDER_CLASS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GBOARD_PATCHES_SETTINGS_ACTIVITY_CLASS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GBOARD_PATCHES_SETTINGS_PROVIDER_AUTHORITY_SUFFIX
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GBOARD_PATCHES_SETTINGS_PROVIDER_CLASS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GBOARD_SETTINGS_XML_PATHS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.elements
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PACKAGE_NAME
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PATCHED_PACKAGE_NAME
+import dev.pyrro.gboardpatches.patches.gboard.features.lanftp.LAN_FTP_STATUS_PROVIDER_AUTHORITY_SUFFIX
+import dev.pyrro.gboardpatches.patches.gboard.features.lanftp.LAN_FTP_STATUS_PROVIDER_CLASS
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.GBOARD_PATCHES_SETTINGS_ACTIVITY_CLASS
+import dev.pyrro.gboardpatches.patches.gboard.shared.GBOARD_PATCHES_SETTINGS_PROVIDER_AUTHORITY_SUFFIX
+import dev.pyrro.gboardpatches.patches.gboard.shared.GBOARD_PATCHES_SETTINGS_PROVIDER_CLASS
+import dev.pyrro.gboardpatches.patches.gboard.shared.GBOARD_SETTINGS_XML_PATHS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.gboard.shared.elements
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PACKAGE_NAME
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PATCHED_PACKAGE_NAME
 import org.w3c.dom.Attr
 import org.w3c.dom.Document
 import org.w3c.dom.Element
@@ -458,6 +458,6 @@ private data class SettingsIdentity(
 )
 
 private const val DOUBLE_PREFIX =
-    "dev.pyrrolidine.dev.pyrrolidine.com.google.android.inputmethod.latin"
+    "dev.pyrro.dev.pyrro.com.google.android.inputmethod.latin"
 
 private const val REQUIRED_SPLITS_METADATA = "com.android.vending.splits.required"

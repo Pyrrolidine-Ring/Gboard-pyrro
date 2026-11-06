@@ -1,15 +1,15 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803AutoFixAcceptancePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803AutoFixRoutePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803GenAiInitPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803GenAiRefreshPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803SmartEditInitPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingToolsFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingToolsFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803AutoFixAcceptancePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803AutoFixRoutePatch
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803GenAiInitPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803GenAiRefreshPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingTools1803SmartEditInitPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingToolsFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.writingtools.gboardAiWritingToolsFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

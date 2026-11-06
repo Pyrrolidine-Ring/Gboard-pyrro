@@ -1,14 +1,14 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore.BACKUP_RESTORE_FEATURE_MARKER
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore.BACKUP_RESTORE_INIT_PROVIDER_AUTHORITY_SUFFIX
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore.BACKUP_RESTORE_INIT_PROVIDER_CLASS
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore.applyGboardBackupRestoreManifest
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore.gboardBackupRestoreFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore.gboardBackupRestoreManifestPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.backuprestore.BACKUP_RESTORE_FEATURE_MARKER
+import dev.pyrro.gboardpatches.patches.gboard.features.backuprestore.BACKUP_RESTORE_INIT_PROVIDER_AUTHORITY_SUFFIX
+import dev.pyrro.gboardpatches.patches.gboard.features.backuprestore.BACKUP_RESTORE_INIT_PROVIDER_CLASS
+import dev.pyrro.gboardpatches.patches.gboard.features.backuprestore.applyGboardBackupRestoreManifest
+import dev.pyrro.gboardpatches.patches.gboard.features.backuprestore.gboardBackupRestoreFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.backuprestore.gboardBackupRestoreManifestPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
 import java.io.ByteArrayInputStream
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files

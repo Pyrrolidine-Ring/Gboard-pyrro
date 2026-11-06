@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.android;
+package dev.pyrro.gboardpatches.extension.lanftp.android;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

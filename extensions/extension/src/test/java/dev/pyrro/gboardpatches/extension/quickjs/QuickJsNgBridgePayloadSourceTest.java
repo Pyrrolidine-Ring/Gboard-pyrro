@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.quickjs;
+package dev.pyrro.gboardpatches.extension.quickjs;
 
 import org.junit.Assert;
 import org.junit.Test;

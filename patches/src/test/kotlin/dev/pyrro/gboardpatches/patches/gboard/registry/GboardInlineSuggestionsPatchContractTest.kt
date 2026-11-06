@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.gboardInlineSuggestionsFeatureMarkerPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.gboardInlineSuggestionsFlagValuePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.gboardInlineSuggestionsFeatureMarkerPatch
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.gboardInlineSuggestionsFlagValuePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesExtensionCarrierPatch
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path
@@ -115,7 +115,7 @@ class GboardInlineSuggestionsPatchContractTest {
         val markerSource = readSource(INLINE_MARKER_PATH)
         val mutatedMarker = markerSource.replaceFirst(
             INLINE_MARKER,
-            "dev.pyrrolidine.gboardpatches.feature.grammar_checker",
+            "dev.pyrro.gboardpatches.feature.grammar_checker",
         )
 
         assertNotEquals(markerSource, mutatedMarker)
@@ -220,7 +220,7 @@ class GboardInlineSuggestionsPatchContractTest {
     private companion object {
         const val GBOARD_PACKAGE = "com.google.android.inputmethod.latin"
         const val TARGET_VERSION = "18.0.3.954559732-release-arm64-v8a"
-        const val INLINE_MARKER = "dev.pyrrolidine.gboardpatches.feature.inline_suggestions"
+        const val INLINE_MARKER = "dev.pyrro.gboardpatches.feature.inline_suggestions"
         const val INLINE_MARKER_PATH =
             "patches/src/main/kotlin/dev/pyrro/gboardpatches/patches/gboard/features/" +
                 "featureflags/GboardInlineSuggestionsFeatureMarkerPatch.kt"
@@ -238,9 +238,9 @@ class GboardInlineSuggestionsPatchContractTest {
             runtimeFlagConstantName = "FLAG_INLINE_SUGGESTIONS",
             runtimeFlagLiteral = "enable_inline_suggestions_on_client_side",
             siblingMarkerLiterals = listOf(
-                "dev.pyrrolidine.gboardpatches.feature.device_intelligence",
-                "dev.pyrrolidine.gboardpatches.feature.grammar_checker",
-                "dev.pyrrolidine.gboardpatches.feature.key_shape_selection",
+                "dev.pyrro.gboardpatches.feature.device_intelligence",
+                "dev.pyrro.gboardpatches.feature.grammar_checker",
+                "dev.pyrro.gboardpatches.feature.key_shape_selection",
             ),
         )
     }

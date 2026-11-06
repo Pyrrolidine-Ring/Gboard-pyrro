@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.settings;
+package dev.pyrro.gboardpatches.extension.lanftp.settings;
 
 import android.content.Context;
 
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 /** Exercises the same controller-backed render path used by the patched settings activity. */
 @RunWith(RobolectricTestRunner.class)

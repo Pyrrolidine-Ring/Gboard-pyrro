@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.tools.bindings
+package dev.pyrro.gboardpatches.tools.bindings
 
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
@@ -246,10 +246,10 @@ object TargetBindingCompiler {
         bindingKinds: Map<String, String>,
         resolvedTypes: Map<String, String>,
     ): String = buildString {
-        append("package dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated\n\n")
-        append("import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFieldTarget\n")
-        append("import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget\n")
-        append("import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardTypeTarget\n\n")
+        append("package dev.pyrro.gboardpatches.patches.gboard.shared.generated\n\n")
+        append("import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFieldTarget\n")
+        append("import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget\n")
+        append("import dev.pyrro.gboardpatches.patches.gboard.shared.GboardTypeTarget\n\n")
         append("internal object GboardVersionBindings {\n")
         append("    const val targetVersion = ").append(targetVersion.kotlinLiteral()).append("\n")
         append("    const val profileVersion = ").append(profileVersion.kotlinLiteral()).append("\n")

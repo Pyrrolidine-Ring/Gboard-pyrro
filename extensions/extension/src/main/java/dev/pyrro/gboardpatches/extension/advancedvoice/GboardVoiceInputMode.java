@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 /** Resolves the one effective voice backend selected by the Patches settings. */
 public enum GboardVoiceInputMode {

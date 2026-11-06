@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.manualincognito
+package dev.pyrro.gboardpatches.patches.gboard.features.manualincognito
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 internal val gboardManualIncognitoFeatureMarkerPatch = resourcePatch(
     description = "標記 Incognito Mode Toggle feature 已被打入 target APK。",
@@ -15,4 +15,4 @@ internal val gboardManualIncognitoFeatureMarkerPatch = resourcePatch(
 }
 
 internal const val MANUAL_INCOGNITO_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.manual_incognito"
+    "dev.pyrro.gboardpatches.feature.manual_incognito"

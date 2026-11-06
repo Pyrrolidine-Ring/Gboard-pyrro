@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.symbolfooter;
+package dev.pyrro.gboardpatches.extension.symbolfooter;
 
 import android.content.Context;
 import android.util.Log;

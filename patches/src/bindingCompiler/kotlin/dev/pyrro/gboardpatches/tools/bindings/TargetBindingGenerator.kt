@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.tools.bindings
+package dev.pyrro.gboardpatches.tools.bindings
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.CopyOption

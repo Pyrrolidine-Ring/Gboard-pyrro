@@ -45,7 +45,7 @@ abstract class GenerateTargetBindingsTask @Inject constructor(
     fun generate() {
         execOperations.javaexec {
             classpath(compilerClasspath)
-            mainClass.set("dev.pyrrolidine.gboardpatches.tools.bindings.TargetBindingGenerator")
+            mainClass.set("dev.pyrro.gboardpatches.tools.bindings.TargetBindingGenerator")
             args(
                 profileFile.get().asFile.absolutePath,
                 productCatalogFile.get().asFile.absolutePath,
@@ -57,7 +57,7 @@ abstract class GenerateTargetBindingsTask @Inject constructor(
     }
 }
 
-group = "dev.pyrrolidine.gboardpatches"
+group = "dev.pyrro.gboardpatches"
 
 val generatedPatchInfoDir = layout.buildDirectory.dir("generated/sources/patchBuildInfo/kotlin/main")
 val generatedVersionBindingsDir = layout.buildDirectory.dir("generated/sources/versionBindings/kotlin/main")
@@ -119,7 +119,7 @@ val generatePatchBuildInfo = tasks.register("generatePatchBuildInfo") {
 
         packageDir.resolve("PatchBuildInfo.kt").writeText(
             """
-            package dev.pyrrolidine.gboardpatches.patches.shared
+            package dev.pyrro.gboardpatches.patches.shared
 
             internal object PatchBuildInfo {
                 const val VERSION = "$patchVersion"
@@ -231,7 +231,7 @@ tasks {
         dependsOn("compileKotlin")
         classpath = sourceSets.main.get().runtimeClasspath
         mainClass.set(
-            "dev.pyrrolidine.gboardpatches.patches.gboard.registry.GboardCapabilityWiringVerifier"
+            "dev.pyrro.gboardpatches.patches.gboard.registry.GboardCapabilityWiringVerifier"
         )
         args(gboardProductCatalog.asFile.absolutePath)
     }
@@ -289,7 +289,7 @@ tasks {
         dependsOn(build, patchMetadataSourceSet.classesTaskName)
 
         classpath = patchMetadataSourceSet.runtimeClasspath
-        mainClass.set("dev.pyrrolidine.gboardpatches.util.PatchListGeneratorKt")
+        mainClass.set("dev.pyrro.gboardpatches.util.PatchListGeneratorKt")
     }
 
     register("normalizePatchMetadataEncoding") {

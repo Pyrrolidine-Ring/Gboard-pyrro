@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.webclipboard;
+package dev.pyrro.gboardpatches.extension.webclipboard;
 
 import java.io.ByteArrayInputStream;
 import java.net.InetSocketAddress;

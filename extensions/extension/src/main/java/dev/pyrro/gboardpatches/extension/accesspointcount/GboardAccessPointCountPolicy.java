@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.accesspointcount;
+package dev.pyrro.gboardpatches.extension.accesspointcount;
 
 public final class GboardAccessPointCountPolicy {
     public static final String MAX_ACCESS_POINTS_FLAG = "config_max_access_points";

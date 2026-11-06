@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.addsymbols;
+package dev.pyrro.gboardpatches.extension.addsymbols;
 
 import java.util.Arrays;
 import java.util.Collections;

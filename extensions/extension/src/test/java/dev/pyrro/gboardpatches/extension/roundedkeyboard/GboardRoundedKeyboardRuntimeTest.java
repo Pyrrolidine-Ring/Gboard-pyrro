@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.roundedkeyboard;
+package dev.pyrro.gboardpatches.extension.roundedkeyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardSettingsText;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.settings.GboardSettingsText;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardRoundedKeyboardRuntimeTest {

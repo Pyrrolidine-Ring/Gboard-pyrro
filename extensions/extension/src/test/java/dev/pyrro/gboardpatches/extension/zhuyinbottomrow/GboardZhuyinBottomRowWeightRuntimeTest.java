@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyinbottomrow;
+package dev.pyrro.gboardpatches.extension.zhuyinbottomrow;
 
 import android.content.SharedPreferences;
 
@@ -108,7 +108,7 @@ public final class GboardZhuyinBottomRowWeightRuntimeTest {
         Object originalMetadata = new Object();
 
         Field field = Class.forName(
-                "dev.pyrrolidine.gboardpatches.extension.toprowswipe.GboardTopRowSwipeRuntime")
+                "dev.pyrro.gboardpatches.extension.toprowswipe.GboardTopRowSwipeRuntime")
                 .getDeclaredField("ORIGINAL_KEY_METADATA_BY_PATCHED");
         field.setAccessible(true);
         @SuppressWarnings("unchecked")

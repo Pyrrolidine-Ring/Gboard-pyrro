@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp
+package dev.pyrro.gboardpatches.patches.gboard.features.lanftp
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.packagerename.applyGboardPackageRename
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.features.packagerename.applyGboardPackageRename
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
 import java.io.ByteArrayInputStream
 import javax.xml.parsers.DocumentBuilderFactory
 import org.junit.Assert.assertEquals
@@ -60,15 +60,15 @@ class GboardLanFtpManifestPatchTest {
             setOf(
                 "android.service.quicksettings.ACTIVE_TILE",
                 "android.service.quicksettings.TOGGLEABLE_TILE",
-                "dev.pyrrolidine.gboardpatches.tile.NAVIGATION_PATH",
+                "dev.pyrro.gboardpatches.tile.NAVIGATION_PATH",
             ),
             childElements(tile, "meta-data").map { androidAttribute(it, "name") }.toSet(),
         )
         assertEquals(
-            "dev.pyrrolidine.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature",
+            "dev.pyrro.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature",
             childElements(tile, "meta-data").single {
                 androidAttribute(it, "name") ==
-                    "dev.pyrrolidine.gboardpatches.tile.NAVIGATION_PATH"
+                    "dev.pyrro.gboardpatches.tile.NAVIGATION_PATH"
             }.let { androidAttribute(it, "value") },
         )
 
@@ -213,7 +213,7 @@ class GboardLanFtpManifestPatchTest {
 
     private companion object {
         const val SOURCE_PACKAGE = "com.google.android.inputmethod.latin"
-        const val FINAL_PACKAGE = "dev.pyrrolidine.com.google.android.inputmethod.latin"
+        const val FINAL_PACKAGE = "dev.pyrro.com.google.android.inputmethod.latin"
         const val MANIFEST_FIXTURE =
             "/gboard/18.0.3/package-rename/AndroidManifest.normalized.xml"
         const val SETTINGS_FIXTURE = "/gboard/18.0.3/package-rename/settings.xml"

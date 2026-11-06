@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.zhuyinslide;
+package dev.pyrro.gboardpatches.extension.zhuyinslide;
 
 import android.content.res.Resources;
 

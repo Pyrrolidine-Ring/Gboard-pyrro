@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.manualincognito;
+package dev.pyrro.gboardpatches.extension.manualincognito;
 
 import android.view.inputmethod.EditorInfo;
 

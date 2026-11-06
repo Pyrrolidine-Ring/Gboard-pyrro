@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.zhuyinslide
+package dev.pyrro.gboardpatches.patches.gboard.features.zhuyinslide
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.beforeDelegate
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardSoftKeyFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.beforeDelegate
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardSoftKeyFamilyFeaturePatch
 
 internal val ZHUYIN_SLIDE_SOFT_KEY_DELEGATE by lazy {
     GboardSoftKeyFamilyFeature.ZHUYIN_SLIDE.beforeDelegate()

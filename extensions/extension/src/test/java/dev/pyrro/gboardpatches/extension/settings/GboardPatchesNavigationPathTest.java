@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.settings;
+package dev.pyrro.gboardpatches.extension.settings;
 
 import android.content.Context;
 

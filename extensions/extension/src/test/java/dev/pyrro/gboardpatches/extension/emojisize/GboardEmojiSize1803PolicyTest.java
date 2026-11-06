@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.emojisize;
+package dev.pyrro.gboardpatches.extension.emojisize;
 
 import org.junit.Assert;
 import org.junit.Test;

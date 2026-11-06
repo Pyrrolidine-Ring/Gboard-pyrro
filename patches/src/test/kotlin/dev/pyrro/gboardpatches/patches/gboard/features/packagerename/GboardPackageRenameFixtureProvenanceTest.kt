@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.packagerename
+package dev.pyrro.gboardpatches.patches.gboard.features.packagerename
 
 import com.google.gson.JsonParser
 import java.io.ByteArrayInputStream

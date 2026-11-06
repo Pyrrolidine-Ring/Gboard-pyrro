@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.signaturebypass
+package dev.pyrro.gboardpatches.patches.gboard.features.signaturebypass
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
@@ -11,15 +11,15 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.mutableClass
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationState
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.applyVerified
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isFieldReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isLiteralWrite
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isOpcode
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.mutableClass
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationState
+import dev.pyrro.gboardpatches.patches.gboard.shared.applyVerified
+import dev.pyrro.gboardpatches.patches.gboard.shared.isFieldReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isLiteralWrite
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.isOpcode
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 
 private const val SIGNATURE_UTILS_CLASS = "Lrpv;"
 

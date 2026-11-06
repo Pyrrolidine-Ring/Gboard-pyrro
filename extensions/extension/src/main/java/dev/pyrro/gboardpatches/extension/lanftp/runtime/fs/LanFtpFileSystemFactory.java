@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.fs;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime.fs;
 
 import java.util.Objects;
 
@@ -7,7 +7,7 @@ import org.apache.ftpserver.ftplet.FileSystemView;
 import org.apache.ftpserver.ftplet.FtpException;
 import org.apache.ftpserver.ftplet.User;
 
-import dev.pyrrolidine.gboardpatches.extension.lanftp.runtime.LanFtpUserManager;
+import dev.pyrro.gboardpatches.extension.lanftp.runtime.LanFtpUserManager;
 
 public final class LanFtpFileSystemFactory implements FileSystemFactory {
     private final LanFtpDocumentStore store;

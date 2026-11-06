@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.rambler
+package dev.pyrro.gboardpatches.patches.gboard.features.rambler
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files

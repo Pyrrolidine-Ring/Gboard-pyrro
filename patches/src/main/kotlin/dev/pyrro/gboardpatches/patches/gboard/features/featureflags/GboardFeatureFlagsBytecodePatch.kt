@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags
+package dev.pyrro.gboardpatches.patches.gboard.features.featureflags
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
 
 internal val gboardDeviceIntelligenceFlagValuePatch = gboardFlagFamilyFeaturePatch(
     description = "Force only the selected Device Intelligence rollout flag.",

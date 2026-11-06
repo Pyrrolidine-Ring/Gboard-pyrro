@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
@@ -27,7 +27,7 @@ class GboardDeveloperOptionsPatchContractSourceTest {
         val marker = readSource(MARKER_PATH)
         assertTrue(marker.contains("gboardDeveloperOptionsFeatureMarkerPatch"))
         assertTrue(marker.contains("applyFeatureMarker(DEVELOPER_OPTIONS_FEATURE_MARKER_NAME)"))
-        assertTrue(marker.contains("dev.pyrrolidine.gboardpatches.feature.developer_options"))
+        assertTrue(marker.contains("dev.pyrro.gboardpatches.feature.developer_options"))
         assertTrue(marker.contains("ensurePackageQueries()"))
         SUPPORTED_PACKAGES.forEach { packageName ->
             assertTrue("Marker must query $packageName", marker.contains("\"$packageName\""))
@@ -52,7 +52,7 @@ class GboardDeveloperOptionsPatchContractSourceTest {
         val orchestrator = readSource(ORCHESTRATOR_PATH)
 
         assertTrue(availability.contains("FEATURE_DEVELOPER_OPTIONS"))
-        assertTrue(availability.contains("dev.pyrrolidine.gboardpatches.feature.developer_options"))
+        assertTrue(availability.contains("dev.pyrro.gboardpatches.feature.developer_options"))
         assertTrue(featureRegistry.contains("new GboardDeveloperOptionsSettingsFeature("))
         assertTrue("Developer options settings feature missing", Files.isRegularFile(featurePath))
 
@@ -173,7 +173,7 @@ class GboardDeveloperOptionsPatchContractSourceTest {
         val SUPPORTED_PACKAGES = listOf(
             "com.google.android.inputmethod.latin",
             "com.google.android.inputmethod.latin.jason.dev",
-            "dev.pyrrolidine.com.google.android.inputmethod.latin",
+            "dev.pyrro.com.google.android.inputmethod.latin",
         )
     }
 }

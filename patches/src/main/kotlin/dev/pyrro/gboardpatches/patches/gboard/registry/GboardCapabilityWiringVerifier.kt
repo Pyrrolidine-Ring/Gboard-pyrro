@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
+import dev.pyrro.gboardpatches.patches.gboard.shared.generated.GboardTargetAdmission
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path

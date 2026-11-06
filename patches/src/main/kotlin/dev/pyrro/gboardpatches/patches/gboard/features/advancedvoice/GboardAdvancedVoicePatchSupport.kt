@@ -1,14 +1,14 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.advancedvoice
+package dev.pyrro.gboardpatches.patches.gboard.features.advancedvoice
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.VerifiedTransformationState
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.applyVerified
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardStructuralFingerprint
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.isMethodReference
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.returnInstructionIndices
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationPlan
+import dev.pyrro.gboardpatches.patches.gboard.shared.VerifiedTransformationState
+import dev.pyrro.gboardpatches.patches.gboard.shared.applyVerified
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardStructuralFingerprint
+import dev.pyrro.gboardpatches.patches.gboard.shared.isMethodReference
+import dev.pyrro.gboardpatches.patches.gboard.shared.returnInstructionIndices
 
 internal const val ADVANCED_VOICE_RESULT_TOKEN = "__RESULT__"
 

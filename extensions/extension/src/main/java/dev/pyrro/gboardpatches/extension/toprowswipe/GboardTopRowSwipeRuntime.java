@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,8 +35,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsProvider;
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideRuntime;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsProvider;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideRuntime;
 
 @SuppressWarnings("unused")
 public final class GboardTopRowSwipeRuntime {

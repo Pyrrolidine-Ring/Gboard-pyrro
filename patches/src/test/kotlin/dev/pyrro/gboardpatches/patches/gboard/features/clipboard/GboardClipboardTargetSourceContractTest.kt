@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.clipboard
+package dev.pyrro.gboardpatches.patches.gboard.features.clipboard
 
 import java.nio.file.Files
 import java.nio.file.Path

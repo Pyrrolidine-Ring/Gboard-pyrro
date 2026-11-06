@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.frostedglass;
+package dev.pyrro.gboardpatches.extension.frostedglass;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -22,9 +22,9 @@ import org.robolectric.shadows.ShadowUserManager;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit.GboardClipboardContentLimitSettings;
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettings;
+import dev.pyrro.gboardpatches.extension.clipboardcontentlimit.GboardClipboardContentLimitSettings;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettings;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
@@ -122,14 +122,14 @@ public final class GboardFrostedGlassDirectBootTest {
         shadowUserManager.setUserUnlocked(false);
         Assert.assertEquals(
                 Long.valueOf(20_000L),
-                dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit
+                dev.pyrro.gboardpatches.extension.clipboardcontentlimit
                         .GboardClipboardContentLimitRuntime.applyOverriddenFlagValue(
                                 "text_clip_item_char_limit", Long.valueOf(20_000L)));
 
         shadowUserManager.setUserUnlocked(true);
         Assert.assertEquals(
                 Long.valueOf(50_000L),
-                dev.pyrrolidine.gboardpatches.extension.clipboardcontentlimit
+                dev.pyrro.gboardpatches.extension.clipboardcontentlimit
                         .GboardClipboardContentLimitRuntime.applyOverriddenFlagValue(
                                 "text_clip_item_char_limit", Long.valueOf(20_000L)));
     }

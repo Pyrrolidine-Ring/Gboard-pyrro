@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.keyboard;
+package dev.pyrro.gboardpatches.extension.keyboard;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -14,8 +14,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import dev.pyrrolidine.gboardpatches.extension.R;
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.R;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public final class GboardLatinGlobeKeyIgnoreIntervalSettingsFeatureTest {
     @Test
@@ -57,7 +57,7 @@ public final class GboardLatinGlobeKeyIgnoreIntervalSettingsFeatureTest {
         return value == null ? null : value.toString();
     }
 
-    private static final class CapturingHost extends dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
+    private static final class CapturingHost extends dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsTestHost {
         private final SharedPreferences preferences;
         private final Context context;
 
@@ -76,7 +76,7 @@ public final class GboardLatinGlobeKeyIgnoreIntervalSettingsFeatureTest {
 
                 @Override
                 public String getPackageName() {
-                    return "dev.pyrrolidine.gboardpatches.test";
+                    return "dev.pyrro.gboardpatches.test";
                 }
 
                 @Override

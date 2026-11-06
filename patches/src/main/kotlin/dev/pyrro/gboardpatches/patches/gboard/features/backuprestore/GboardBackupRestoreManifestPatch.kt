@@ -1,12 +1,12 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.backuprestore
+package dev.pyrro.gboardpatches.patches.gboard.features.backuprestore
 
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ensureManifestComponent
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.removeManifestAndroidAttribute
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.setManifestAndroidAttribute
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.gboard.shared.ensureManifestComponent
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardPatchesSettingsPatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.removeManifestAndroidAttribute
+import dev.pyrro.gboardpatches.patches.gboard.shared.setManifestAndroidAttribute
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Document
 
 internal val gboardBackupRestoreManifestPatch = resourcePatch(
@@ -44,6 +44,6 @@ internal fun applyGboardBackupRestoreManifest(document: Document) {
 }
 
 internal const val BACKUP_RESTORE_INIT_PROVIDER_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.backuprestore.flagstore.GboardFlagStoreInitProvider"
+    "dev.pyrro.gboardpatches.extension.backuprestore.flagstore.GboardFlagStoreInitProvider"
 internal const val BACKUP_RESTORE_INIT_PROVIDER_AUTHORITY_SUFFIX =
     ".gboardpatches.flagstore.init"

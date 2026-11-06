@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.shared
+package dev.pyrro.gboardpatches.patches.gboard.shared
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Document
 import org.w3c.dom.Element
 
@@ -154,9 +154,9 @@ private fun Element.setAndroidAttribute(localName: String, value: String) {
 }
 
 internal const val GBOARD_PATCHES_SETTINGS_ACTIVITY_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsActivity"
+    "dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsActivity"
 internal const val GBOARD_PATCHES_SETTINGS_PROVIDER_CLASS =
-    "dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsProvider"
+    "dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsProvider"
 internal const val GBOARD_PATCHES_SETTINGS_PROVIDER_AUTHORITY_SUFFIX = ".gboard_patches"
 private const val PATCHES_SETTINGS_ENTRY_KEY = "gboard_patches_entry"
 private const val PATCHES_SETTINGS_ENTRY_TITLE = "Patches"

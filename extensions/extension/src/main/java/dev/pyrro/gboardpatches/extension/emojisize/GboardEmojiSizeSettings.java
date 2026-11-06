@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.emojisize;
+package dev.pyrro.gboardpatches.extension.emojisize;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardBooleanFlagSettings;
 
 public final class GboardEmojiSizeSettings {
     public static final String PREF_KEY_ENABLED = "pref_force_emoji_scale_supported";

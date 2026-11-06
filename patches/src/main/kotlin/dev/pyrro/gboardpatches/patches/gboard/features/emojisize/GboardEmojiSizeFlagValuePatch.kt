@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.emojisize
+package dev.pyrro.gboardpatches.patches.gboard.features.emojisize
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFlagFamilyFeature
+import dev.pyrro.gboardpatches.patches.gboard.shared.gboardFlagFamilyFeaturePatch
 
 internal val gboardEmojiSizeFlagValuePatch = gboardFlagFamilyFeaturePatch(
     description = "在 emoji_scale_supported 原始結果後套用使用者設定值",

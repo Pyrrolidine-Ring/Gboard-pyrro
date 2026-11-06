@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features
+package dev.pyrro.gboardpatches.patches.gboard.features
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.lanftp.applyGboardLanFtpManifest
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.webclipboard.applyGboardWebClipboardManifest
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.features.lanftp.applyGboardLanFtpManifest
+import dev.pyrro.gboardpatches.patches.gboard.features.webclipboard.applyGboardWebClipboardManifest
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
 import java.io.ByteArrayInputStream
 import javax.xml.parsers.DocumentBuilderFactory
 import org.junit.Assert.assertEquals
@@ -87,18 +87,18 @@ class GboardTilePreferencesManifestCompositionTest {
 
     private companion object {
         const val DISPATCHER =
-            "dev.pyrrolidine.gboardpatches.extension.settings.GboardTilePreferencesActivity"
-        const val PATH_KEY = "dev.pyrrolidine.gboardpatches.tile.NAVIGATION_PATH"
+            "dev.pyrro.gboardpatches.extension.settings.GboardTilePreferencesActivity"
+        const val PATH_KEY = "dev.pyrro.gboardpatches.tile.NAVIGATION_PATH"
         const val BIND_QUICK_SETTINGS_TILE_PERMISSION =
             "android.permission.BIND_QUICK_SETTINGS_TILE"
         const val FTP_TILE =
-            "dev.pyrrolidine.gboardpatches.extension.lanftp.android.LanFtpTileService"
+            "dev.pyrro.gboardpatches.extension.lanftp.android.LanFtpTileService"
         const val WEB_TILE =
-            "dev.pyrrolidine.gboardpatches.extension.webclipboard.WebClipboardTileService"
+            "dev.pyrro.gboardpatches.extension.webclipboard.WebClipboardTileService"
         const val FTP_PATH =
-            "dev.pyrrolidine.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature"
+            "dev.pyrro.gboardpatches.extension.lanftp.settings.GboardLanFtpSettingsFeature"
         const val WEB_PATH =
-            "dev.pyrrolidine.gboardpatches.extension.clipboard.GboardClipboardSettingsFeature;" +
-                "dev.pyrrolidine.gboardpatches.extension.clipboard.GboardWebClipboardSettingsFeature"
+            "dev.pyrro.gboardpatches.extension.clipboard.GboardClipboardSettingsFeature;" +
+                "dev.pyrro.gboardpatches.extension.clipboard.GboardWebClipboardSettingsFeature"
     }
 }

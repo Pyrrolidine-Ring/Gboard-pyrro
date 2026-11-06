@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
 import java.nio.charset.StandardCharsets
@@ -30,7 +30,7 @@ class GboardSettingsHomepagePatchContractTest {
 
         val marker = readSource(FEATURE_MARKER_PATH)
         assertTrue(marker.contains(
-            "dev.pyrrolidine.gboardpatches.feature.settings_homepage",
+            "dev.pyrro.gboardpatches.feature.settings_homepage",
         ))
         assertTrue(marker.contains("setAndroidAttribute(\"value\", \"true\")"))
     }

@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.flowmode;
+package dev.pyrro.gboardpatches.extension.flowmode;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,7 +13,7 @@ import java.lang.reflect.Proxy;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 @RunWith(RobolectricTestRunner.class)
 public final class GboardFlowModeContractTest {

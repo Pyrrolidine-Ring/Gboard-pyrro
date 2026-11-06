@@ -1,10 +1,10 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.packagerename.gboardPackageRenameResourcePatch
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PACKAGE_NAME
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.GBOARD_PATCHED_PACKAGE_NAME
+import dev.pyrro.gboardpatches.patches.gboard.features.packagerename.gboardPackageRenameResourcePatch
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PACKAGE_NAME
+import dev.pyrro.gboardpatches.patches.shared.Constants.GBOARD_PATCHED_PACKAGE_NAME
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Path
@@ -35,7 +35,7 @@ class GboardPackageRenamePatchContractTest {
         assertEquals(1, patch.dependencies.size)
         assertSame(gboardPackageRenameResourcePatch, patch.dependencies.single())
         assertEquals("com.google.android.inputmethod.latin", GBOARD_PACKAGE_NAME)
-        assertEquals("dev.pyrrolidine.com.google.android.inputmethod.latin", GBOARD_PATCHED_PACKAGE_NAME)
+        assertEquals("dev.pyrro.com.google.android.inputmethod.latin", GBOARD_PATCHED_PACKAGE_NAME)
 
         val compatibilities = checkNotNull(patch.compatibility)
         assertEquals(1, compatibilities.size)
@@ -109,8 +109,8 @@ class GboardPackageRenamePatchContractTest {
     private companion object {
         const val TARGET_VERSION = "18.0.3.954559732-release-arm64-v8a"
         const val PACKAGE_RENAME_DESCRIPTION =
-            "將套件名稱改成 dev.pyrrolidine.com.google.android.inputmethod.latin，並可自訂 App 名稱，以便共存安裝\n" +
-                "Rename the package to dev.pyrrolidine.com.google.android.inputmethod.latin " +
+            "將套件名稱改成 dev.pyrro.com.google.android.inputmethod.latin，並可自訂 App 名稱，以便共存安裝\n" +
+                "Rename the package to dev.pyrro.com.google.android.inputmethod.latin " +
                 "and allow a custom app name so it can be installed alongside " +
                 "the official Gboard."
         const val APP_DISPLAY_NAME_OPTION_KEY = "app_display_name"

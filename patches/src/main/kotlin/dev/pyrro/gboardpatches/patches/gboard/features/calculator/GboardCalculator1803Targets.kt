@@ -1,7 +1,7 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.calculator
+package dev.pyrro.gboardpatches.patches.gboard.features.calculator
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFieldTarget
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFieldTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
 
 internal object GboardCalculator1803Targets {
     val inputView = GboardFieldTarget(

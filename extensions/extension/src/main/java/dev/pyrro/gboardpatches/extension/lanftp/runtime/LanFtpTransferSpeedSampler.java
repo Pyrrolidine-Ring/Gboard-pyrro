@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.lanftp.runtime;
+package dev.pyrro.gboardpatches.extension.lanftp.runtime;
 
 /** Computes transfer throughput only after a full window, excluding socket-buffer bursts. */
 final class LanFtpTransferSpeedSampler {

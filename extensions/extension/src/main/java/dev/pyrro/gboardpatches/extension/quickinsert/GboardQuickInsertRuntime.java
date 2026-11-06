@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.extension.quickinsert;
+package dev.pyrro.gboardpatches.extension.quickinsert;
 
 import android.content.SharedPreferences;
 
-import dev.pyrrolidine.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
+import dev.pyrro.gboardpatches.extension.flagsettings.GboardFlagRuntimeContext;
 
 public final class GboardQuickInsertRuntime {
     private GboardQuickInsertRuntime() {

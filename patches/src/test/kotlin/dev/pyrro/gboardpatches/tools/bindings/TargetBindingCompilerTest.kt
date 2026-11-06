@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.tools.bindings
+package dev.pyrro.gboardpatches.tools.bindings
 
 import com.google.gson.JsonParser
 import java.nio.charset.StandardCharsets
@@ -26,11 +26,11 @@ class TargetBindingCompilerTest {
         assertFalse(projection.kotlinSource.contains('\r'))
         assertEquals(projection, compileMatching(profile))
         assertEquals(
-            """package dev.pyrrolidine.gboardpatches.patches.gboard.shared.generated
+            """package dev.pyrro.gboardpatches.patches.gboard.shared.generated
 
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardFieldTarget
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardMethodTarget
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.GboardTypeTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardFieldTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardMethodTarget
+import dev.pyrro.gboardpatches.patches.gboard.shared.GboardTypeTarget
 
 internal object GboardVersionBindings {
     const val targetVersion = "18.0.0"

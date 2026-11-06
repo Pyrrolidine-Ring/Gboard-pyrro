@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.advancedvoice;
+package dev.pyrro.gboardpatches.extension.advancedvoice;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -66,7 +66,7 @@ public final class GboardAdvancedVoiceSettingsSourceTest {
         Assert.assertTrue(feature.contains("18-0-3-954559732-release-arm64-v8a-2"));
         Assert.assertTrue(availability.contains("FEATURE_ADVANCED_VOICE_TYPING"));
         Assert.assertTrue(availability.contains(
-                "dev.pyrrolidine.gboardpatches.feature.advanced_voice_typing"));
+                "dev.pyrro.gboardpatches.feature.advanced_voice_typing"));
         Assert.assertTrue(settingsText.contains("Rambler(限線上)"));
         Assert.assertTrue(settingsText.contains(
                 "切換後須強制停止並重新啟動 Gboard 才會生效"));

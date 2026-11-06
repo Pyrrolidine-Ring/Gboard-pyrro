@@ -1,11 +1,11 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.advancedvoice
+package dev.pyrro.gboardpatches.patches.gboard.features.advancedvoice
 
 import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
-import dev.pyrrolidine.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
+import dev.pyrro.gboardpatches.patches.gboard.features.featureflags.applyFeatureMarker
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.shared.Constants.COMPATIBILITY_GBOARD
 import org.w3c.dom.Element
 
 internal val gboardAdvancedVoiceFeatureMarkerPatch = resourcePatch(
@@ -55,7 +55,7 @@ private fun Element.setAndroidAttribute(localName: String, value: String) {
 }
 
 internal const val ADVANCED_VOICE_FEATURE_MARKER =
-    "dev.pyrrolidine.gboardpatches.feature.advanced_voice_typing"
+    "dev.pyrro.gboardpatches.feature.advanced_voice_typing"
 
 private val ADVANCED_VOICE_PACKAGE_QUERIES = listOf(
     "com.google.android.tts",

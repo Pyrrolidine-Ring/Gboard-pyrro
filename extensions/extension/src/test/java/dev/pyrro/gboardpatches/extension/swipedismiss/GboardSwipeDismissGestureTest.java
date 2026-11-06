@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.swipedismiss;
+package dev.pyrro.gboardpatches.extension.swipedismiss;
 
 import org.junit.Assert;
 import org.junit.Test;

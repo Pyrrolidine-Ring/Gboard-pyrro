@@ -1,8 +1,8 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.featureflags
+package dev.pyrro.gboardpatches.patches.gboard.features.featureflags
 
 import app.morphe.patcher.patch.ResourcePatchContext
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.ANDROID_NS
-import dev.pyrrolidine.gboardpatches.patches.gboard.shared.childElements
+import dev.pyrro.gboardpatches.patches.gboard.shared.ANDROID_NS
+import dev.pyrro.gboardpatches.patches.gboard.shared.childElements
 import org.w3c.dom.Element
 
 context(context: ResourcePatchContext)

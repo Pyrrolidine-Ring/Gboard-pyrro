@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.featureflags;
+package dev.pyrro.gboardpatches.extension.featureflags;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -24,6 +24,6 @@ public final class GboardDeviceIntelligenceFeatureFlagSourceTest {
         Assert.assertTrue(runtimeSource.contains("FEATURE_DEVICE_INTELLIGENCE"));
         Assert.assertTrue(availabilitySource.contains("FEATURE_DEVICE_INTELLIGENCE"));
         Assert.assertTrue(availabilitySource.contains(
-                "dev.pyrrolidine.gboardpatches.feature.device_intelligence"));
+                "dev.pyrro.gboardpatches.feature.device_intelligence"));
     }
 }

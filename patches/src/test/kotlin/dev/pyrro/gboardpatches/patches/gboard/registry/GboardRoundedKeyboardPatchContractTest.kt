@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.registry
+package dev.pyrro.gboardpatches.patches.gboard.registry
 
 import com.google.gson.JsonParser
 import java.nio.charset.StandardCharsets
@@ -21,7 +21,7 @@ class GboardRoundedKeyboardPatchContractTest {
 
         assertEquals("Rounded Keyboard Panel", feature["public_patch_name"].asString)
         assertEquals(
-            "dev.pyrrolidine.gboardpatches.feature.rounded_keyboard_panel",
+            "dev.pyrro.gboardpatches.feature.rounded_keyboard_panel",
             feature["feature_marker"].asString,
         )
         assertEquals("version-sensitive", feature["migration_scope"].asString)

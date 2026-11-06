@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

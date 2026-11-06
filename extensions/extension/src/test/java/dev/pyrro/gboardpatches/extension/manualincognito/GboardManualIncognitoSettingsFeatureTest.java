@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.manualincognito;
+package dev.pyrro.gboardpatches.extension.manualincognito;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.concurrent.atomic.AtomicReference;
 
-import dev.pyrrolidine.gboardpatches.extension.settings.GboardPatchesSettingsContract;
+import dev.pyrro.gboardpatches.extension.settings.GboardPatchesSettingsContract;
 
 public final class GboardManualIncognitoSettingsFeatureTest {
     @Test

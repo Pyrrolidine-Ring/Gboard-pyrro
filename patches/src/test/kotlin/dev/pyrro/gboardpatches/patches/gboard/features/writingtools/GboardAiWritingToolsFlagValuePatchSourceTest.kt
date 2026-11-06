@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.patches.gboard.features.writingtools
+package dev.pyrro.gboardpatches.patches.gboard.features.writingtools
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files

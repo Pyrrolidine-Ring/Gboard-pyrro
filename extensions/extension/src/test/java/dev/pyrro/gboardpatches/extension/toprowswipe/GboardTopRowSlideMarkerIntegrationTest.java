@@ -1,4 +1,4 @@
-package dev.pyrrolidine.gboardpatches.extension.toprowswipe;
+package dev.pyrro.gboardpatches.extension.toprowswipe;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -9,9 +9,9 @@ import static org.junit.Assert.assertTrue;
 
 import android.os.SystemClock;
 
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideFixtureResources;
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideRuntime;
-import dev.pyrrolidine.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideTargetFixture;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideFixtureResources;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideRuntime;
+import dev.pyrro.gboardpatches.extension.zhuyinslide.GboardZhuyinSlideTargetFixture;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
